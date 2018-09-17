@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b81da675-fa70-4ba1-a12c-d1c5bc37baf2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/miniprogram/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/pages/index/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/index/index.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/pages/index/index.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/index/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/pages/index/index.wxss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,8 +49,8 @@
       <file leaf-file-name="index.wxml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/miniprogram/pages/index/index.wxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+            <state relative-caret-position="266">
+              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -70,8 +70,8 @@
       <file leaf-file-name="index.wxss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/miniprogram/pages/index/index.wxss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+            <state relative-caret-position="697">
+              <caret line="83" column="14" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -98,8 +98,8 @@
         <option value="$PROJECT_DIR$/miniprogram/app.js" />
         <option value="$PROJECT_DIR$/miniprogram/style/font.wxss" />
         <option value="$PROJECT_DIR$/miniprogram/app.wxss" />
-        <option value="$PROJECT_DIR$/miniprogram/pages/index/index.wxss" />
         <option value="$PROJECT_DIR$/miniprogram/pages/index/index.js" />
+        <option value="$PROJECT_DIR$/miniprogram/pages/index/index.wxss" />
         <option value="$PROJECT_DIR$/miniprogram/pages/index/index.wxml" />
       </list>
     </option>
@@ -113,7 +113,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="448" />
     <option name="y" value="112" />
     <option name="width" value="960" />
@@ -184,12 +184,12 @@
       <workItem from="1536823753626" duration="2611000" />
       <workItem from="1536828062675" duration="2779000" />
       <workItem from="1536910239171" duration="4353000" />
-      <workItem from="1537147232227" duration="47000" />
+      <workItem from="1537147232227" duration="842000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20114000" />
+    <option name="totallyTimeSpent" value="20909000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -468,13 +468,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miniprogram/pages/index/index.wxss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/miniprogram/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -492,10 +485,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/pages/index/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="83" column="14" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/miniprogram/pages/index/index.wxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        <state relative-caret-position="266">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
         </state>
       </provider>
     </entry>

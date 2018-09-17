@@ -11,7 +11,7 @@
           <em>创作你的创作</em>
         </view>
       </span>
-    <span class="downLoad">登录<icon class="iconfont icon-xiayiye">{{xiayiye}}</icon></span>
+    <span class="downLoad">登录<i class="iconfont icon-xiayiye">{{xiayiye}}</i></span>
   </view>
   <view class="homepage">
     <view class="hot">
