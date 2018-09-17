@@ -20,7 +20,7 @@
         <span><icon class="iconfont icon-shuaxin">{{shuaxin}}</icon>换一批</span>
       </view>
       <view class="hotCon">
-        <view wx:for="{{hotss[num]}}" wx:key="{{index}}">{{item.title}}</view>
+        <view wx:for="{{hot[num]}}" wx:key="{{index}}">{{item.title}}</view>
       </view>
     </view>
   </view>

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b81da675-fa70-4ba1-a12c-d1c5bc37baf2" name="Default" comment="" />
+    <list default="true" id="b81da675-fa70-4ba1-a12c-d1c5bc37baf2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/miniprogram/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/miniprogram/pages/index/index.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -43,29 +46,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.wxml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.wxml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/miniprogram/pages/index/index.wxml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
-              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/miniprogram/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/miniprogram/pages/index/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="170" lean-forward="true" selection-start-line="170" selection-end-line="170" />
+            <state relative-caret-position="95">
+              <caret line="150" column="6" selection-start-line="150" selection-start-column="6" selection-end-line="150" selection-end-column="6" />
               <folding>
                 <element signature="e#59#4770#0" />
               </folding>
@@ -76,7 +70,7 @@
       <file leaf-file-name="index.wxss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/miniprogram/pages/index/index.wxss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
+            <state relative-caret-position="475">
               <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
             </state>
           </provider>
@@ -92,6 +86,9 @@
       <find>hotCon</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -102,8 +99,8 @@
         <option value="$PROJECT_DIR$/miniprogram/style/font.wxss" />
         <option value="$PROJECT_DIR$/miniprogram/app.wxss" />
         <option value="$PROJECT_DIR$/miniprogram/pages/index/index.wxss" />
-        <option value="$PROJECT_DIR$/miniprogram/pages/index/index.wxml" />
         <option value="$PROJECT_DIR$/miniprogram/pages/index/index.js" />
+        <option value="$PROJECT_DIR$/miniprogram/pages/index/index.wxml" />
       </list>
     </option>
   </component>
@@ -127,39 +124,28 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="WXdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WXdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="WX_m1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WX_m1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="WXdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WXdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloudfunctions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WXdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WXdemo" type="462c0819:PsiDirectoryNode" />
+              <item name="WX_m1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WX_m1" type="462c0819:PsiDirectoryNode" />
               <item name="miniprogram" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WXdemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WXdemo" type="462c0819:PsiDirectoryNode" />
-              <item name="miniprogram" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/Vue/hx_vue" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
@@ -198,20 +184,22 @@
       <workItem from="1536823753626" duration="2611000" />
       <workItem from="1536828062675" duration="2779000" />
       <workItem from="1536910239171" duration="4353000" />
+      <workItem from="1537147232227" duration="47000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20067000" />
+    <option name="totallyTimeSpent" value="20114000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16385669" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -244,6 +232,60 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cloudfunctions/login/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/app.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/pages/index/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/pages/index/index.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/pages/index/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="170" lean-forward="true" selection-start-line="170" selection-end-line="170" />
+          <folding>
+            <element signature="e#59#4770#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cloudfunctions/login/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -428,7 +470,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/miniprogram/pages/index/index.wxss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
+        <state relative-caret-position="475">
           <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
         </state>
       </provider>
@@ -440,20 +482,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miniprogram/pages/index/index.wxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/miniprogram/pages/index/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="170" lean-forward="true" selection-start-line="170" selection-end-line="170" />
+        <state relative-caret-position="95">
+          <caret line="150" column="6" selection-start-line="150" selection-start-column="6" selection-end-line="150" selection-end-column="6" />
           <folding>
             <element signature="e#59#4770#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/miniprogram/pages/index/index.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
         </state>
       </provider>
     </entry>

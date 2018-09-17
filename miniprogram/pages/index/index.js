@@ -149,22 +149,6 @@ Page({
         }
       ]
     ],
-    hotss:[],
     num:3
   },
-  onLoad:(e)=>{
-    wx.request({
-      url:' http://route.showapi.com/39-16',
-      method:'post',
-      data:{
-        showapi_appid:'100',
-        showapi_sign:'5b9b6a050cf2991eb89e0ae3'
-      },
-      header: {'Content-Type': 'application/json'},
-      success:(res)=>{
-        this.hotss = res.data;
-        console.log(res.data);
-      }
-    })
-  }
 })
