@@ -1,0 +1,28 @@
+<!--index.wxml-->
+<view class="container">
+
+  <!-- 用户 openid -->
+  <view class="header">
+      <span>
+        <view>
+          <image src="../../images/jianshu.png"></image>
+        </view>
+        <view>
+          <em>创作你的创作</em>
+        </view>
+      </span>
+    <span class="downLoad">登录<icon class="iconfont icon-xiayiye">{{xiayiye}}</icon></span>
+  </view>
+  <view class="homepage">
+    <view class="hot">
+      <view class="hotTop">
+        <span>热门专题</span>
+        <span><icon class="iconfont icon-shuaxin">{{shuaxin}}</icon>换一批</span>
+      </view>
+      <view class="hotCon">
+        <view wx:for="{{hotss[num]}}" wx:key="{{index}}">{{item.title}}</view>
+      </view>
+    </view>
+  </view>
+  <view>test</view>
+</view>

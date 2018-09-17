@@ -1,0 +1,86 @@
+/**index.wxss**/
+page {
+  font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+  color:#333;
+  background: #f5f5f5;
+}
+
+.header, .homepage,.header {
+  width: 100%;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: none;
+  border-right: none;
+  transition: all 300ms ease;
+}
+.header{
+  height:90rpx;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0 2rpx 4rpx rgba(0,0,0,.1);
+  box-shadow: 0 2rpx 4rpx rgba(0,0,0,.1);
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  z-index: 100;
+  display: flex;
+}
+.header span{
+  flex:1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header span > view{
+  display: flex;
+  justify-content: flex-start;
+}
+.header span image{
+  width:103rpx;
+  height:77rpx;
+  margin-right:25rpx;
+}
+.header span em{
+  font-size:30rpx;
+  vertical-align: middle;
+}
+.header span.downLoad{
+  display: flex;
+  justify-content: flex-end;
+  padding-right:30rpx;
+  font-size:28rpx;
+  color:#f60;
+}
+.header span.downLoad icon{
+  vertical-align: middle;
+  margin: -10rpx 0 0 5rpx;
+}
+
+.homepage{
+  margin-top:93rpx;
+}
+.homepage .hot{
+  padding:0 40rpx;
+}
+.hotTop{
+  display: flex;
+  height:70rpx;
+  align-items: center;
+}
+.hotTop span{
+  flex: 1;
+  font-size:26rpx;
+}
+.hotTop span:first-child{
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 600;
+}
+.hotTop span:last-child{
+  display: flex;
+  justify-content: flex-end;
+  color:#999;
+}
+.hotTop span icon{
+  margin:-10rpx 8rpx 0 0;
+}
