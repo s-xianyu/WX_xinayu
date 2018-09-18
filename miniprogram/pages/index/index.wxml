@@ -17,12 +17,41 @@
     <view class="hot">
       <view class="hotTop">
         <span>热门专题</span>
-        <span><icon class="iconfont icon-shuaxin">{{shuaxin}}</icon>换一批</span>
+        <span bindtap="randomNum"><i id="{{rotate ? 'rotate' : ''}}" class="iconfont icon-shuaxin">{{shuaxin}}</i>换一批</span>
       </view>
       <view class="hotCon">
-        <view wx:for="{{hot[num]}}" wx:key="{{index}}">{{item.title}}</view>
+        <span wx:for="{{hot[num]}}" wx:key="{{index}}">{{item.title}}</span>
       </view>
     </view>
+    <view id="list">
+      <ul>
+        <li wx:for="{{list}}" wx:key="{{index}}" class="{{item.object.data.list_image_url!='' ? 'hoverImg' : ''}}">
+          <view class="content">
+            <view wx:if="{{item.object.data.list_image_url!=''}}">
+              <view class="wrapImg"><image src="{{item.object.data.list_image_url}}"></image></view>
+            </view>
+            <view class="summary">
+              <span class="title">{{item.object.data.title}}</span>
+              <span class="abstract">{{item.object.data.public_abbr}}</span>
+            </view>
+          </view>
+          <view class="meta">
+            <span class="name"></span>
+          </view>
+        </li>
+        <li class="hoverImg">
+          <view class="content">
+            <view class="wrapImg"><image src="https://upload-images.jianshu.io/upload_images/6010167-3f8fe43fe357fe06.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/160/h/160/format/webp"></image></view>
+            <view class="summary">
+              <span class="title">一位从欧洲游学归来的才女，带给我！</span>
+              <span class="abstract">花五年时间，游遍欧洲的才女阿秋回国了。 她回国后做的第一件事，就是和一位比自己大13岁的比利时中年男人结婚。 比利...</span>
+            </view>
+          </view>
+          <view class="meta">
+            <span class="name"></span>
+          </view>
+        </li>
+      </ul>
+    </view>
   </view>
-  <view>test</view>
 </view>
