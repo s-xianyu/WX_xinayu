@@ -12,17 +12,19 @@ Page({
   onLoad:function(){
   },
   randomNum:function(){
+    let that =this
     let Mathnum = Math.floor(Math.random()*5);
+    this.data.rotate = true
     this.setData({
       num: Mathnum,
       rotate:true
     },function(){
       setTimeout(function(){
-        this.data.rotate = false
-        this.setData({
-          rotate:this.data.rotate
-        })
-      },500)
+        that.data.rotate = false
+          that.setData({
+              rotate:that.data.rotate
+          })
+      },300)
     })
   },
   routersGo:function(e){
