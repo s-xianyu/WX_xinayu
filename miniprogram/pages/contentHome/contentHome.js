@@ -8,7 +8,9 @@ Page({
   data: {
     id:'',
     contentHome:{},
-    upDown:false
+    upDown:false,
+    Html: '',
+    introShow:true
   },
 
   /**
@@ -16,33 +18,41 @@ Page({
    */
   onLoad: function (options) {
     this.data.contentHome = fileData.getNavCon(options.id,false)
+    this.data.Html = fileData.getNavCon(options.id,false).content_without_html
     this.data.contentHome.notes_count = this.DigitalInteger(this.data.contentHome.notes_count)
     this.data.contentHome.subscribers_count = this.DigitalInteger(this.data.contentHome.subscribers_count)
-    this.data.contentHome.content_without_html = this.withoutHtml(this.data.contentHome.content_without_html,this.data.upDown)
+    this.data.contentHome.content_without_html = this.withoutHtml(this.data.Html,this.data.upDown,this.introShow)
     this.setData({
       id:options.id,
       contentHome:this.data.contentHome
     });
-    console.log(this.data.contentHome)
   },
-  DigitalInteger:function(num){
-    console.log(num)
+DigitalInteger:function(num){
     let numText;
     if(num>10000){
-      numText = (num/10000).toFixed(2)+'万'
+        numText = (num/10000).toFixed(2)+'万'
     }else{
-      numText = num
+        numText = num
     }
     return numText
-  },
-  withoutHtml:function(html,isUp){
+},
+withoutHtml:function(html,isUp,introShow){
     console.log(isUp)
-    if(!isUp){
-      return html.substr(0,55)
+    if(isUp){
+        return html
     }else{
-      return html
+        return html.substr(0,55)
     }
-  },
+},
+intro:function(){
+    this.data.contentHome.content_without_html = this.withoutHtml(this.data.Html,!this.data.upDown,this.introShow)
+    this.data.introShow = !this.data.introShow
+    this.setData({
+        contentHome:this.data.contentHome,
+        upDown:!this.data.upDown,
+        introShow:this.data.introShow
+    })
+},
 
   /**
    * 生命周期函数--监听页面初次渲染完成
