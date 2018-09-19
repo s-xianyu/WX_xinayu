@@ -1,0 +1,32 @@
+<!--pages/content/content.wxml-->
+<view class="container">
+  <view class="header">
+      <span>
+        <view>
+          <image src="../../images/jianshu.png"></image>
+        </view>
+        <view>
+          <em>创作你的创作</em>
+        </view>
+      </span>
+    <span class="downLoad" bindtap="loginGetUrl">免费下载<i class="iconfont icon-xiayiye">{{xiayiye}}</i></span>
+  </view>
+  <view id="note" class="{{more? 'more':''}}">
+    <view class="title">{{content.public_title}}</view>
+    <view class="userInfo">
+      <view class="info">
+        <image src="{{content.user.avatar}}"></image>
+        <span class="name">{{content.user.nickname}}</span>
+        <span class="label">简书作者</span>
+      </view>
+      <view class="mate">
+        <view class="time">{{content.first_shared_at}}<icon class="iconfont icon-shouji01"></icon>打开APP</view>
+      </view>
+    </view>
+    <view class="content">
+      <view class="content-free">
+        {{content.free_content}}
+      </view>
+    </view>
+  </view>
+</view>
