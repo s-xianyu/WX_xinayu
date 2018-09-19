@@ -103,4 +103,9 @@
   display: inline-block;
   margin-left: 20rpx;
 }
+#note .content .content-free {
+  font-size: 32rpx;
+  color: #333;
+  line-height: 58rpx;
+}
 /*# sourceMappingURL=content.wxss.map */

@@ -1,16 +1,7 @@
 <!--pages/content/content.wxml-->
 <view class="container">
-  <view class="header">
-      <span>
-        <view>
-          <image src="../../images/jianshu.png"></image>
-        </view>
-        <view>
-          <em>创作你的创作</em>
-        </view>
-      </span>
-    <span class="downLoad" bindtap="loginGetUrl">免费下载<i class="iconfont icon-xiayiye">{{xiayiye}}</i></span>
-  </view>
+  <import src="../common/header.wxml"/>
+  <template is="header"/>
   <view id="note" class="{{more? 'more':''}}">
     <view class="title">{{content.public_title}}</view>
     <view class="userInfo">

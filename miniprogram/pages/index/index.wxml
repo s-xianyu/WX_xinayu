@@ -20,7 +20,7 @@
         <span bindtap="randomNum"><i id="{{rotate ? 'rotate' : ''}}" class="iconfont icon-shuaxin">{{shuaxin}}</i>换一批</span>
       </view>
       <view class="hotCon">
-        <span wx:for="{{hot[num]}}" wx:key="{{index}}">{{item.title}}</span>
+        <span data-id="{{item.id}}" wx:for="{{hot[num]}}" wx:key="{{index}}" bindtap="contentHome">{{item.title}}</span>
       </view>
     </view>
     <view id="list">

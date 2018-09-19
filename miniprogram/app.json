@@ -2,14 +2,16 @@
   "cloud": true,
   "pages": [
     "pages/index/index",
-    "pages/news/index",
+    "pages/common/header",
+    "pages/news/news",
     "pages/home/home",
-    "pages/content/content"
+    "pages/content/content",
+    "pages/contentHome/contentHome"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "简书",
+    "navigationBarTitleText": "",
     "navigationBarTextStyle": "black",
     "backgroundTextStyle":"light",
     "enablePullDownRefresh":true,
@@ -27,7 +29,7 @@
       "selectedIconPath": "images/icon/home-on.png",
       "text": "首页"
     }, {
-      "pagePath": "pages/news/index",
+      "pagePath": "pages/news/news",
       "iconPath": "images/icon/news-off.png",
       "selectedIconPath": "images/icon/news-on.png",
       "text": "新闻"

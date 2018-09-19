@@ -10,7 +10,6 @@ Page({
     num:0
   },
   onLoad:function(){
-    console.log(fileData.List())
   },
   randomNum:function(){
     let Mathnum = Math.floor(Math.random()*5);
@@ -19,17 +18,21 @@ Page({
       rotate:true
     },function(){
       setTimeout(function(){
-        // this.data.rotate = false
+        this.data.rotate = false
         this.setData({
-          rotate:false
+          rotate:this.data.rotate
         })
       },500)
     })
   },
   routersGo:function(e){
-    let id = e.currentTarget.dataset.id
     wx.navigateTo({
       url:"../content/content?id=" + e.currentTarget.dataset.id
+    })
+  },
+  contentHome:function(e){
+    wx.navigateTo({
+      url:'../contentHome/contentHome?id='+e.currentTarget.dataset.id
     })
   },
   loginGetUrl:function(){

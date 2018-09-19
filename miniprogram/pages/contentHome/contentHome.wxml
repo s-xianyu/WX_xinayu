@@ -1,0 +1,18 @@
+<view class="container">
+  <import src="../common/header.wxml"/>
+  <template is="header"/>
+  <view id="main">
+    <view class="main-info">
+      <image src="{{contentHome.image}}"></image>
+      <view class="summary">
+        <view class="name">{{contentHome.title}}</view>
+        <view class="desc">
+          <navigator class="nikeName" target="">{{contentHome.owner.nickname}}</navigator>编, {{contentHome.notes_count}}篇文章, {{contentHome.subscribers_count}}人关注
+        </view>
+        <view class="intro" style="height:150rpx;">
+          {{contentHome.content_without_html}}
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
