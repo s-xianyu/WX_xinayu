@@ -1,4 +1,4 @@
-<!--index.wxml-->
+<!--content.wxml-->
 <view class="container">
 
   <!-- 用户 openid -->
@@ -11,7 +11,7 @@
           <em>创作你的创作</em>
         </view>
       </span>
-    <span class="downLoad">登录<i class="iconfont icon-xiayiye">{{xiayiye}}</i></span>
+    <span class="downLoad" bindtap="loginGetUrl">登录<i class="iconfont icon-xiayiye">{{xiayiye}}</i></span>
   </view>
   <view class="homepage">
     <view class="hot">
@@ -25,26 +25,17 @@
     </view>
     <view id="list">
       <ul>
-        <li wx:for="{{list}}" wx:key="{{index}}" class="{{item.object.data.list_image_url!='' ? 'hoverImg' : ''}}">
+        <li data-id="{{item.object.data.id}}"
+            wx:for="{{list}}" wx:key="{{index}}"
+            bindtap="routersGo"
+            class="{{item.object.data.list_image_url!='' ? 'hoverimage' : ''}}">
           <view class="content">
             <view wx:if="{{item.object.data.list_image_url!=''}}">
-              <view class="wrapImg"><image src="{{item.object.data.list_image_url}}"></image></view>
+              <view class="wrapimage"><image src="{{item.object.data.list_image_url}}"></image></view>
             </view>
             <view class="summary">
               <span class="title">{{item.object.data.title}}</span>
               <span class="abstract">{{item.object.data.public_abbr}}</span>
-            </view>
-          </view>
-          <view class="meta">
-            <span class="name"></span>
-          </view>
-        </li>
-        <li class="hoverImg">
-          <view class="content">
-            <view class="wrapImg"><image src="https://upload-images.jianshu.io/upload_images/6010167-3f8fe43fe357fe06.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/160/h/160/format/webp"></image></view>
-            <view class="summary">
-              <span class="title">一位从欧洲游学归来的才女，带给我！</span>
-              <span class="abstract">花五年时间，游遍欧洲的才女阿秋回国了。 她回国后做的第一件事，就是和一位比自己大13岁的比利时中年男人结婚。 比利...</span>
             </view>
           </view>
           <view class="meta">

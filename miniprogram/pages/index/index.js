@@ -6,7 +6,7 @@ Page({
     hot:fileData.Hot(),
     list:fileData.List(),
     rotate:false,
-    hoverImg:false,
+    hoverimage:false,
     num:0
   },
   onLoad:function(){
@@ -14,16 +14,59 @@ Page({
   },
   randomNum:function(){
     let Mathnum = Math.floor(Math.random()*5);
-    console.log(Mathnum)
     this.setData({
       num: Mathnum,
       rotate:true
     },function(){
       setTimeout(function(){
+        // this.data.rotate = false
         this.setData({
           rotate:false
         })
       },500)
     })
+  },
+  routersGo:function(e){
+    let id = e.currentTarget.dataset.id
+    wx.navigateTo({
+      url:"../content/content?id=" + e.currentTarget.dataset.id
+    })
+  },
+  loginGetUrl:function(){
+    wx.switchTab({
+      url:'../home/home'
+    })
   }
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -135,11 +135,11 @@ page {
   font-size: 26rpx;
   color: #999;
 }
-.homepage #list ul li.hoverImg .content {
+.homepage #list ul li.hoverimage .content {
   padding-right: 200rpx;
   position: relative;
 }
-.homepage #list ul li.hoverImg .content .wrapImg {
+.homepage #list ul li.hoverimage .content .wrapimage {
   width: 150rpx;
   height: 150rpx;
   position: absolute;
@@ -147,7 +147,7 @@ page {
   top: 50%;
   margin-top: -75rpx;
 }
-.homepage #list ul li.hoverImg .content .wrapImg image {
+.homepage #list ul li.hoverimage .content .wrapimage image {
   display: block;
   max-width: 100%;
   max-height: 100%;

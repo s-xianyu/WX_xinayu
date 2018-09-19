@@ -1,6 +1,8 @@
 module.exports = {
   Hot:Hot,
-  List:List
+  List:List,
+  navCon:navCon,
+  getNavCon:getNavCon
 }
 function Hot(){
   let arr = [
@@ -93,7 +95,7 @@ function Hot(){
       },
       {
         "id": 30,
-        "image_url": "http://upload.jianshu.io/collections/images/30/IMG_2226.jpg",
+        "image_url": "http://upload.jianshu.io/collections/images/30/image_2226.jpg",
         "title": "美食",
         "slug": "qqfxgN"
       },
@@ -111,7 +113,7 @@ function Hot(){
       },
       {
         "id": 514184,
-        "image_url": "http://upload.jianshu.io/collections/images/514184/WechatIMG959.jpeg",
+        "image_url": "http://upload.jianshu.io/collections/images/514184/Wechatimage959.jpeg",
         "title": " 原创儿童文学",
         "slug": "6fba5273f339"
       },
@@ -169,7 +171,7 @@ function Hot(){
       },
       {
         "id": 514184,
-        "image_url": "http://upload.jianshu.io/collections/images/514184/WechatIMG959.jpeg",
+        "image_url": "http://upload.jianshu.io/collections/images/514184/Wechatimage959.jpeg",
         "title": " 原创儿童文学",
         "slug": "6fba5273f339"
       },
@@ -196,16 +198,16 @@ function Hot(){
   return arr;
 }
 function List(){
-  let arr =  [
+  let arr = [
     {
       "object": {
         "type": 1,
         "data": {
-          "id": 31624595,
-          "title": "终于实现（抢票，抢红包，秒杀价）于一体的Python脚本！耗时两月",
-          "slug": "d50d02c8a285",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/12649257-5f974637fccdb374",
-          "public_abbr": "（通过快捷键F12查询） 进群：125240963  即可获取数十套PDF哦！脚本就分享给大家了，还是自己看此文，...",
+          "id": 33815066,
+          "title": "吃鸡|140字微小说",
+          "slug": "a087b62b17c0",
+          "list_image_url": "http://upload-images.jianshu.io/upload_images/12649257-3f24845215b5ca1a",
+          "public_abbr": "儿子，在干啥呢？ 他的窗口弹出一条微信消息 他不耐烦的点开：爸，别烦我，吃鸡呢！ 儿子，吃鸡是啥？ 爸，你不懂就别问了 他关掉微信，目光聚焦到手机上的虚拟战场 啧，今晚又没吃...",
           "commentable": true,
           "important_collection": null,
           "user": {
@@ -224,839 +226,11 @@ function List(){
       "object": {
         "type": 1,
         "data": {
-          "id": 30400513,
-          "title": "程序员怒怼阿里P10，一周能撸出一个企业级项目？网友：井底之蛙",
-          "slug": "206568fcb444",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/10374073-760815ab55d35a63",
-          "public_abbr": "什么是好的程序员？是不是懂得很多技术细节？还是懂底层编程？还是编程速度比较快？我觉得都不是。对于一些技术细节来说和...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 10374073,
-            "nickname": "温柔的倾诉",
-            "slug": "467379856827",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/10374073/c65e14ab-996b-48de-b255-fd8f1fe2637f"
-          },
-          "public_comments_count": 2,
-          "total_rewards_count": 0,
-          "likes_count": 9
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 31032342,
-          "title": "（同人）红藕香残玉簟秋（30）探病",
-          "slug": "a4cc186d59d6",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/11318326-a50ccdc8210c1924.jpg",
-          "public_abbr": "九重天既无昼夜之分，也无冬夏之别，这里无论何时都是云蒸霞蔚，紫气蒸腾。唯一的例外就是一十三天的太晨宫了。因为东华帝...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 11318326,
-            "nickname": "梅若尘",
-            "slug": "b92d8e44f96d",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/11318326/a912cfb4-a5a9-40db-b86e-70d20ed22b4e.jpg"
-          },
-          "public_comments_count": 1,
-          "total_rewards_count": 0,
-          "likes_count": 16
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 30330434,
-          "title": "那个攥着两万块钱就出发去环游世界的22岁姑娘，现在还好吗？",
-          "slug": "5b6759bf921d",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/12486466-12791ee6df25c7be",
-          "public_abbr": "写在前面：前面是大几千字的2017心路历程总结，想看实用贴的小天使直接后拉即可。 嗨～又到了年度总结的时候了，20...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 12486466,
-            "nickname": "丸子游学ING",
-            "slug": "d91685b4e8c3",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/12486466/555c74a9-0a2f-4c81-9428-b26a29828f81"
-          },
-          "public_comments_count": 11,
-          "total_rewards_count": 1,
-          "likes_count": 20
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 30090542,
-          "title": "简书写作一年半，我收获的不仅仅是稿费……",
-          "slug": "dc611e2e26d8",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/4941293-c83652fdd707a0b3.jpeg",
-          "public_abbr": "文/若凡 01 去年二月底的一天，在某个公众号里看到了简书，可能是触发了心底的某种情怀，当即就去下载了。 当天，我...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 4941293,
-            "nickname": "若凡轻语",
-            "slug": "d9b9645f891b",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/4941293/6fa5a001-12d3-4995-9973-fc256f9a311a.jpg"
-          },
-          "public_comments_count": 173,
-          "total_rewards_count": 3,
-          "likes_count": 395
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 32225590,
-          "title": "发生了什么/140字微小说",
-          "slug": "1062abacb62a",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/10887469-923a1d1806001d17.jpg",
-          "public_abbr": "夏日炎炎的午后，一位穿着工作服的中年男人上了空调汽车。 “搞么名堂？光天化日之下？”一打扮入时的女人的尖叫声惊动了...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 10887469,
-            "nickname": "乌龟牛牛",
-            "slug": "3c5581e43321",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/10887469/f7c87144-3065-4d2a-8cc5-d9ac401a51fb.jpg"
-          },
-          "public_comments_count": 82,
-          "total_rewards_count": 0,
-          "likes_count": 56
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 31299019,
-          "title": "有一种爱情叫做:军装与白纱！",
-          "slug": "11120092a014",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/5832901-3a99694ed2ae3466.jpg",
-          "public_abbr": "军人是一个非常严肃的职业，同时也是一个非常神圣的职业。军人很多方面都是受限制的，例如结婚和谈恋爱的时候，都要向上级...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 5832901,
-            "nickname": "zeng小唐",
-            "slug": "8a954a9ce28f",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/5832901/32ed839f-c8bd-4b2c-a1ed-0edc4f0a65ef.jpg"
-          },
-          "public_comments_count": 20,
-          "total_rewards_count": 0,
-          "likes_count": 15
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 30700018,
-          "title": "为什么一定要在年轻时培养领导力？这是我听过最好的回答",
-          "slug": "afebb7de37e6",
-          "list_image_url": "",
-          "public_abbr": "今晚的千聊直播就是讲跟领导的一些心得。今天的老李干货我讲讲与跟领导相关的领导力。领导力这个能力和逆袭相关，大家要重...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 1300733,
-            "nickname": "老李校长",
-            "slug": "83b94f6158ac",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/1300733/1fb8ef2b-76ed-4268-b767-9c9036b105b6.jpg"
-          },
-          "public_comments_count": 1,
-          "total_rewards_count": 0,
-          "likes_count": 19
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 32766725,
-          "title": "梦幻般的长琶音~歌谱课件｜文文",
-          "slug": "bea4eea15324",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/7425855-a0af81fe525a7c1d.jpg",
-          "public_abbr": "梦幻般的长琶音(一)，左手 (因为长琶音还有很多种style，所以~这只是一) 仔细听课哦~",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 7425855,
-            "nickname": "余文文",
-            "slug": "5f7b6bd3e8b0",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/7425855/7f792c71-a610-465b-8053-91695207a9e1.jpg"
-          },
-          "public_comments_count": 0,
-          "total_rewards_count": 0,
-          "likes_count": 6
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 29830326,
-          "title": "老子花40万买来一个女大学生",
-          "slug": "04a7ea5a31eb",
-          "list_image_url": "",
-          "public_abbr": "一 “老许啊，这是30万的现金。”刘父坐在酒桌的正位上，斜眼招呼着两个小伙子抬上一个箱子，箱子里面，整整齐齐地放着...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 7610279,
-            "nickname": "丑姑娘的慢时光",
-            "slug": "8ef270bd5bdc",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/7610279/e7c23db5-060a-4ce7-bd38-0087e8c9b43c.jpg"
-          },
-          "public_comments_count": 20,
-          "total_rewards_count": 0,
-          "likes_count": 13
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 33166885,
-          "title": "彩铅入门246｜木槿初荣，含桃可荐",
-          "slug": "68ceb8aa1baf",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/6239357-90ed1d1563f0cbce",
-          "public_abbr": "50岁左右人群的文艺俱乐部 【志公馆】——国内首家退休俱乐部 致力于预防和延缓阿尔茨海默症 系列【乐活课程】油画|...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 6239357,
-            "nickname": "一个快乐的退休俱乐部",
-            "slug": "6bca3678ce20",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/6239357/6d7949f0-545a-4a81-9a7e-79a4ce7a98df.jpg"
-          },
-          "public_comments_count": 0,
-          "total_rewards_count": 0,
-          "likes_count": 11
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 31728241,
-          "title": "大学生必备10款超好用APP！",
-          "slug": "e8819b7cd46a",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/2120619-97fe7fcf14343ee0.jpg",
-          "public_abbr": "作为新时代的大学生，手机不能只是用来打游戏、逛淘宝的，它还可以帮助你管理自我，提高学习效率，创造更美好的人生~有这...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 2120619,
-            "nickname": "心潮减压",
-            "slug": "9f48a6f7a6d0",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/2120619/3e0b8b63347c.png"
-          },
-          "public_comments_count": 12,
-          "total_rewards_count": 0,
-          "likes_count": 251
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 30133380,
-          "title": "同样是管男人：聪明女人偷心，普通女人管钱，笨女人只会盯人！",
-          "slug": "7d62c328e692",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/6010167-2e7b39cc29900805.jpg",
-          "public_abbr": "最近，俄罗斯世界杯举行的如火如荼，大家网上网下茶余饭后聊得最多的就是世界杯。而今天我要讲的这个案例，正好和这次世界...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 6010167,
-            "nickname": "解冻性情",
-            "slug": "4026ad8559b0",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/6010167/44e8cbb9-ff0a-486c-b373-058975190087.jpg"
-          },
-          "public_comments_count": 11,
-          "total_rewards_count": 0,
-          "likes_count": 41
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 29973736,
-          "title": "做这个早饭，让我多睡了半小时",
-          "slug": "5545feb73e79",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/12412916-cd789ad12e2fcfee.jpg",
-          "public_abbr": "你愿意早上早点起来做早饭吗？我想99%的人会回答不愿意，当然也包括我在内，头天晚上熬了半天夜刷自由，谁还愿意起来做...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 12412916,
-            "nickname": "吃主肉丝儿",
-            "slug": "f204bdab3164",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/12412916/e3ca663f-d47c-4545-a2c8-4297b437e57b.jpg"
-          },
-          "public_comments_count": 0,
-          "total_rewards_count": 0,
-          "likes_count": 5
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 29739375,
-          "title": "一串代码就能招出Wi-Fi密码",
-          "slug": "43ceded69dbd",
-          "list_image_url": "",
-          "public_abbr": "如今的生活已经离不开wifi了，但为了防止别人蹭网我们往往将wifi密码设置的要多麻烦有多麻烦，那么问题来了 当你...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 8974934,
-            "nickname": "御件坊",
-            "slug": "8573900729c2",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/8974934/bb8cda79-55f0-4d96-99bf-a9c0bbe31a4c.jpg"
-          },
-          "public_comments_count": 0,
-          "total_rewards_count": 0,
-          "likes_count": 31
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 30064827,
-          "title": "对不起，我的大学生活，只有三年",
-          "slug": "5faca83edf0e",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/9322003-19c031cf6cce88f7.jpg",
-          "public_abbr": "那年，我们以全校最低的分数被云南警官学院录取，是的，边疆少数民族专科区队。我跟庆幸自己能够进入云南警界最高学府，今...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 9322003,
-            "nickname": "一個石头",
-            "slug": "1326281f98f6",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/9322003/e3d1092c-0365-45a8-b5cf-6f8fa9d55702.jpg"
-          },
-          "public_comments_count": 10,
-          "total_rewards_count": 4,
-          "likes_count": 36
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 33546530,
-          "title": "生下儿子婆婆送来三千，让妈伺候月子，回婆家推开门后，我落泪了",
-          "slug": "c9cada8832a6",
-          "list_image_url": "",
-          "public_abbr": "导语：生下儿子婆婆送来三千，让妈伺候月子，回婆家推开门后，我落泪了 自从我怀孕后，老公经常给我做好吃的。我问老公坐...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 12949975,
-            "nickname": "红尘炫影",
-            "slug": "2ef55ff77a02",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/12949975/943e2e81-4adc-434b-857f-18254513cdd7.jpg"
-          },
-          "public_comments_count": 3,
-          "total_rewards_count": 0,
-          "likes_count": 10
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 30158388,
-          "title": "你的腋下、颈部有鼓包吗？",
-          "slug": "7dcef9f84b91",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/8511015-4b05cc64a71c9741.png",
-          "public_abbr": "淋巴癌是世界上唯一不能治愈的癌症； 最难察觉、发病率最快、 死亡最快的。 现在的网络调查100个人中， 有99个淋...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 8511015,
-            "nickname": "读出新菜",
-            "slug": "a9ceb1ee8dc7",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/8511015/f1dcb51d-94d8-43ed-a577-add4807d8342"
-          },
-          "public_comments_count": 0,
-          "total_rewards_count": 0,
-          "likes_count": 17
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 33190920,
-          "title": "婆婆的电话",
-          "slug": "2c48b4af9f26",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/13681195-184032f734cc7f1b.jpeg",
-          "public_abbr": "结婚十几年，我对婆婆一直敬而远之。 婆婆的强势，在亲戚朋友中是出了名的，婚后没几天，便发现婆婆果然是名不虚传。在生...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 13681195,
-            "nickname": "雨霖霏霏",
-            "slug": "607bc8b0ddbd",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/13681195/cd1c80b8-77aa-4bcb-86d0-47895b05b54e.jpg"
-          },
-          "public_comments_count": 3,
-          "total_rewards_count": 0,
-          "likes_count": 15
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 30034260,
-          "title": "给婆婆的一封信：婆婆，你赢了",
-          "slug": "86830e1fa4e7",
-          "list_image_url": "",
-          "public_abbr": "婆婆，你赢了。 你听到了么？在你离开我家不到五分钟，我的老公，你的儿子让我“滚”了。 我真的不是那种不明事理的人，...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 7497273,
-            "nickname": "漂泊人语",
-            "slug": "5d0922ad1f0b",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/7497273/4433547d-ceef-4508-a566-89a351b04554.jpg"
-          },
-          "public_comments_count": 10,
-          "total_rewards_count": 0,
-          "likes_count": 7
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 30714510,
-          "title": "我的手绘历程：谁说一定要报画画班？自学就可以啦",
-          "slug": "ccfbb5a0c2be",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/12992106-4338592959c09f98.jpg",
-          "public_abbr": "下面的都是今年和去年的作品，欢迎大家点赞留言(*^^*)～不要脸地飘过～ 说是喜欢画画，其实是收集了很多本子和笔，...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 12992106,
-            "nickname": "欣欣z",
-            "slug": "762d90ed0367",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/12992106/a4033d18-176f-4870-bcb3-1b0750261640.jpg"
-          },
-          "public_comments_count": 29,
-          "total_rewards_count": 0,
-          "likes_count": 81
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 30774217,
-          "title": "进城打工的男人：每天和我同吃同住的女人，不是我老婆",
-          "slug": "be953e6c5bbb",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/12949975-238b26cda2f1822f",
-          "public_abbr": "他们在一起将近一年了，香秀几乎把两人当成了真正的夫妻。可如今，他的老婆要来了，她被一把扯回现实。 1 在一团五彩斑...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 12949975,
-            "nickname": "红尘炫影",
-            "slug": "2ef55ff77a02",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/12949975/943e2e81-4adc-434b-857f-18254513cdd7.jpg"
-          },
-          "public_comments_count": 20,
-          "total_rewards_count": 1,
-          "likes_count": 39
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 32582912,
-          "title": "阿里技术女神的成长之路 | 人物篇",
-          "slug": "aed338babb8e",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/13492518-b16dfbd205f34550.jpg",
-          "public_abbr": "暗恋那些年 初见 第一次见面，是在2005年，青葱懵懂的岁月，那年我高一。偶尔进入了www.taobao.com，...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 13492518,
-            "nickname": "阿里云科技快讯",
-            "slug": "02e1d2ba8a95",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/13492518/b2a2b14c-5c67-467e-bd32-8bb3a4501cc0.jpg"
-          },
-          "public_comments_count": 19,
-          "total_rewards_count": 0,
-          "likes_count": 47
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 31306764,
-          "title": "她是黄晓明的前女友，却在演了富察皇后秒杀杨颖",
-          "slug": "c33d77896192",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/13132640-834754b7ec8b3f7d.jpg",
-          "public_abbr": "近期，随着《延禧攻略》的热播，剧中多位主演都成了备受关注的热门人物，比如聂远，佘诗曼，张嘉倪，还有我们接下来要说的...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 13132640,
-            "nickname": "娱乐来了",
-            "slug": "33a7bcfcbb09",
-            "avatar": "http://cdn2.jianshu.io/assets/default_avatar/8-a356878e44b45ab268a3b0bbaaadeeb7.jpg"
-          },
-          "public_comments_count": 1,
-          "total_rewards_count": 0,
-          "likes_count": 9
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 29855629,
-          "title": "真实故事：那个被包养的女大学生后来怎么样了？（上）",
-          "slug": "0123eb5a8dbb",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/2894937-922c0e52407f2621.jpg",
-          "public_abbr": "秋天，美丽的海滨城市吹的海风，走在路边，直让人后背阵阵发凉。 梦瑶是一名在校大学生，学习很好，人也很漂亮，身材更是...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 2894937,
-            "nickname": "春风凉意",
-            "slug": "7c9f05b3b20c",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/2894937/29b814633f22"
-          },
-          "public_comments_count": 14,
-          "total_rewards_count": 0,
-          "likes_count": 11
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 31901755,
-          "title": "人靠衣装，文靠字装",
-          "slug": "7a481b9775da",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/5412749-4f2194b784eb7842.jpg",
-          "public_abbr": "进入“炎炎日正午，灼灼火俱燃”的夏季，高温天气让人心烦意乱，只想待在空调里，什么都不想做。 适逢暑期，午休时间拉长...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 5412749,
-            "nickname": "冷月花魂烘焙",
-            "slug": "8845d5ee6d56",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/5412749/47faf399-c12c-4989-bc0c-6d70ace5ac23.jpg"
-          },
-          "public_comments_count": 12,
-          "total_rewards_count": 2,
-          "likes_count": 44
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 30687678,
-          "title": "我是站街女（一）",
-          "slug": "c0396152622c",
-          "list_image_url": "",
-          "public_abbr": "我是一名站街女。 准确地说，今天还是。因为我决定明天改行。之前几次有过转行念头，都下不了决心。主要是不知道除了这，...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 7684443,
-            "nickname": "明月牵你",
-            "slug": "d025917a8dae",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/7684443/2c8738b3-b2d9-4732-970b-73ed439253f9.jpg"
-          },
-          "public_comments_count": 47,
-          "total_rewards_count": 0,
-          "likes_count": 18
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 30691066,
-          "title": "一个出轨男人的悔改",
-          "slug": "d25cdf99f730",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/8051703-e81ed9075c02ab6d.jpg",
-          "public_abbr": "老王倚在床上，手里没闲着，他一手叼着烟，一手划拉手机，好生惬意。 儿子小虎上小学五年级了，放了暑假孩子就开始念叨：...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 8051703,
-            "nickname": "三脚猫学功夫",
-            "slug": "cbd317273312",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/8051703/f10c6376-fa2c-4651-975d-5092b401d363.jpg"
-          },
-          "public_comments_count": 72,
-          "total_rewards_count": 0,
-          "likes_count": 68
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 33013767,
-          "title": "生下儿子满月摆酒，婆婆送一辆车，夜里听到对话，儿媳想离婚了",
-          "slug": "72f71052642d",
-          "list_image_url": "",
-          "public_abbr": "导语：生下儿子满月摆酒，婆婆送一辆车，夜里听到对话，儿媳想离婚了 老公下班回到家，看到沙发上一篇狼藉，妻子小云靠在...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 12949975,
-            "nickname": "红尘炫影",
-            "slug": "2ef55ff77a02",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/12949975/943e2e81-4adc-434b-857f-18254513cdd7.jpg"
-          },
-          "public_comments_count": 12,
-          "total_rewards_count": 0,
-          "likes_count": 9
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 32293933,
-          "title": "这些很美的文艺片，我能看上100遍",
-          "slug": "76281e688d61",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/3609870-5e3379b717838eaf.jpg",
-          "public_abbr": "《桌子》 这部电影还曾在第21届釜山国际电影节上映，并且取得开票5秒全席售罄的好成绩。 成为明星演员后再次见到前男...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 3609870,
-            "nickname": "笔茧",
-            "slug": "d8ab7ce7be2b",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/3609870/2144ff6f-b613-4b33-a8e4-dac7212e3967.jpg"
-          },
-          "public_comments_count": 6,
-          "total_rewards_count": 0,
-          "likes_count": 67
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 32671054,
-          "title": "【拼贴画】如果你不是很闲，千万不要碰拼贴画的坑",
-          "slug": "7b7933c4d1ba",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/13404583-ef2e980005a3571f.jpg",
-          "public_abbr": "   不知道大家有没有做过拼贴画呢，之前看到国外有人做的拼贴画心动不已，觉得自己一定要试试，殊不知我真是给自己找了...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 13404583,
-            "nickname": "霖桐",
-            "slug": "851c6c45facd",
-            "avatar": "http://cdn2.jianshu.io/assets/default_avatar/2-9636b13945b9ccf345bc98d0d81074eb.jpg"
-          },
-          "public_comments_count": 4,
-          "total_rewards_count": 0,
-          "likes_count": 8
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 33292809,
-          "title": "旅行日记‖梦想小镇这里是梦想家的天堂(二)——你不可不知的阿里巴巴",
-          "slug": "9bbe5998e7aa",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/3532486-a67432b026d83d96.jpg",
-          "public_abbr": "文/与君成悦 01 之所以对杭州这座城市有所期待，其中的一个原因是因为马云的阿里巴巴。 早在这之前，就听说了阿里集...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 3532486,
-            "nickname": "与君成悦",
-            "slug": "51995510ee0a",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/3532486/0397aaa9-1e34-4379-9d42-05852fe409c7.jpg"
-          },
-          "public_comments_count": 1,
-          "total_rewards_count": 0,
-          "likes_count": 17
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 33819141,
-          "title": "秋日怀人",
-          "slug": "1c5ef7a9f0e6",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/4810847-ef1324638904e553.jpeg",
-          "public_abbr": "三原则：图原创，文原创，诗原创。 两座城市都已入秋 我们 分别已久 落叶萧瑟了繁华的街头 飘飘洒洒 尽染当年路口 ...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 4810847,
-            "nickname": "秋水饮马",
-            "slug": "a7f876850fa6",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/4810847/8fd7b1938823.jpg"
-          },
-          "public_comments_count": 63,
-          "total_rewards_count": 0,
-          "likes_count": 56
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 32309010,
-          "title": "大一这年，我竟然攒了一万块。",
-          "slug": "205e73e086ae",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/11001091-0d05ee55efd33322.jpg",
-          "public_abbr": "谈起钱，剩下的话就多了起来。 也许，生活费不够，是很多大学生共同的死穴。 开学第三个月，囊中羞涩，我对我的父亲说：...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 11001091,
-            "nickname": "大苏少年_",
-            "slug": "3a600236f9f1",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/11001091/64236b2c-7379-4b95-86a1-b2a9a816c80f.jpg"
-          },
-          "public_comments_count": 64,
-          "total_rewards_count": 1,
-          "likes_count": 106
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 29763769,
-          "title": "Android 菊花加载View",
-          "slug": "ae16f26a530e",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/10002669-308c25f6c5d64549.png",
-          "public_abbr": "最近想把项目中用到的东西都写出来，刚好做上传时手写了一个加载控件，在这就写下来。效果如图： 看到这个，会的人就不说...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 10002669,
-            "nickname": "坑逼的严",
-            "slug": "404c2a2da5a6",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/10002669/54405f6a-0d30-4762-a19a-07d5f196f260.jpg"
-          },
-          "public_comments_count": 3,
-          "total_rewards_count": 0,
-          "likes_count": 14
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 32078247,
-          "title": "“你会娶离婚带儿子的女人吗？”这是6个男人的心里话，太现实",
-          "slug": "233c1c219601",
-          "list_image_url": "",
-          "public_abbr": "在这个离婚率飙升的时代，离婚的女人就成了热议的话题，对于没有孩子的夫妻来说，离婚就简单很多，也不用想着孩子会手什么...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 5135554,
-            "nickname": "魏亭亭",
-            "slug": "08fab6d5eca0",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/5135554/d10c9697-f8f7-4210-a5e3-602601a301bb.png"
-          },
-          "public_comments_count": 5,
-          "total_rewards_count": 0,
-          "likes_count": 7
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 30121059,
-          "title": "彩铅步骤(99)：你认真的侧颜，很美",
-          "slug": "5de898a1119f",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/3966550-0708b29d6eb0aad0.jpg",
-          "public_abbr": "工具 画纸：肯特纸a4大小 画笔：辉柏嘉水溶彩铅48色，霹雳马24色 其他：铅笔，橡皮，棉签 step1: 纸上打...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 3966550,
-            "nickname": "萌果生活",
-            "slug": "86ff55ae500a",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/3966550/a3e6853e-cc31-4554-8e9d-12b0422f9669.jpg"
-          },
-          "public_comments_count": 22,
-          "total_rewards_count": 0,
-          "likes_count": 78
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 29898517,
-          "title": "资深黑客教小白如何攻破一个网站！超级详细的教学教程！太牛逼了",
-          "slug": "cafd408fe1cc",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/12649257-7f543b3dd1c02c7a",
-          "public_abbr": "现在我们获取了网站服务器的IP地址为:173.236.138.113 寻找同一服务器上的其它网站，我们使用same...",
+          "id": 33815064,
+          "title": "天凉好个秋",
+          "slug": "a087b62b17c0",
+          "list_image_url": "http://upload-images.jianshu.io/upload_images/7090831-7ba34cf3aa6fc9d6.jpeg",
+          "public_abbr": "儿子，在干啥呢？ 他的窗口弹出一条微信消息 他不耐烦的点开：爸，别烦我，吃鸡呢！ 儿子，吃鸡是啥？ 爸，你不懂就别问了 他关掉微信，目光聚焦到手机上的虚拟战场 啧，今晚又没吃...",
           "commentable": true,
           "important_collection": null,
           "user": {
@@ -1065,9 +239,9 @@ function List(){
             "slug": "919b0c54458f",
             "avatar": "http://upload.jianshu.io/users/upload_avatars/12649257/bd37d79c-2b5f-48c2-997f-fc4dca9577ef"
           },
-          "public_comments_count": 5,
+          "public_comments_count": 0,
           "total_rewards_count": 0,
-          "likes_count": 135
+          "likes_count": 23
         }
       }
     },
@@ -1075,48 +249,151 @@ function List(){
       "object": {
         "type": 1,
         "data": {
-          "id": 33385053,
-          "title": "程序员一周做了一个游戏，微软25亿美元买下 微软：赚大发了",
-          "slug": "fd9850a4c16f",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/13090773-c61ebfc37ab456c6",
-          "public_abbr": "谈到游戏业的传奇人物，相信所有人的答案都会包括 Markus Persson（马库斯·佩尔松）。他创作的《我的世界...",
+          "id": 32824017,
+          "title": "张韶涵用10年戒糖脸部成驻颜少女，那么身材抗衰保持就要靠骨筋小颜",
+          "slug": "a087b62b17c0",
+          "list_image_url": "http://upload-images.jianshu.io/upload_images/7303861-f48bae3393eaf0f0",
+          "public_abbr": "知道吗，不好的饮食习惯不仅可能会让你变胖 还会让你长斑、长皱纹、肤色暗沉 尤其是糖吃的姑娘们，真的会变丑 36岁的年龄 18岁颜龄的娃娃脸张韶涵 除了天生丽质 饱满有光泽的驻...",
           "commentable": true,
           "important_collection": null,
           "user": {
-            "id": 13090773,
-            "nickname": "一墨编程学习",
-            "slug": "e755673d98bc",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/13090773/2971cc0b-e5b0-49ad-9ab2-109f42ff2eb6.jpg"
+            "id": 12649257,
+            "nickname": "919b0c54458f",
+            "slug": "919b0c54458f",
+            "avatar": "http://upload.jianshu.io/users/upload_avatars/12649257/bd37d79c-2b5f-48c2-997f-fc4dca9577ef"
           },
-          "public_comments_count": 7,
+          "public_comments_count": 0,
           "total_rewards_count": 0,
-          "likes_count": 13
-        }
-      }
-    },
-    {
-      "object": {
-        "type": 1,
-        "data": {
-          "id": 31724236,
-          "title": "App如何识别手机壳颜色？",
-          "slug": "bf4c7ebbba87",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/2859714-f199e2f6b9529b80",
-          "public_abbr": "产品经理又被打 产品经理作为一种高危岗位，被程序员打、自黑产品狗都很常见了，昨日又一个产品经理被打了，据说是识别手...",
-          "commentable": true,
-          "important_collection": null,
-          "user": {
-            "id": 2859714,
-            "nickname": "产品经理的技术课堂",
-            "slug": "b5de3a38334b",
-            "avatar": "http://upload.jianshu.io/users/upload_avatars/2859714/ceac1447-b1f2-4975-b79a-b9babf0a954f.png"
-          },
-          "public_comments_count": 3,
-          "total_rewards_count": 0,
-          "likes_count": 45
+          "likes_count": 23
         }
       }
     }
   ]
   return arr;
+};
+
+function navCon(){
+  let arr = [
+    {
+      "is_author": false,
+      "liked_note": false,
+      "public_comment_count": 16,
+      "featured_comments_count": 1,
+      "likes_count": 15,
+      "trial_open": false,
+      "description": "写字\n只为遇见另一个自己",
+      "id": 33815066,
+      "slug": "3e182c001ea6",
+      "public_title": "吃鸡|140字微小说",
+      "free_content": "<div class=\"image-package\">\n<div class=\"image-container\" style=\"max-width: 700px; max-height: 933px;\">\n<div class=\"image-container-fill\" style=\"padding-bottom: 133.32999999999998%;\"></div>\n<div class=\"image-view\" data-width=\"768\" data-height=\"1024\"><img data-original-src=\"//upload-images.jianshu.io/upload_images/13308528-774ecf005ae48f20.jpg\" data-original-width=\"768\" data-original-height=\"1024\" data-original-format=\"image/png\" data-original-filesize=\"841840\"></div>\n</div>\n<div class=\"image-caption\">图片发自简书App</div>\n</div><p><br></p><p><br></p><p>儿子，在干啥呢？</p><p>他的窗口弹出一条微信消息</p><p>他不耐烦的点开：爸，别烦我，吃鸡呢！</p><p>儿子，吃鸡是啥？</p><p>爸，你不懂就别问了</p><p>他关掉微信，目光聚焦到手机上的虚拟战场</p><p>啧，今晚又没吃着鸡。他随手发个朋友圈，翻身睡了</p><p>过了几天，他爸来校舍看他</p><p>手里提着一袋子山鸡：儿子你说吃不到鸡，我这给你送来了</p><p>他愣在原地</p>",
+      "paid_type": "free",
+      "first_shared_at": "2018-08-22T01:16:01.000+08:00",
+      "notebook_id": 27893078,
+      "commentable": true,
+      "wordage": 140,
+      "paid_content_accessible": false,
+      "share_image_url": "http://upload-images.jianshu.io/upload_images/13308528-774ecf005ae48f20.jpg",
+      "show_paid_comment_tips": false,
+      "user": {
+        "id": 13308528,
+        "slug": "0bc398af47c2",
+        "nickname": "阁下A",
+        "gender": 1,
+        "avatar": "http://upload.jianshu.io/users/upload_avatars/13308528/8c5f31f7-d7d1-4141-8228-41d406b1ae8b.jpg",
+        "intro": "一个热爱写作的双鱼座男生，总喜欢天马行空的胡思乱想。阁下喜欢看小说，写故事，文笔虽然不好，但是...",
+        "wordage": 38161,
+        "likes_count": 95,
+        "badges": [],
+        "vip": null,
+        "liked_by_user": false,
+        "liked_user": false
+      },
+      "distribution_more_earn_percent": 24
+    },
+    {
+      "is_author": false,
+      "liked_note": false,
+      "public_comment_count": 41,
+      "featured_comments_count": 0,
+      "likes_count": 44,
+      "trial_open": false,
+      "description": "",
+      "id": 33815064,
+      "slug": "c7b081108e45",
+      "public_title": "天凉好个秋",
+      "free_content": "<div class=\"image-package\">\n<div class=\"image-container\" style=\"max-width: 700px; max-height: 660px;\">\n<div class=\"image-container-fill\" style=\"padding-bottom: 94.32000000000001%;\"></div>\n<div class=\"image-view\" data-width=\"1145\" data-height=\"1080\"><img data-original-src=\"//upload-images.jianshu.io/upload_images/7090831-7ba34cf3aa6fc9d6.jpeg\" data-original-width=\"1145\" data-original-height=\"1080\" data-original-format=\"image/jpeg\" data-original-filesize=\"518376\"></div>\n</div>\n<div class=\"image-caption\"></div>\n</div>\n<div class=\"image-package\">\n<div class=\"image-container\" style=\"max-width: 700px; max-height: 707px;\">\n<div class=\"image-container-fill\" style=\"padding-bottom: 101.02%;\"></div>\n<div class=\"image-view\" data-width=\"1080\" data-height=\"1091\"><img data-original-src=\"//upload-images.jianshu.io/upload_images/7090831-8586df06588554a7.jpeg\" data-original-width=\"1080\" data-original-height=\"1091\" data-original-format=\"image/jpeg\" data-original-filesize=\"532440\"></div>\n</div>\n<div class=\"image-caption\"></div>\n</div>\n<div class=\"image-package\">\n<div class=\"image-container\" style=\"max-width: 700px; max-height: 684px;\">\n<div class=\"image-container-fill\" style=\"padding-bottom: 97.82%;\"></div>\n<div class=\"image-view\" data-width=\"2015\" data-height=\"1971\"><img data-original-src=\"//upload-images.jianshu.io/upload_images/7090831-3aae2020a368c323.jpg\" data-original-width=\"2015\" data-original-height=\"1971\" data-original-format=\"image/jpeg\" data-original-filesize=\"957028\"></div>\n</div>\n<div class=\"image-caption\">此词来自小简姐姐</div>\n</div>\n<div class=\"image-package\">\n<div class=\"image-container\" style=\"max-width: 700px; max-height: 581px;\">\n<div class=\"image-container-fill\" style=\"padding-bottom: 56.74%;\"></div>\n<div class=\"image-view\" data-width=\"1024\" data-height=\"581\"><img data-original-src=\"//upload-images.jianshu.io/upload_images/7090831-ff522f0a52c81d6c.jpg\" data-original-width=\"1024\" data-original-height=\"581\" data-original-format=\"image/jpeg\" data-original-filesize=\"303518\"></div>\n</div>\n<div class=\"image-caption\"></div>\n</div>\n",
+      "paid_type": "free",
+      "first_shared_at": "2018-09-15T14:19:49.000+08:00",
+      "notebook_id": 23373435,
+      "commentable": true,
+      "wordage": 0,
+      "paid_content_accessible": false,
+      "share_image_url": "http://upload-images.jianshu.io/upload_images/7090831-7ba34cf3aa6fc9d6.jpeg",
+      "show_paid_comment_tips": false,
+      "user": {
+        "id": 7090831,
+        "slug": "05b27170fc2b",
+        "nickname": "碧漪",
+        "gender": 0,
+        "avatar": "http://upload.jianshu.io/users/upload_avatars/7090831/47b9cd41-11e0-4f8b-af40-5df702c523ed.jpg",
+        "intro": "              写字\n只为遇见另一个自己",
+        "wordage": 82951,
+        "likes_count": 23851,
+        "badges": [],
+        "vip": null,
+        "liked_by_user": false,
+        "liked_user": false
+      },
+      "distribution_more_earn_percent": 24
+    },
+    {
+      "is_author": false,
+      "liked_note": false,
+      "public_comment_count": 1,
+      "featured_comments_count": 0,
+      "likes_count": 8,
+      "trial_open": false,
+      "description": "知道吗，不好的饮食习惯不仅可能会让你变胖 还会让你长斑、长皱纹、肤色暗沉 尤其是糖吃的姑娘们，真的会变丑 36岁的年龄 18岁颜龄的娃娃脸张韶涵 除了天生丽质 饱满有光泽的驻...",
+      "id": 32824017,
+      "slug": "77a056e55f6d",
+      "public_title": "张韶涵用10年戒糖脸部成驻颜少女，那么身材抗衰保持就要靠骨筋小颜",
+      "free_content": "<p>知道吗，不好的饮食习惯不仅可能会让你变胖</p><p>还会让你长斑、长皱纹、肤色暗沉</p><p>尤其是糖吃的姑娘们，真的会变丑</p><div class=\"image-package\">\n<div class=\"image-container\" style=\"max-width: 450px; max-height: 238px;\">\n<div class=\"image-container-fill\" style=\"padding-bottom: 52.89%;\"></div>\n<div class=\"image-view\" data-width=\"450\" data-height=\"238\"><img data-original-src=\"//upload-images.jianshu.io/upload_images/7303861-f48bae3393eaf0f0\" data-original-width=\"450\" data-original-height=\"238\" data-original-format=\"image/gif\" data-original-filesize=\"1441405\"></div>\n</div>\n<div class=\"image-caption\"></div>\n</div><p>36岁的年龄</p><p>18岁颜龄的娃娃脸张韶涵</p><p>除了天生丽质</p><p>饱满有光泽的驻颜技能也让人为之赞叹</p><div class=\"image-package\">\n<div class=\"image-container\" style=\"max-width: 600px; max-height: 599px;\">\n<div class=\"image-container-fill\" style=\"padding-bottom: 99.83%;\"></div>\n<div class=\"image-view\" data-width=\"600\" data-height=\"599\"><img data-original-src=\"//upload-images.jianshu.io/upload_images/7303861-31e99dee8237bfad\" data-original-width=\"600\" data-original-height=\"599\" data-original-format=\"image/jpeg\" data-original-filesize=\"70004\"></div>\n</div>\n<div class=\"image-caption\"></div>\n</div><p>而张韶涵的驻颜秘密就在“戒糖”</p><p>而且一戒就是10年的时间</p><p>之后她在微博分享了自己的戒糖心得</p><div class=\"image-package\">\n<div class=\"image-container\" style=\"max-width: 671px; max-height: 463px;\">\n<div class=\"image-container-fill\" style=\"padding-bottom: 69.0%;\"></div>\n<div class=\"image-view\" data-width=\"671\" data-height=\"463\"><img data-original-src=\"//upload-images.jianshu.io/upload_images/7303861-a84029d8e69dc225\" data-original-width=\"671\" data-original-height=\"463\" data-original-format=\"image/jpeg\" data-original-filesize=\"39843\"></div>\n</div>\n<div class=\"image-caption\"></div>\n</div><p>糖化到底是怎么回事？</p><p>人体摄入的糖分会随血液流动，伺机寻找并粘住某种蛋白，最容易受到攻击的蛋白就是胶原等保持弹性的蛋白，最后形成一种新的被糖化的分子——“蛋白质高度糖化终产物(AGEs)”。吃的糖越多，那么产生的蛋白质高度糖化终产物就越多，从而会攻击越来越多的蛋白。最终结果就是让我们的肤色变晦暗，皮肤松弛，皱纹变多，这就是糖化的原理。人体内的糖化与上面的类似，也就是说你体内的糖积累的越多（葡萄糖、果糖、半乳糖等）就越容易发生糖化反应，皮肤就越黄。</p><div class=\"image-package\">\n<div class=\"image-container\" style=\"max-width: 596px; max-height: 618px;\">\n<div class=\"image-container-fill\" style=\"padding-bottom: 103.69%;\"></div>\n<div class=\"image-view\" data-width=\"596\" data-height=\"618\"><img data-original-src=\"//upload-images.jianshu.io/upload_images/7303861-1ef8f646e1245803\" data-original-width=\"596\" data-original-height=\"618\" data-original-format=\"image/jpeg\" data-original-filesize=\"43485\"></div>\n</div>\n<div class=\"image-caption\"></div>\n</div><p>难道就告别含糖的食物了吗？ </p><p>看完什么是糖化，估计不少小仙女们愣住了，吓得把手里的奶茶、甜品都放下了，就差立誓了。 其实糖分是人体必需，必不可少的，而且我们体内的细胞会新陈代谢，糖化产物不多就不会沉积。世界卫生组织发布的营养指南建议，成年人每日摄入的糖要控制在25克到30克之间。所以糖还是可以吃一点的，奶茶、甜品还是可以拿起来吃的，不过一定要适量。</p><p>糖化其实不仅仅是来至于甜品和含糖的食物， 除了口感上“甜”的，含糖成分会比较高外，煎烤油炸类食物都要少吃，因为这些食物都经过高温加工，会加快糖化速度，形成AGEs。另外，随着年龄的增长，人的新陈代谢会变慢，抗糖化就得多做一些工作了。</p><p>如何科学的抗糖化...</p><p>戒糖风不仅仅让女明星们如痴如醉，连男明星都加入抗糖化阵营中了，罗志祥抗糖之后，42天减掉了16斤，不仅可以抗衰还可以减肥，很骚气的操作有木有。</p><div class=\"image-package\">\n<div class=\"image-container\" style=\"max-width: 570px; max-height: 473px;\">\n<div class=\"image-container-fill\" style=\"padding-bottom: 82.98%;\"></div>\n<div class=\"image-view\" data-width=\"570\" data-height=\"473\"><img data-original-src=\"//upload-images.jianshu.io/upload_images/7303861-083a869ca8883f3c\" data-original-width=\"570\" data-original-height=\"473\" data-original-format=\"image/jpeg\" data-original-filesize=\"50316\"></div>\n</div>\n<div class=\"image-caption\"></div>\n</div><p>那么为了逆龄、为了抗衰，如何科学的抗糖化呢？</p><p>1、<b>健康饮食</b>~还是把“吃”再强调一遍，毕竟我朝人民对食物的热爱是宇宙公认的，《舌尖上的中国》都可以出好几部，抗糖化的饮食守则还蛮简单，一句话概括：选择不会让血糖值快速上升的食物。①. 不吃精致的加工糖，不喝有糖的饮料（奶茶、罐装饮料）②. 不吃甜点（蛋糕、甜甜圈、马卡龙、冰激凌统统等）③. 少吃特别甜的水果和酸奶。</p><div class=\"image-package\">\n<div class=\"image-container\" style=\"max-width: 700px; max-height: 500px;\">\n<div class=\"image-container-fill\" style=\"padding-bottom: 64.85%;\"></div>\n<div class=\"image-view\" data-width=\"771\" data-height=\"500\"><img data-original-src=\"//upload-images.jianshu.io/upload_images/7303861-d041ce27b02471b3\" data-original-width=\"771\" data-original-height=\"500\" data-original-format=\"image/jpeg\" data-original-filesize=\"56908\"></div>\n</div>\n<div class=\"image-caption\"></div>\n</div><p>2、<b>科学护肤防晒</b>~紫外线不仅仅可以使肌肤光老化，除了光老化以外，要相信紫外线永远是这些坏事的推波助澜者，不求抗糖化，只求不要加速“糖化”就好了，好的防晒习惯，可以减少紫外线加速糖化过程。而且科学护肤及时补水和解决问题肌肤，也是为了可以加速新陈代谢，快速代谢掉糖化堆积物。</p><div class=\"image-package\">\n<div class=\"image-container\" style=\"max-width: 618px; max-height: 364px;\">\n<div class=\"image-container-fill\" style=\"padding-bottom: 58.9%;\"></div>\n<div class=\"image-view\" data-width=\"618\" data-height=\"364\"><img data-original-src=\"//upload-images.jianshu.io/upload_images/7303861-df306c8965957e26\" data-original-width=\"618\" data-original-height=\"364\" data-original-format=\"image/jpeg\" data-original-filesize=\"24656\"></div>\n</div>\n<div class=\"image-caption\"></div>\n</div><p>3、<b>适当的运动</b>~前面提到了，年龄增长新陈代谢变慢，就会造成AGEs的堆积，而适当的运动可以提高身体的糖脂代谢，延缓机体衰老，把多余的AGEs代谢出去。运动的好处真的不用我再多强调了吧，如果觉得高难度的健身很难坚持的话，从简单的饭后走一走开始吧。当然除了运动外，合理的作息也很重要哦~</p><div class=\"image-package\">\n<div class=\"image-container\" style=\"max-width: 653px; max-height: 512px;\">\n<div class=\"image-container-fill\" style=\"padding-bottom: 78.41%;\"></div>\n<div class=\"image-view\" data-width=\"653\" data-height=\"512\"><img data-original-src=\"//upload-images.jianshu.io/upload_images/7303861-b530cc6e91815c4f\" data-original-width=\"653\" data-original-height=\"512\" data-original-format=\"image/jpeg\" data-original-filesize=\"25551\"></div>\n</div>\n<div class=\"image-caption\"></div>\n</div><p>4、<b>解决筋膜沾黏</b>~当身体因为持续劳动与压力紧绷，或是受伤丶感染时，细胞的代谢物会逐渐累积在筋膜层，形成筋膜「沾黏」现象，当代谢物持续累积无法排除，而沾黏的部位又无法化解，沾黏的纤维就会越来越组织化，形同如同筋膜本身的结缔组织，最终黏着在一起。</p><div class=\"image-package\">\n<div class=\"image-container\" style=\"max-width: 628px; max-height: 184px;\">\n<div class=\"image-container-fill\" style=\"padding-bottom: 29.299999999999997%;\"></div>\n<div class=\"image-view\" data-width=\"628\" data-height=\"184\"><img data-original-src=\"//upload-images.jianshu.io/upload_images/7303861-faab541e1e3a102a\" data-original-width=\"628\" data-original-height=\"184\" data-original-format=\"image/jpeg\" data-original-filesize=\"21843\"></div>\n</div>\n<div class=\"image-caption\"></div>\n</div><p>筋膜沾黏除了会引起发身体病症还会造成身体变形（面部不对称、高低肩、骨盆倾斜等），另外还会减慢新陈代谢速度，让身体产生的一些废物没办法及时代谢出去，筋膜粘连致使糖化产物堆积，也会形成糖化肌肤，加速衰老。目前解决筋膜粘连的安全物理方式就是-骨筋小颜的筋膜SPA技术，筋膜SPA就是物理式改善筋膜沾黏的手段，如按、压、推、拉，疏通沾黏部位。透过力量疏通沾黏的原理，来回复筋膜的灵活状态。这种方法的好处就是安全无伤害，而且配合锻炼的话也会促使筋膜恢复原来不沾黏的状态。改变不良形体，恢复新陈代谢。</p><div class=\"image-package\">\n<div class=\"image-container\" style=\"max-width: 700px; max-height: 523px;\">\n<div class=\"image-container-fill\" style=\"padding-bottom: 74.81%;\"></div>\n<div class=\"image-view\" data-width=\"1080\" data-height=\"808\"><img data-original-src=\"//upload-images.jianshu.io/upload_images/7303861-fb8ba593bc19b970\" data-original-width=\"1080\" data-original-height=\"808\" data-original-format=\"image/jpeg\" data-original-filesize=\"82190\"></div>\n</div>\n<div class=\"image-caption\"></div>\n</div><div class=\"image-package\">\n<div class=\"image-container\" style=\"max-width: 700px; max-height: 523px;\">\n<div class=\"image-container-fill\" style=\"padding-bottom: 74.81%;\"></div>\n<div class=\"image-view\" data-width=\"1080\" data-height=\"808\"><img data-original-src=\"//upload-images.jianshu.io/upload_images/7303861-988eb1c62d3925b8\" data-original-width=\"1080\" data-original-height=\"808\" data-original-format=\"image/jpeg\" data-original-filesize=\"70389\"></div>\n</div>\n<div class=\"image-caption\"></div>\n</div><p>所以我们抗糖化和防晒、抗氧化、减肥、塑形一样，是延缓衰老保护形象非常必要的措施。如果想要比同龄人拥有更好的颜值和身材，不付出行动，光打嘴炮是不行的，跟心爱的甜品、可乐say goodbye！长期坚持确实是种考验，抵制诱惑更是磨练意志，这也是明星们为什么总是比同龄人年轻的原因！</p>",
+      "paid_type": "free",
+      "first_shared_at": "2018-08-25T17:07:34.000+08:00",
+      "notebook_id": 15226633,
+      "commentable": true,
+      "wordage": 1629,
+      "paid_content_accessible": false,
+      "share_image_url": "http://upload-images.jianshu.io/upload_images/7303861-31e99dee8237bfad",
+      "show_paid_comment_tips": false,
+      "user": {
+        "id": 7303861,
+        "slug": "d4ecd1d31a5e",
+        "nickname": "骨筋小颜",
+        "gender": 1,
+        "avatar": "http://upload.jianshu.io/users/upload_avatars/7303861/0dc720a7-daa3-432d-b029-7a0744c05831.png",
+        "intro": "",
+        "wordage": 79465,
+        "likes_count": 33,
+        "badges": [],
+        "vip": null,
+        "liked_by_user": false,
+        "liked_user": false
+      },
+      "distribution_more_earn_percent": 24
+    }
+  ]
+  return arr;
+};
+let len = navCon();
+function getNavCon(id){
+  let res
+  for(var i=0;i<len.length;i++){
+    console.log(id)
+    let con = len[i]
+    if(id == con.ids){
+      res = con
+    }
+    return res || {}
+  }
 }
