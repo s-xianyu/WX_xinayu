@@ -15,7 +15,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.data.content = fileData.getNavCon(options.id,true);
+    this.data.content = fileData.getNavCon(options.id,'详情');
     this.data.content.first_shared_at = this.changeGetTime(this.data.content.first_shared_at);
     this.data.content.free_content = this.convertHtmlToText(this.data.content.free_content);
     this.setData({

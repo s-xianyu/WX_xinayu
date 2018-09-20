@@ -1,6 +1,8 @@
 <!--pages/news/news.wxml-->
 <view class="container">
   <view class="header">
-    <view wx:for="{{list}}" wx:key="index">{{item}}</view>
+    <view class="ul">
+      <view wx:for="{{list}}" wx:key="index" class="li"><text>{{item}}</text></view>
+    </view>
   </view>
 </view>

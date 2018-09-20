@@ -1,5 +1,5 @@
 <view class="container">
-  <import src="../common/header.wxml"/>
+  <import src="../header/header.wxml"/>
   <template is="header"/>
   <view id="main">
     <view class="main-info">
@@ -13,8 +13,20 @@
           {{contentHome.content_without_html}}<view wx:if="{{introShow}}" class="iconfont icon-jiantou9"></view>
         </view>
         <view class="introHide" bindtap="intro" wx:if="{{!introShow}}">收起<view class="iconfont icon-jiantou9"></view></view>
-        <button>+关注</button>
+        <button bindtap="attention" wx:if="{{attention}}">+关注</button>
+        <button bindtap="attention" wx:else="{{!attention}}" class="{{attention? 'cur': ''}}">已关注</button>
       </view>
     </view>
+    <view class="hr"></view>
+    <view class="list">
+      <view
+              wx:for="{{listLi}}"
+              wx:key="{{index}}"
+              bindtap="toggleCur"
+              class="{{activeIndex==index? 'listLi cur' : 'listLi'}}"
+              data-id="{{item.id}}">{{item.name}}</view>
+    </view>
+    <import src="../list/list.wxml"/>
+    <template is="list" data="{{list}}"/>
   </view>
 </view>

@@ -23,26 +23,7 @@
         <span data-id="{{item.id}}" wx:for="{{hot[num]}}" wx:key="{{index}}" bindtap="contentHome">{{item.title}}</span>
       </view>
     </view>
-    <view id="list">
-      <ul>
-        <li data-id="{{item.object.data.id}}"
-            wx:for="{{list}}" wx:key="{{index}}"
-            bindtap="routersGo"
-            class="{{item.object.data.list_image_url!='' ? 'hoverimage' : ''}}">
-          <view class="content">
-            <view wx:if="{{item.object.data.list_image_url!=''}}">
-              <view class="wrapimage"><image src="{{item.object.data.list_image_url}}"></image></view>
-            </view>
-            <view class="summary">
-              <span class="title">{{item.object.data.title}}</span>
-              <span class="abstract">{{item.object.data.public_abbr}}</span>
-            </view>
-          </view>
-          <view class="meta">
-            <span class="name"></span>
-          </view>
-        </li>
-      </ul>
-    </view>
+    <import src="../list/list.wxml"/>
+    <template is="list" data="{{list}}"/>
   </view>
 </view>

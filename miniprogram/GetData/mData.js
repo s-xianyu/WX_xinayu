@@ -1,7 +1,8 @@
 module.exports = {
   Hot:Hot,
   List:List,
-  getNavCon:getNavCon
+  getNavCon:getNavCon,
+  comment:comment
 }
 function Hot(){
   let arr = [
@@ -315,13 +316,13 @@ function List(){
           "id": 33815066,
           "title": "吃鸡|140字微小说",
           "slug": "a087b62b17c0",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/12649257-3f24845215b5ca1a",
+          "list_image_url": "http://upload-images.jianshu.io/upload_images/7090831-7ba34cf3aa6fc9d6.jpeg",
           "public_abbr": "儿子，在干啥呢？ 他的窗口弹出一条微信消息 他不耐烦的点开：爸，别烦我，吃鸡呢！ 儿子，吃鸡是啥？ 爸，你不懂就别问了 他关掉微信，目光聚焦到手机上的虚拟战场 啧，今晚又没吃...",
           "commentable": true,
           "important_collection": null,
           "user": {
             "id": 12649257,
-            "nickname": "919b0c54458f",
+            "nickname": "阁下A",
             "slug": "919b0c54458f",
             "avatar": "http://upload.jianshu.io/users/upload_avatars/12649257/bd37d79c-2b5f-48c2-997f-fc4dca9577ef"
           },
@@ -338,13 +339,13 @@ function List(){
           "id": 33815064,
           "title": "天凉好个秋",
           "slug": "a087b62b17c0",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/7090831-7ba34cf3aa6fc9d6.jpeg",
+          "list_image_url": "",
           "public_abbr": "儿子，在干啥呢？ 他的窗口弹出一条微信消息 他不耐烦的点开：爸，别烦我，吃鸡呢！ 儿子，吃鸡是啥？ 爸，你不懂就别问了 他关掉微信，目光聚焦到手机上的虚拟战场 啧，今晚又没吃...",
           "commentable": true,
           "important_collection": null,
           "user": {
             "id": 12649257,
-            "nickname": "919b0c54458f",
+            "nickname": "碧漪",
             "slug": "919b0c54458f",
             "avatar": "http://upload.jianshu.io/users/upload_avatars/12649257/bd37d79c-2b5f-48c2-997f-fc4dca9577ef"
           },
@@ -367,7 +368,7 @@ function List(){
           "important_collection": null,
           "user": {
             "id": 12649257,
-            "nickname": "919b0c54458f",
+            "nickname": "骨筋小颜",
             "slug": "919b0c54458f",
             "avatar": "http://upload.jianshu.io/users/upload_avatars/12649257/bd37d79c-2b5f-48c2-997f-fc4dca9577ef"
           },
@@ -390,7 +391,7 @@ function List(){
           "important_collection": null,
           "user": {
             "id": 12649257,
-            "nickname": "919b0c54458f",
+            "nickname": "桑塔露露的礼物盒",
             "slug": "919b0c54458f",
             "avatar": "http://upload.jianshu.io/users/upload_avatars/12649257/bd37d79c-2b5f-48c2-997f-fc4dca9577ef"
           },
@@ -413,7 +414,7 @@ function List(){
           "important_collection": null,
           "user": {
             "id": 12649257,
-            "nickname": "919b0c54458f",
+            "nickname": "参差百态是生活",
             "slug": "919b0c54458f",
             "avatar": "http://upload.jianshu.io/users/upload_avatars/12649257/bd37d79c-2b5f-48c2-997f-fc4dca9577ef"
           },
@@ -427,16 +428,40 @@ function List(){
       "object": {
         "type": 1,
         "data": {
+          "id": 3588441,
+          "title": "单身是最好的升值期",
+          "slug": "a087b62b17c0",
+          "list_image_url": "http://upload-images.jianshu.io/upload_images/573708-3139c00b0d571cd9.jpg",
+          "public_abbr": "- 1 - 为什么单身？因为想变成更好的自己啊 昨晚在微信后台发起了一个话题“你单身吗？单身多久了？在你单身的这段时间里，最大的改变是什么？”收到了成千上百条回复。 本来我以...",
+          "commentable": true,
+          "important_collection": null,
+          "user": {
+            "id": 12649257,
+            "nickname": "叶上清之宿雨",
+            "slug": "919b0c54458f",
+            "avatar": "http://upload.jianshu.io/users/upload_avatars/12649257/bd37d79c-2b5f-48c2-997f-fc4dca9577ef"
+          },
+          "public_comments_count": 0,
+          "total_rewards_count": 0,
+          "likes_count": 23
+        }
+      }
+    },
+
+    {
+      "object": {
+        "type": 1,
+        "data": {
           "id": 43815066,
           "title": "吃鸡|140字微小说",
           "slug": "a087b62b17c0",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/12649257-3f24845215b5ca1a",
+          "list_image_url": "http://upload-images.jianshu.io/upload_images/7090831-7ba34cf3aa6fc9d6.jpeg",
           "public_abbr": "儿子，在干啥呢？ 他的窗口弹出一条微信消息 他不耐烦的点开：爸，别烦我，吃鸡呢！ 儿子，吃鸡是啥？ 爸，你不懂就别问了 他关掉微信，目光聚焦到手机上的虚拟战场 啧，今晚又没吃...",
           "commentable": true,
           "important_collection": null,
           "user": {
             "id": 12649257,
-            "nickname": "919b0c54458f",
+            "nickname": "阁下A",
             "slug": "919b0c54458f",
             "avatar": "http://upload.jianshu.io/users/upload_avatars/12649257/bd37d79c-2b5f-48c2-997f-fc4dca9577ef"
           },
@@ -453,13 +478,13 @@ function List(){
           "id": 43815064,
           "title": "天凉好个秋",
           "slug": "a087b62b17c0",
-          "list_image_url": "http://upload-images.jianshu.io/upload_images/7090831-7ba34cf3aa6fc9d6.jpeg",
+          "list_image_url": "",
           "public_abbr": "儿子，在干啥呢？ 他的窗口弹出一条微信消息 他不耐烦的点开：爸，别烦我，吃鸡呢！ 儿子，吃鸡是啥？ 爸，你不懂就别问了 他关掉微信，目光聚焦到手机上的虚拟战场 啧，今晚又没吃...",
           "commentable": true,
           "important_collection": null,
           "user": {
             "id": 12649257,
-            "nickname": "919b0c54458f",
+            "nickname": "碧漪",
             "slug": "919b0c54458f",
             "avatar": "http://upload.jianshu.io/users/upload_avatars/12649257/bd37d79c-2b5f-48c2-997f-fc4dca9577ef"
           },
@@ -482,7 +507,7 @@ function List(){
           "important_collection": null,
           "user": {
             "id": 12649257,
-            "nickname": "919b0c54458f",
+            "nickname": "骨筋小颜",
             "slug": "919b0c54458f",
             "avatar": "http://upload.jianshu.io/users/upload_avatars/12649257/bd37d79c-2b5f-48c2-997f-fc4dca9577ef"
           },
@@ -505,7 +530,7 @@ function List(){
           "important_collection": null,
           "user": {
             "id": 12649257,
-            "nickname": "919b0c54458f",
+            "nickname": "桑塔露露的礼物盒",
             "slug": "919b0c54458f",
             "avatar": "http://upload.jianshu.io/users/upload_avatars/12649257/bd37d79c-2b5f-48c2-997f-fc4dca9577ef"
           },
@@ -528,7 +553,30 @@ function List(){
           "important_collection": null,
           "user": {
             "id": 12649257,
-            "nickname": "919b0c54458f",
+            "nickname": "参差百态是生活",
+            "slug": "参差百态是生活",
+            "avatar": "http://upload.jianshu.io/users/upload_avatars/12649257/bd37d79c-2b5f-48c2-997f-fc4dca9577ef"
+          },
+          "public_comments_count": 0,
+          "total_rewards_count": 0,
+          "likes_count": 23
+        }
+      }
+    },
+    {
+      "object": {
+        "type": 1,
+        "data": {
+          "id": 4588441,
+          "title": "单身是最好的升值期",
+          "slug": "a087b62b17c0",
+          "list_image_url": "http://upload-images.jianshu.io/upload_images/573708-3139c00b0d571cd9.jpg",
+          "public_abbr": "- 1 - 为什么单身？因为想变成更好的自己啊 昨晚在微信后台发起了一个话题“你单身吗？单身多久了？在你单身的这段时间里，最大的改变是什么？”收到了成千上百条回复。 本来我以...",
+          "commentable": true,
+          "important_collection": null,
+          "user": {
+            "id": 12649257,
+            "nickname": "叶上清之宿雨",
             "slug": "919b0c54458f",
             "avatar": "http://upload.jianshu.io/users/upload_avatars/12649257/bd37d79c-2b5f-48c2-997f-fc4dca9577ef"
           },
@@ -734,6 +782,42 @@ function navCon(){
     {
       "is_author": false,
       "liked_note": false,
+      "public_comment_count": 1890,
+      "featured_comments_count": 5,
+      "likes_count": 7901,
+      "trial_open": false,
+      "description": "- 1 - 为什么单身？因为想变成更好的自己啊 昨晚在微信后台发起了一个话题“你单身吗？单身多久了？在你单身的这段时间里，最大的改变是什么？”收到了成千上百条回复。 本来我以...",
+      "id": 3588441,
+      "slug": "1e4891ab59d8",
+      "public_title": "单身是最好的升值期",
+      "free_content": "<div class=\"image-package\">\n<div class=\"image-container\" style=\"max-width: 620px; max-height: 387px;\">\n<div class=\"image-container-fill\" style=\"padding-bottom: 62.419999999999995%;\"></div>\n<div class=\"image-view\" data-width=\"620\" data-height=\"387\"><img data-original-src=\"//upload-images.jianshu.io/upload_images/573708-3139c00b0d571cd9.jpg\" data-original-width=\"620\" data-original-height=\"387\" data-original-format=\"image/jpeg\" data-original-filesize=\"145400\"></div>\n</div>\n<div class=\"image-caption\"></div>\n</div><p><b>- 1 -</b><br></p><p><b>为什么单身？</b><b>因为想变成更好的自己啊</b></p><p><b></b></p><p>昨晚在微信后台发起了一个话题“你单身吗？单身多久了？在你单身的这段时间里，最大的改变是什么？”收到了成千上百条回复。</p><p>本来我以为，绝大多数人会觉得单身是件悲伤的事情，会因为单身直接或间接地给自己带去很多负面情绪，觉得自己孤独寂寞，心无所依。</p><p>但事实却恰恰相反。</p><p>九成以上的留言都是积极向上的，而且都是在非常明确地阐述，自己如何通过努力开始了新的生活，变成了更好的人。</p><p>老实说，有些留言真的让我眼眶温热。</p><p>有个女生跟我说，今年她29岁，毕业后在广州工作了8年，一直是单身。在这期间，她坚持锻炼，工作之余还经常给自己充电。爱时尚爱漂亮，一个人去过整个东南亚、台湾、欧洲。不是为了招蜂引蝶，只是为了成全更好的自己。</p><p>去年8月，她顺利拿到了墨尔本大学的offer，现在准备辞职滚去读书。</p><p>正当我钦佩她的勇气与果断时，她又向我爆料说，自己曾是一名专科生，在广州一边工作一边念中山大学的本科。考取本科文凭后，又考了学位证，然后申请读研，一路披荆斩棘。</p><p>她给我发来她健身时的照片——身材曼妙，气质不凡。我一下就喜欢上了这个姑娘。</p><p><b>谁说单身就一定非得和寂寞沾边？</b><b>单身恰恰是一个人最好的升值期。</b></p><p>有段话，她说得特别好，也彻彻底底地打动了我。</p><p>她说，“这些年来，我一直有个小小的梦想，就是有朝一日能够屌丝逆袭。为此我自学了日语，还学了古筝、爵士鼓。小时候家里条件只够读书，没钱培养兴趣，所以我想自己挣钱，一点一点去实现。也许现在是90后横行的时代，但我仍旧可以自信地说，从我现在的气质里，能够看到我读过的书，走过的路，还有我爱过的人。”</p><div class=\"image-package\">\n<div class=\"image-container\" style=\"max-width: 510px; max-height: 1054px;\">\n<div class=\"image-container-fill\" style=\"padding-bottom: 150.59%;\"></div>\n<div class=\"image-view\" data-width=\"510\" data-height=\"768\"><img data-original-src=\"//upload-images.jianshu.io/upload_images/573708-9457b1ce3677d386.jpg\" data-original-width=\"510\" data-original-height=\"768\" data-original-format=\"image/jpeg\" data-original-filesize=\"269065\"></div>\n</div>\n<div class=\"image-caption\"></div>\n</div><p><b>- 2 -</b><b></b></p><p><b>发现没有？</b><b>其实你也可以是自己的靠山</b></p><p><b></b></p><p>很多读者在留言里都提到了<b>独立</b>。</p><p>有人说，单身一年半了，这段时间最大的改变就是变得独立有个性了。</p><p>有人说，这几年我最大的改变是变得外在很独立。一个人吃饭，一个人逛街，一个人上课，一个人旅行，一个人追剧。很习以为常，也不觉得有什么。</p><p>有人说，单身了两年多，不再依赖谁，独立很多，有更多的时间去思考和学习。</p><p>也有人说，单身的日子里，学到最多的是能够独立面对一些人一些事，学会了一个人静处，学会了享受寂寞。</p><p>突然想起自己也曾有过很长一段时间的单身期，独来独往，做什么都是一个人。</p><p>刚开始确实有些不适应，身边没有几个能够说得上话的人，觉得不习惯，觉得心中有股落寞像颜料般晕染开来，渐渐侵蚀了整个胸腔，闷得透不过气。</p><p><b>后来，我调整了自己的心态，看淡了很多事，变得释然，也学会了反省。</b>尝试着与孤独对话，尝试着去做出一点改变。</p><p><b>我愈发清楚地知道自己想要什么了，并且愈发渴望让自己变得优秀。</b>于是我一个人学习、锻炼、思考，把更多的时间花在提升自我价值上。</p><p>我开始录电台，每个月看一本书，并坚持写作。</p><p>当我把注意力集中到某件我十分感兴趣，或是我十分想要去做好的事情上后，我发现我再也没有理由去愤慨，去忧伤或是去哀怨了。</p><p>因为想要把生活过的更精致，我养成了许多从前不曾有过的好习惯。</p><p>因为坚持与投入，使我迅速在新兴领域崭露头角，拓宽了人脉，也因此获得了众多机遇。</p><p>很多事情都是相辅相成的，没有付出就没有回报，没有耕耘又谈何收获？</p><p><b>你要把孤独转化成一种动力，一种去开疆辟土的信心与勇气，而不是呆在原地无所作为，让自卑与空洞肆意生长。</b></p><p>由于生活变得愈发精彩与充实，我在不知不觉中变得自信、乐观、开朗。</p><p><b>单身，让我学会了与自己相处。</b>许多从前需要依赖别人的事，最后都由自己解决。从“习惯依赖他人”到“凡事靠自己”，我渐渐变成了一个思想独立，行为独立，能够成为自己靠山的人。这是单身带给我的成长，也是成长带给我的蜕变。我开始真正走向成熟，不再是昨天那个一直站在原地揉眼睛的孩子。</p><div class=\"image-package\">\n<div class=\"image-container\" style=\"max-width: 700px; max-height: 788px;\">\n<div class=\"image-container-fill\" style=\"padding-bottom: 112.57%;\"></div>\n<div class=\"image-view\" data-width=\"700\" data-height=\"788\"><img data-original-src=\"//upload-images.jianshu.io/upload_images/573708-1d1d99ee20529499.jpeg\" data-original-width=\"700\" data-original-height=\"788\" data-original-format=\"image/jpeg\" data-original-filesize=\"102761\"></div>\n</div>\n<div class=\"image-caption\"></div>\n</div><p><b>- 3 -</b><b><br></b></p><p><b>即使单身，</b><b>你一样可以过得很好</b></p><p><b></b></p><p><b></b></p><p>我有个朋友，单身快五年了。</p><p>刚和前男友分手的时候痛不欲生，觉得天都要塌下来了。她说她从没想过他会离开，她说她没了他会活不下去。</p><p>可是后来呢？她照样一个人活得好好的。</p><p>她减肥瘦身，配了隐形眼镜，学习化妆，把自己打扮得美美的；她爱上了夜跑，发现原来夜跑那么有趣，从前对跑步恨之入骨的她也能在操场开心地跑两三公里了；她去了那个原来说好要一起去的地方，才发现，没有他风景可以一样美好；她开始看一些以前吵着要看的书，开始着手做比赛，开始参加字幕组……</p><p><b>“</b><b>一个人并没有多可怜，也习惯了走夜路。没有他，我一样可以很好。</b><b>”</b>她说。</p><p>周围陆陆续续有人夸她是白富美，只有她自己知道，曾经的她不过是只丑小鸭。但如今，她早已不是当年的她。</p><p>“恢复单身后才发现，自己从前可真是矫情啊。尽管还是单身，但却是有底气且不将就的单身了吧。”</p><p><b>单身是一种生活状态，</b><b>信奉单身也可以过得很幸福。</b></p><p>你可以每年给自己安排一次旅行，想去哪儿就去哪儿，想去多久就去多久；你可以把原来煲电话粥的时间放在夜读上，在一次次思想的碰撞中提高自己的涵养；你可以有更多的时间用来陪伴家人，与朋友叙旧；你可以自由自在，尝试新的事物，做自己喜欢做的事。<br></p><p>总之，<b>即使是一个人，你一样可以把日子过得精彩丰呈。</b></p><p>这世上没有谁离了谁是活不下去的，上天在为你关上门的同时必定会为你打开一扇窗。而这扇窗，就是一个契机，一个让你去丰富自我，完善自我的机会。</p><blockquote><p>《巴黎假期》中，古天乐饰演的角色林俊杰有句很经典的台词：“七年的时间，就可以把我们全身的细胞都更换一遍，一个旧细胞都没有。所有不开心的事，都会忘得干干净净。”</p></blockquote><p>是啊，即使你曾在感情中受过伤，那又怎么样呢？时间是块橡皮擦，总有一天会帮你擦去那些伤疤。<b>单身不可怕，可怕的是一直放不下。能够伤害你的，从来不是伤害本身，而是你自己。</b></p><p><b></b></p><p>要想告别过去那个懦弱的你，失败的你，就必须学会及时斩仓。好好爱自己，学会坚强、独立，学会自己制造阳光。生活不止只有苟且，还有诗和远方。一个人的日子里，你要放下，你要沉淀，还要懂得体谅。</p><div class=\"image-package\">\n<div class=\"image-container\" style=\"max-width: 500px; max-height: 331px;\">\n<div class=\"image-container-fill\" style=\"padding-bottom: 66.2%;\"></div>\n<div class=\"image-view\" data-width=\"500\" data-height=\"331\"><img data-original-src=\"//upload-images.jianshu.io/upload_images/573708-ff48aa15175c6092.jpg\" data-original-width=\"500\" data-original-height=\"331\" data-original-format=\"image/jpeg\" data-original-filesize=\"121561\"></div>\n</div>\n<div class=\"image-caption\"></div>\n</div><p><b>- 4 -</b><b><br></b></p><p><b>变成更好的自己，</b><b>再去遇见更好的人</b></p><p><b></b></p><p><b></b></p><p>昨晚和妈妈一起散步，走着走着，她突然发起各种感叹。</p><p>“你没发现这些年你变了好多吗？”妈妈说，“毕业后的这几年，你发展得尤其迅速。”</p><p>我愣了一下，想了想，还真是。</p><p>四五年前，我哪是今天这番摸样。</p><p>那时的我怯弱、焦虑、不自信，常常被一丁点儿的困难所打倒。我不敢想以后，不敢向前迈出那一步，总渴望能有个人拉我一把。</p><p>现如今，我能驾轻就熟地开着车去我想去的地方，能在业余时间经营起自己的兴趣爱好，能有机会将文字铅印成册，能在对的时间遇上对的人，这都是我始料未及的。</p><p><b></b></p><p><b>许多事情发生在白衣苍狗间，</b><b>一眨眼，你我都变了。</b></p><p><b></b></p><p>我何尝不曾单身，何尝不曾孤独。只是，<b>在那大片大片空白的时光里，我始终没有放弃自己。</b></p><p><b></b></p><blockquote><p>刘瑜说过，适应孤独，就像适应一种残疾。</p></blockquote><p>单身，也是一种孤独，也是一种残疾，你要学会去适应。</p><p>有人说，你之所以会单身，是因为上天想要让你遇见更好的人。可是，<b>如果你自己都没有变成更好的人，你又怎么能够去遇见更好的人呢？</b></p><p>单身是最好的升值期，毋庸置疑。</p><p>在这段一个人的岁月里，请你学会独处，学会与自己对话，学会为自己的世界添砖加瓦。</p><p><b></b></p><p><b>尽早提升自己的价值，你将会有无限的可能。</b></p><p><b><b>fin.</b></b></p><p>最后有一点是要特别提醒你的：永远不要放弃独立。</p><p>即便今后你不再是一个人，也要时刻保持独立。</p><p>因为，没人喜欢一个过分依赖别人的人。</p>",
+      "paid_type": "free",
+      "first_shared_at": "2016-04-15T10:15:09.000+08:00",
+      "notebook_id": 1164146,
+      "commentable": true,
+      "wordage": 2875,
+      "paid_content_accessible": false,
+      "share_image_url": "http://upload-images.jianshu.io/upload_images/573708-3139c00b0d571cd9.jpg",
+      "show_paid_comment_tips": false,
+      "user": {
+        "id": 573708,
+        "slug": "72f7e8a56495",
+        "nickname": "叶上清之宿雨",
+        "gender": 0,
+        "avatar": "http://upload.jianshu.io/users/upload_avatars/573708/6fe11c7a1c5f.jpg",
+        "intro": "简书签约作者，情感主播\r\n文章首发在微信公众号：遇见宿雨（meetsuyu）\r\n微博@NJ宿雨...",
+        "wordage": 226926,
+        "likes_count": 45083,
+        "badges": [],
+        "vip": null,
+        "liked_by_user": false,
+        "liked_user": false
+      },
+      "distribution_more_earn_percent": 24
+    },
+    {
+      "is_author": false,
+      "liked_note": false,
       "public_comment_count": 16,
       "featured_comments_count": 1,
       "likes_count": 15,
@@ -917,16 +1001,800 @@ function navCon(){
         "liked_user": false
       },
       "distribution_more_earn_percent": 24
+    },
+    {
+      "is_author": false,
+      "liked_note": false,
+      "public_comment_count": 1890,
+      "featured_comments_count": 5,
+      "likes_count": 7901,
+      "trial_open": false,
+      "description": "- 1 - 为什么单身？因为想变成更好的自己啊 昨晚在微信后台发起了一个话题“你单身吗？单身多久了？在你单身的这段时间里，最大的改变是什么？”收到了成千上百条回复。 本来我以...",
+      "id": 4588441,
+      "slug": "1e4891ab59d8",
+      "public_title": "单身是最好的升值期",
+      "free_content": "<div class=\"image-package\">\n<div class=\"image-container\" style=\"max-width: 620px; max-height: 387px;\">\n<div class=\"image-container-fill\" style=\"padding-bottom: 62.419999999999995%;\"></div>\n<div class=\"image-view\" data-width=\"620\" data-height=\"387\"><img data-original-src=\"//upload-images.jianshu.io/upload_images/573708-3139c00b0d571cd9.jpg\" data-original-width=\"620\" data-original-height=\"387\" data-original-format=\"image/jpeg\" data-original-filesize=\"145400\"></div>\n</div>\n<div class=\"image-caption\"></div>\n</div><p><b>- 1 -</b><br></p><p><b>为什么单身？</b><b>因为想变成更好的自己啊</b></p><p><b></b></p><p>昨晚在微信后台发起了一个话题“你单身吗？单身多久了？在你单身的这段时间里，最大的改变是什么？”收到了成千上百条回复。</p><p>本来我以为，绝大多数人会觉得单身是件悲伤的事情，会因为单身直接或间接地给自己带去很多负面情绪，觉得自己孤独寂寞，心无所依。</p><p>但事实却恰恰相反。</p><p>九成以上的留言都是积极向上的，而且都是在非常明确地阐述，自己如何通过努力开始了新的生活，变成了更好的人。</p><p>老实说，有些留言真的让我眼眶温热。</p><p>有个女生跟我说，今年她29岁，毕业后在广州工作了8年，一直是单身。在这期间，她坚持锻炼，工作之余还经常给自己充电。爱时尚爱漂亮，一个人去过整个东南亚、台湾、欧洲。不是为了招蜂引蝶，只是为了成全更好的自己。</p><p>去年8月，她顺利拿到了墨尔本大学的offer，现在准备辞职滚去读书。</p><p>正当我钦佩她的勇气与果断时，她又向我爆料说，自己曾是一名专科生，在广州一边工作一边念中山大学的本科。考取本科文凭后，又考了学位证，然后申请读研，一路披荆斩棘。</p><p>她给我发来她健身时的照片——身材曼妙，气质不凡。我一下就喜欢上了这个姑娘。</p><p><b>谁说单身就一定非得和寂寞沾边？</b><b>单身恰恰是一个人最好的升值期。</b></p><p>有段话，她说得特别好，也彻彻底底地打动了我。</p><p>她说，“这些年来，我一直有个小小的梦想，就是有朝一日能够屌丝逆袭。为此我自学了日语，还学了古筝、爵士鼓。小时候家里条件只够读书，没钱培养兴趣，所以我想自己挣钱，一点一点去实现。也许现在是90后横行的时代，但我仍旧可以自信地说，从我现在的气质里，能够看到我读过的书，走过的路，还有我爱过的人。”</p><div class=\"image-package\">\n<div class=\"image-container\" style=\"max-width: 510px; max-height: 1054px;\">\n<div class=\"image-container-fill\" style=\"padding-bottom: 150.59%;\"></div>\n<div class=\"image-view\" data-width=\"510\" data-height=\"768\"><img data-original-src=\"//upload-images.jianshu.io/upload_images/573708-9457b1ce3677d386.jpg\" data-original-width=\"510\" data-original-height=\"768\" data-original-format=\"image/jpeg\" data-original-filesize=\"269065\"></div>\n</div>\n<div class=\"image-caption\"></div>\n</div><p><b>- 2 -</b><b></b></p><p><b>发现没有？</b><b>其实你也可以是自己的靠山</b></p><p><b></b></p><p>很多读者在留言里都提到了<b>独立</b>。</p><p>有人说，单身一年半了，这段时间最大的改变就是变得独立有个性了。</p><p>有人说，这几年我最大的改变是变得外在很独立。一个人吃饭，一个人逛街，一个人上课，一个人旅行，一个人追剧。很习以为常，也不觉得有什么。</p><p>有人说，单身了两年多，不再依赖谁，独立很多，有更多的时间去思考和学习。</p><p>也有人说，单身的日子里，学到最多的是能够独立面对一些人一些事，学会了一个人静处，学会了享受寂寞。</p><p>突然想起自己也曾有过很长一段时间的单身期，独来独往，做什么都是一个人。</p><p>刚开始确实有些不适应，身边没有几个能够说得上话的人，觉得不习惯，觉得心中有股落寞像颜料般晕染开来，渐渐侵蚀了整个胸腔，闷得透不过气。</p><p><b>后来，我调整了自己的心态，看淡了很多事，变得释然，也学会了反省。</b>尝试着与孤独对话，尝试着去做出一点改变。</p><p><b>我愈发清楚地知道自己想要什么了，并且愈发渴望让自己变得优秀。</b>于是我一个人学习、锻炼、思考，把更多的时间花在提升自我价值上。</p><p>我开始录电台，每个月看一本书，并坚持写作。</p><p>当我把注意力集中到某件我十分感兴趣，或是我十分想要去做好的事情上后，我发现我再也没有理由去愤慨，去忧伤或是去哀怨了。</p><p>因为想要把生活过的更精致，我养成了许多从前不曾有过的好习惯。</p><p>因为坚持与投入，使我迅速在新兴领域崭露头角，拓宽了人脉，也因此获得了众多机遇。</p><p>很多事情都是相辅相成的，没有付出就没有回报，没有耕耘又谈何收获？</p><p><b>你要把孤独转化成一种动力，一种去开疆辟土的信心与勇气，而不是呆在原地无所作为，让自卑与空洞肆意生长。</b></p><p>由于生活变得愈发精彩与充实，我在不知不觉中变得自信、乐观、开朗。</p><p><b>单身，让我学会了与自己相处。</b>许多从前需要依赖别人的事，最后都由自己解决。从“习惯依赖他人”到“凡事靠自己”，我渐渐变成了一个思想独立，行为独立，能够成为自己靠山的人。这是单身带给我的成长，也是成长带给我的蜕变。我开始真正走向成熟，不再是昨天那个一直站在原地揉眼睛的孩子。</p><div class=\"image-package\">\n<div class=\"image-container\" style=\"max-width: 700px; max-height: 788px;\">\n<div class=\"image-container-fill\" style=\"padding-bottom: 112.57%;\"></div>\n<div class=\"image-view\" data-width=\"700\" data-height=\"788\"><img data-original-src=\"//upload-images.jianshu.io/upload_images/573708-1d1d99ee20529499.jpeg\" data-original-width=\"700\" data-original-height=\"788\" data-original-format=\"image/jpeg\" data-original-filesize=\"102761\"></div>\n</div>\n<div class=\"image-caption\"></div>\n</div><p><b>- 3 -</b><b><br></b></p><p><b>即使单身，</b><b>你一样可以过得很好</b></p><p><b></b></p><p><b></b></p><p>我有个朋友，单身快五年了。</p><p>刚和前男友分手的时候痛不欲生，觉得天都要塌下来了。她说她从没想过他会离开，她说她没了他会活不下去。</p><p>可是后来呢？她照样一个人活得好好的。</p><p>她减肥瘦身，配了隐形眼镜，学习化妆，把自己打扮得美美的；她爱上了夜跑，发现原来夜跑那么有趣，从前对跑步恨之入骨的她也能在操场开心地跑两三公里了；她去了那个原来说好要一起去的地方，才发现，没有他风景可以一样美好；她开始看一些以前吵着要看的书，开始着手做比赛，开始参加字幕组……</p><p><b>“</b><b>一个人并没有多可怜，也习惯了走夜路。没有他，我一样可以很好。</b><b>”</b>她说。</p><p>周围陆陆续续有人夸她是白富美，只有她自己知道，曾经的她不过是只丑小鸭。但如今，她早已不是当年的她。</p><p>“恢复单身后才发现，自己从前可真是矫情啊。尽管还是单身，但却是有底气且不将就的单身了吧。”</p><p><b>单身是一种生活状态，</b><b>信奉单身也可以过得很幸福。</b></p><p>你可以每年给自己安排一次旅行，想去哪儿就去哪儿，想去多久就去多久；你可以把原来煲电话粥的时间放在夜读上，在一次次思想的碰撞中提高自己的涵养；你可以有更多的时间用来陪伴家人，与朋友叙旧；你可以自由自在，尝试新的事物，做自己喜欢做的事。<br></p><p>总之，<b>即使是一个人，你一样可以把日子过得精彩丰呈。</b></p><p>这世上没有谁离了谁是活不下去的，上天在为你关上门的同时必定会为你打开一扇窗。而这扇窗，就是一个契机，一个让你去丰富自我，完善自我的机会。</p><blockquote><p>《巴黎假期》中，古天乐饰演的角色林俊杰有句很经典的台词：“七年的时间，就可以把我们全身的细胞都更换一遍，一个旧细胞都没有。所有不开心的事，都会忘得干干净净。”</p></blockquote><p>是啊，即使你曾在感情中受过伤，那又怎么样呢？时间是块橡皮擦，总有一天会帮你擦去那些伤疤。<b>单身不可怕，可怕的是一直放不下。能够伤害你的，从来不是伤害本身，而是你自己。</b></p><p><b></b></p><p>要想告别过去那个懦弱的你，失败的你，就必须学会及时斩仓。好好爱自己，学会坚强、独立，学会自己制造阳光。生活不止只有苟且，还有诗和远方。一个人的日子里，你要放下，你要沉淀，还要懂得体谅。</p><div class=\"image-package\">\n<div class=\"image-container\" style=\"max-width: 500px; max-height: 331px;\">\n<div class=\"image-container-fill\" style=\"padding-bottom: 66.2%;\"></div>\n<div class=\"image-view\" data-width=\"500\" data-height=\"331\"><img data-original-src=\"//upload-images.jianshu.io/upload_images/573708-ff48aa15175c6092.jpg\" data-original-width=\"500\" data-original-height=\"331\" data-original-format=\"image/jpeg\" data-original-filesize=\"121561\"></div>\n</div>\n<div class=\"image-caption\"></div>\n</div><p><b>- 4 -</b><b><br></b></p><p><b>变成更好的自己，</b><b>再去遇见更好的人</b></p><p><b></b></p><p><b></b></p><p>昨晚和妈妈一起散步，走着走着，她突然发起各种感叹。</p><p>“你没发现这些年你变了好多吗？”妈妈说，“毕业后的这几年，你发展得尤其迅速。”</p><p>我愣了一下，想了想，还真是。</p><p>四五年前，我哪是今天这番摸样。</p><p>那时的我怯弱、焦虑、不自信，常常被一丁点儿的困难所打倒。我不敢想以后，不敢向前迈出那一步，总渴望能有个人拉我一把。</p><p>现如今，我能驾轻就熟地开着车去我想去的地方，能在业余时间经营起自己的兴趣爱好，能有机会将文字铅印成册，能在对的时间遇上对的人，这都是我始料未及的。</p><p><b></b></p><p><b>许多事情发生在白衣苍狗间，</b><b>一眨眼，你我都变了。</b></p><p><b></b></p><p>我何尝不曾单身，何尝不曾孤独。只是，<b>在那大片大片空白的时光里，我始终没有放弃自己。</b></p><p><b></b></p><blockquote><p>刘瑜说过，适应孤独，就像适应一种残疾。</p></blockquote><p>单身，也是一种孤独，也是一种残疾，你要学会去适应。</p><p>有人说，你之所以会单身，是因为上天想要让你遇见更好的人。可是，<b>如果你自己都没有变成更好的人，你又怎么能够去遇见更好的人呢？</b></p><p>单身是最好的升值期，毋庸置疑。</p><p>在这段一个人的岁月里，请你学会独处，学会与自己对话，学会为自己的世界添砖加瓦。</p><p><b></b></p><p><b>尽早提升自己的价值，你将会有无限的可能。</b></p><p><b><b>fin.</b></b></p><p>最后有一点是要特别提醒你的：永远不要放弃独立。</p><p>即便今后你不再是一个人，也要时刻保持独立。</p><p>因为，没人喜欢一个过分依赖别人的人。</p>",
+      "paid_type": "free",
+      "first_shared_at": "2016-04-15T10:15:09.000+08:00",
+      "notebook_id": 1164146,
+      "commentable": true,
+      "wordage": 2875,
+      "paid_content_accessible": false,
+      "share_image_url": "http://upload-images.jianshu.io/upload_images/573708-3139c00b0d571cd9.jpg",
+      "show_paid_comment_tips": false,
+      "user": {
+        "id": 573708,
+        "slug": "72f7e8a56495",
+        "nickname": "叶上清之宿雨",
+        "gender": 0,
+        "avatar": "http://upload.jianshu.io/users/upload_avatars/573708/6fe11c7a1c5f.jpg",
+        "intro": "简书签约作者，情感主播\r\n文章首发在微信公众号：遇见宿雨（meetsuyu）\r\n微博@NJ宿雨...",
+        "wordage": 226926,
+        "likes_count": 45083,
+        "badges": [],
+        "vip": null,
+        "liked_by_user": false,
+        "liked_user": false
+      },
+      "distribution_more_earn_percent": 24
     }
   ]
   return arr;
 };
-function getNavCon(id,isTrue){
+// 评论
+function comment(){
+  let arr = [
+    {
+      "id":0,
+      'obj':[
+            {
+              "object": {
+                "type": 1,
+                "data": {
+                  "id": 33714670,
+                  "title": "死心塌地嫁给你，是我错了！",
+                  "slug": "c18f4b1aa6a7",
+                  "first_shared_at": "2018-09-20T10:42:37.000+08:00",
+                  "list_image_url": "http://upload-images.jianshu.io/upload_images/13967861-2e8169faadcc4c06",
+                  "public_abbr": "以下故事为保护当事人，用了化名并且做了适当的调整。 希望你能从中学到点什么，人生太短，不要让自己在痛苦里挣扎到结束...",
+                  "paid": false,
+                  "commentable": true,
+                  "user": {
+                    "id": 13967861,
+                    "nickname": "职场经验成长记",
+                    "slug": "2f26872d4a8f",
+                    "avatar": "http://upload.jianshu.io/users/upload_avatars/13967861/ef6dde47-aeb5-4e97-b576-5ecad88a5849.png"
+                  },
+                  "public_comments_count": 1,
+                  "total_rewards_count": 0,
+                  "likes_count": 0,
+                  "views_count": 11
+                }
+              }
+            },
+            {
+              "object": {
+                "type": 1,
+                "data": {
+                  "id": 34194059,
+                  "title": "儿女越活越是宝，父母越活越像草",
+                  "slug": "64a0dd0b721b",
+                  "first_shared_at": "2018-09-20T10:42:47.000+08:00",
+                  "list_image_url": "",
+                  "public_abbr": "1 那天，她像往常一样出现在胡同口，看着我和母亲来了，脸上绽出笑容。母亲远远的叫了声“娘”！ 姥姥经常站在胡同口等...",
+                  "paid": false,
+                  "commentable": true,
+                  "user": {
+                    "id": 12515130,
+                    "nickname": "蜗牛赴水",
+                    "slug": "20e695b248a1",
+                    "avatar": "http://upload.jianshu.io/users/upload_avatars/12515130/e6b56e12-c1a6-4b89-9ca4-218f3e63ad33.jpg"
+                  },
+                  "public_comments_count": 0,
+                  "total_rewards_count": 0,
+                  "likes_count": 0,
+                  "views_count": 3
+                }
+              }
+            },
+            {
+              "object": {
+                "type": 1,
+                "data": {
+                  "id": 34194913,
+                  "title": "午夜蓝的天空",
+                  "slug": "37a7dcfa9563",
+                  "first_shared_at": "2018-09-20T10:37:23.000+08:00",
+                  "list_image_url": "",
+                  "public_abbr": "午夜蓝的颜色 21岁那年，她开始穿蓝色。 那一年她大学毕业，那一年流行一种颜色：午夜蓝。不是午夜十分的蓝，而是天空...",
+                  "paid": false,
+                  "commentable": true,
+                  "user": {
+                    "id": 14110021,
+                    "nickname": "宝石stone",
+                    "slug": "1908398b42e1",
+                    "avatar": "http://cdn2.jianshu.io/assets/default_avatar/9-cceda3cf5072bcdd77e8ca4f21c40998.jpg"
+                  },
+                  "public_comments_count": 0,
+                  "total_rewards_count": 0,
+                  "likes_count": 0,
+                  "views_count": 1
+                }
+              }
+            },
+            {
+              "object": {
+                "type": 1,
+                "data": {
+                  "id": 34094347,
+                  "title": "怀念，不如相见！",
+                  "slug": "a5050a924b0a",
+                  "first_shared_at": "2018-09-18T16:53:47.000+08:00",
+                  "list_image_url": "",
+                  "public_abbr": "1. 刘夏从未想过，会以这种方式与他相见。 两条平行的直线，无法相交，似是注定的结局。 两个毫无相干的人，红尘偶遇...",
+                  "paid": false,
+                  "commentable": true,
+                  "user": {
+                    "id": 10466299,
+                    "nickname": "心有灵犀若叔夜",
+                    "slug": "90b2402e5652",
+                    "avatar": "http://upload.jianshu.io/users/upload_avatars/10466299/76abef2b-a9ca-4243-be37-a2ea592a08a7.jpg"
+                  },
+                  "public_comments_count": 0,
+                  "total_rewards_count": 0,
+                  "likes_count": 1,
+                  "views_count": 13
+                }
+              }
+            },
+            {
+              "object": {
+                "type": 1,
+                "data": {
+                  "id": 34194727,
+                  "title": "后宫",
+                  "slug": "0571b84ac7fe",
+                  "first_shared_at": "2018-09-20T10:28:07.000+08:00",
+                  "list_image_url": "",
+                  "public_abbr": "我是个冒险者，孜然一身，漂泊数年。 有天我遇到了一位精灵女性，她愿意与我一同上路。 我很开心。 酒馆的老板娘说，我...",
+                  "paid": false,
+                  "commentable": true,
+                  "user": {
+                    "id": 14117867,
+                    "nickname": "叔歧",
+                    "slug": "9494a6d5e82d",
+                    "avatar": "http://upload.jianshu.io/users/upload_avatars/14117867/ad6ce34c-3885-4ed2-8387-79fb92be942e.jpg"
+                  },
+                  "public_comments_count": 0,
+                  "total_rewards_count": 0,
+                  "likes_count": 0,
+                  "views_count": 2
+                }
+              }
+            },
+            {
+              "object": {
+                "type": 1,
+                "data": {
+                  "id": 34193343,
+                  "title": "回家",
+                  "slug": "8860441669fd",
+                  "first_shared_at": "2018-09-20T10:19:38.000+08:00",
+                  "list_image_url": "",
+                  "public_abbr": "  今年已经是柱子服刑的第三年，也是最后一年，还有两个月就刑满了。明天是柱子二十五岁生日。三年来，柱子每年生日母亲...",
+                  "paid": false,
+                  "commentable": true,
+                  "user": {
+                    "id": 14120079,
+                    "nickname": "mufo",
+                    "slug": "bb92defdcd45",
+                    "avatar": "http://upload.jianshu.io/users/upload_avatars/14120079/ccff757e-4efd-4422-9a9f-2e270c0a5491"
+                  },
+                  "public_comments_count": 0,
+                  "total_rewards_count": 0,
+                  "likes_count": 0,
+                  "views_count": 3
+                }
+              }
+            },
+            {
+              "object": {
+                "type": 1,
+                "data": {
+                  "id": 34194077,
+                  "title": "养私生子十八年，原配捅开惊天秘密",
+                  "slug": "375e7d9c64c8",
+                  "first_shared_at": "2018-09-20T10:17:29.000+08:00",
+                  "list_image_url": "",
+                  "public_abbr": "来源微信公众号：瓶里有故事，如需转载请联系该公众号，谢谢。 01 姑妈病重，我们一家开车回老家看她。 老公付勋开车...",
+                  "paid": false,
+                  "commentable": true,
+                  "user": {
+                    "id": 8665897,
+                    "nickname": "木木爱电影",
+                    "slug": "65bd0564dcee",
+                    "avatar": "http://upload.jianshu.io/users/upload_avatars/8665897/13bc7e1c-a081-41c0-a384-c2546e82d8e5.jpg"
+                  },
+                  "public_comments_count": 0,
+                  "total_rewards_count": 0,
+                  "likes_count": 0,
+                  "views_count": 3
+                }
+              }
+            },
+            {
+              "object": {
+                "type": 1,
+                "data": {
+                  "id": 34191682,
+                  "title": "荤酒令|短篇小说",
+                  "slug": "eeaffdb592a7",
+                  "first_shared_at": "2018-09-20T09:55:57.000+08:00",
+                  "list_image_url": "http://upload-images.jianshu.io/upload_images/11680122-432325b1653103c5.jpg",
+                  "public_abbr": "晓影，高挑、漂亮，性格柔顺。 杨帆，高大、帅气，喜欢沾花惹草。 二人结婚后，杨帆安分了两年，新鲜劲一过，又回复了本...",
+                  "paid": false,
+                  "commentable": true,
+                  "user": {
+                    "id": 11680122,
+                    "nickname": "机息心远",
+                    "slug": "0b5f5f12b844",
+                    "avatar": "http://upload.jianshu.io/users/upload_avatars/11680122/a0b67a54-ef9a-4e1d-834d-12b3788cfda0.jpg"
+                  },
+                  "public_comments_count": 0,
+                  "total_rewards_count": 0,
+                  "likes_count": 0,
+                  "views_count": 2
+                }
+              }
+            },
+            {
+              "object": {
+                "type": 1,
+                "data": {
+                  "id": 31748783,
+                  "title": "元和三年：李贺的少年心事",
+                  "slug": "42ec0e6cd3fd",
+                  "first_shared_at": "2018-08-02T22:53:02.000+08:00",
+                  "list_image_url": "",
+                  "public_abbr": "元和三年（808）,李贺18岁。 一年前，他应河南府试，凭着出众的才华，取得了“乡贡进士”的资格。元和三年的正月，...",
+                  "paid": false,
+                  "commentable": true,
+                  "user": {
+                    "id": 1475293,
+                    "nickname": "清水煮诗",
+                    "slug": "349138260a0b",
+                    "avatar": "http://upload.jianshu.io/users/upload_avatars/1475293/64a264df-3a0b-4f21-95ec-f53084c76021.jpg"
+                  },
+                  "public_comments_count": 0,
+                  "total_rewards_count": 0,
+                  "likes_count": 0,
+                  "views_count": 10
+                }
+              }
+            },
+            {
+              "object": {
+                "type": 1,
+                "data": {
+                  "id": 34180347,
+                  "title": "柴门·犬吠",
+                  "slug": "6c2ab875f2a8",
+                  "first_shared_at": "2018-09-19T22:53:56.000+08:00",
+                  "list_image_url": "",
+                  "public_abbr": "（一） 山村宁静，夜的篝火刚刚燃起，夕阳撒下的帷幕正好遮至边际。迷迷蒙蒙的夜是空气中堆积的黑色墨水，稀稀疏疏的几户...",
+                  "paid": false,
+                  "commentable": true,
+                  "user": {
+                    "id": 12047090,
+                    "nickname": "向向丫",
+                    "slug": "ee5b8822754e",
+                    "avatar": "http://upload.jianshu.io/users/upload_avatars/12047090/fe54bb4d-0faf-4e35-b86b-a8df35129f1b.jpg"
+                  },
+                  "public_comments_count": 0,
+                  "total_rewards_count": 0,
+                  "likes_count": 1,
+                  "views_count": 7
+                }
+              }
+            }
+          ]
+    },
+    {
+      "id":1,
+      'obj':[
+        {
+          "object": {
+            "type": 1,
+            "data": {
+              "id": 31523937,
+              "title": "消逝的民俗——作者：李冰倩",
+              "slug": "da9a2d181360",
+              "first_shared_at": "2018-07-29T12:17:34.000+08:00",
+              "list_image_url": "http://upload-images.jianshu.io/upload_images/9835749-97c93f7020ebd6f9.jpg",
+              "public_abbr": "1 热字当头，烈日当空。这样的日子里，炎热的喘息，早早躲进在冰凉舒适的空调房里，渡过须臾。热浪滚滚，似乎晓东则对于...",
+              "paid": false,
+              "commentable": true,
+              "user": {
+                "id": 9835749,
+                "nickname": "bollonmaster",
+                "slug": "2c5a9afb90d8",
+                "avatar": "http://upload.jianshu.io/users/upload_avatars/9835749/3fb45a2f-c739-415d-af69-9b49ca5dfb65.jpg"
+              },
+              "public_comments_count": 62,
+              "total_rewards_count": 6,
+              "likes_count": 76,
+              "views_count": 2431
+            }
+          }
+        },
+        {
+          "object": {
+            "type": 1,
+            "data": {
+              "id": 34119311,
+              "title": "意外",
+              "slug": "decebf6c2806",
+              "first_shared_at": "2018-09-19T21:43:18.000+08:00",
+              "list_image_url": "http://upload-images.jianshu.io/upload_images/7805492-06807db2cb683acf.jpg",
+              "public_abbr": "早晨九点钟刚过，这家单位就开启了一天紧张而忙碌的工作程序。 噔……噔噔……一阵阵儿急促上楼的脚步声此起彼伏，互相之...",
+              "paid": false,
+              "commentable": true,
+              "user": {
+                "id": 7805492,
+                "nickname": "风铃草_",
+                "slug": "7ee860ee7b12",
+                "avatar": "http://upload.jianshu.io/users/upload_avatars/7805492/a503926f-8f90-4f39-8eea-bd12decf3087"
+              },
+              "public_comments_count": 16,
+              "total_rewards_count": 0,
+              "likes_count": 21,
+              "views_count": 208
+            }
+          }
+        },
+        {
+          "object": {
+            "type": 1,
+            "data": {
+              "id": 34151802,
+              "title": "瑶城诡事",
+              "slug": "9d9da63c86c3",
+              "first_shared_at": "2018-09-19T12:37:02.000+08:00",
+              "list_image_url": "http://upload-images.jianshu.io/upload_images/3192203-8009104a6e457b4d.jpg",
+              "public_abbr": "我的灵异事件薄26（瑶城诡事） 本故事由真实事件改编，由真人讲述。 作者：绿萝讲述：付美钧 （你说恐惧不过是你不敢...",
+              "paid": false,
+              "commentable": true,
+              "user": {
+                "id": 3192203,
+                "nickname": "SN绿萝",
+                "slug": "6df61a793cd4",
+                "avatar": "http://upload.jianshu.io/users/upload_avatars/3192203/324e6453-b496-407c-af48-08b51c69e5bf.jpg"
+              },
+              "public_comments_count": 3,
+              "total_rewards_count": 0,
+              "likes_count": 2,
+              "views_count": 40
+            }
+          }
+        },
+        {
+          "object": {
+            "type": 1,
+            "data": {
+              "id": 24133567,
+              "title": "我最终没能熬过异地恋",
+              "slug": "24e0e81fd282",
+              "first_shared_at": "2018-02-20T10:52:45.000+08:00",
+              "list_image_url": "http://upload-images.jianshu.io/upload_images/7802175-e268ea69e7189c99.jpeg",
+              "public_abbr": "1 昨晚刷微博，看到有人说，当坚持之苦大过放弃之痛，就是该放手的时候了。 我瞬间湿了眼眶，因为我觉得这句话好像是说...",
+              "paid": false,
+              "commentable": true,
+              "user": {
+                "id": 7802175,
+                "nickname": "落篱子",
+                "slug": "4e51be50dfca",
+                "avatar": "http://upload.jianshu.io/users/upload_avatars/7802175/de871404-8fd9-416e-8c5b-87d22e52659f.jpg"
+              },
+              "public_comments_count": 52,
+              "total_rewards_count": 0,
+              "likes_count": 61,
+              "views_count": 1198
+            }
+          }
+        },
+        {
+          "object": {
+            "type": 1,
+            "data": {
+              "id": 34157144,
+              "title": "高明的黄太太",
+              "slug": "f7049b3d4457",
+              "first_shared_at": "2018-09-19T14:52:02.000+08:00",
+              "list_image_url": "",
+              "public_abbr": "屋外大雨倾盆，屋内春光乍泄。 张莹穿着黑色的镂空蕾丝内衣，曼妙的身材一览无遗，黑色如瀑的长发倾泻下来，小脸微仰，俏...",
+              "paid": false,
+              "commentable": true,
+              "user": {
+                "id": 14029783,
+                "nickname": "帘卷微风起",
+                "slug": "9c88be11873d",
+                "avatar": "http://upload.jianshu.io/users/upload_avatars/14029783/a4dd3579-5a03-475c-b124-79064486d378.jpg"
+              },
+              "public_comments_count": 6,
+              "total_rewards_count": 0,
+              "likes_count": 6,
+              "views_count": 185
+            }
+          }
+        },
+        {
+          "object": {
+            "type": 1,
+            "data": {
+              "id": 32990202,
+              "title": "舞之魂，心之动",
+              "slug": "62e4977ecdd2",
+              "first_shared_at": "2018-09-14T14:00:20.000+08:00",
+              "list_image_url": "http://upload-images.jianshu.io/upload_images/10910113-a09809b6daf6151d.jpg",
+              "public_abbr": "“旋转，跳跃，踢腿，好，转身，弯腰，好，注意，手与脚的配合。停！知羽，注意你的表情，你这是干什么？跳舞是一件愉悦的...",
+              "paid": false,
+              "commentable": true,
+              "user": {
+                "id": 10910113,
+                "nickname": "人海中的沙子",
+                "slug": "985b82764dbc",
+                "avatar": "http://upload.jianshu.io/users/upload_avatars/10910113/e29f1eb3-6777-4b65-b30f-7036961893f7.jpg"
+              },
+              "public_comments_count": 3,
+              "total_rewards_count": 0,
+              "likes_count": 14,
+              "views_count": 225
+            }
+          }
+        },
+        {
+          "object": {
+            "type": 1,
+            "data": {
+              "id": 33762306,
+              "title": "因女儿远嫁不能尽孝老人跳楼——被理解的陪伴才是最长情的告白",
+              "slug": "08486761fd65",
+              "first_shared_at": "2018-09-14T11:00:53.000+08:00",
+              "list_image_url": "",
+              "public_abbr": "1 最近，这则新闻火了，只因女儿在外地工作并交了男朋友，怕女儿不能留在自己身边尽孝，老人将家里的东西从七楼逐一抛下...",
+              "paid": false,
+              "commentable": true,
+              "user": {
+                "id": 6548400,
+                "nickname": "矫情小白菜",
+                "slug": "da6ed4878134",
+                "avatar": "http://upload.jianshu.io/users/upload_avatars/6548400/224b0d91-bdae-47c5-abd1-26b7df049b04.jpg"
+              },
+              "public_comments_count": 12,
+              "total_rewards_count": 0,
+              "likes_count": 8,
+              "views_count": 593
+            }
+          }
+        },
+        {
+          "object": {
+            "type": 1,
+            "data": {
+              "id": 29208708,
+              "title": "这样的女孩，真的很酷很漂亮",
+              "slug": "c28b3e8de0d4",
+              "first_shared_at": "2018-06-08T11:33:34.000+08:00",
+              "list_image_url": "http://upload-images.jianshu.io/upload_images/2090254-598af4e2f6ed53cf",
+              "public_abbr": "01 最近看了一档何炅主持的《儿行千里》节目，被其中一个22岁女孩谢仁慈的故事打动了。 四岁时，她跟着妈妈去朋友的...",
+              "paid": false,
+              "commentable": true,
+              "user": {
+                "id": 2090254,
+                "nickname": "漫漫Chan",
+                "slug": "6e176873807c",
+                "avatar": "http://upload.jianshu.io/users/upload_avatars/2090254/d933b60b-4056-4fc4-9a78-4d1223c91900.jpg"
+              },
+              "public_comments_count": 36,
+              "total_rewards_count": 0,
+              "likes_count": 296,
+              "views_count": 11819
+            }
+          }
+        },
+        {
+          "object": {
+            "type": 1,
+            "data": {
+              "id": 31155803,
+              "title": "我想睡你，与你的身体无关",
+              "slug": "cad89903ed1f",
+              "first_shared_at": "2018-07-26T09:35:19.000+08:00",
+              "list_image_url": "http://upload-images.jianshu.io/upload_images/4247381-b4bb9f3024b7baff.jpeg",
+              "public_abbr": "1. 我叫思嘉，是一个白领丽人，白天是写字楼里身穿高级定制套装的部门经理，做事利落干练，说一不二。 夜晚，我是妩媚...",
+              "paid": false,
+              "commentable": true,
+              "user": {
+                "id": 4247381,
+                "nickname": "佳人如玉",
+                "slug": "2469d71783ba",
+                "avatar": "http://upload.jianshu.io/users/upload_avatars/4247381/57049157-4f13-40cd-8f90-d82f2626b7e5.jpg"
+              },
+              "public_comments_count": 63,
+              "total_rewards_count": 0,
+              "likes_count": 157,
+              "views_count": 10484
+            }
+          }
+        },
+        {
+          "object": {
+            "type": 1,
+            "data": {
+              "id": 34187009,
+              "title": "愿你前程似锦，愿你有人陪伴",
+              "slug": "8e805f1af34c",
+              "first_shared_at": "2018-09-20T06:25:41.000+08:00",
+              "list_image_url": "http://upload-images.jianshu.io/upload_images/6326949-b3e8b72421036452.png",
+              "public_abbr": "文 | 彼怀 2018/09/20     星期四     天气晴 -1- 我们在世间兜兜转转，跑个不停，好像是弄...",
+              "paid": false,
+              "commentable": true,
+              "user": {
+                "id": 6326949,
+                "nickname": "彼怀",
+                "slug": "6ab6a4f9242b",
+                "avatar": "http://upload.jianshu.io/users/upload_avatars/6326949/7aa6a8d5-d1eb-4a43-9eba-c4f6289029c0.jpg"
+              },
+              "public_comments_count": 2,
+              "total_rewards_count": 0,
+              "likes_count": 5,
+              "views_count": 47
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id":2,
+      'obj':[
+        {
+          "object": {
+            "type": 1,
+            "data": {
+              "id": 3201298,
+              "title": "对啊，就是嫌你穷才分手的啊",
+              "slug": "5b37403f6ba6",
+              "first_shared_at": "2016-03-09T19:34:16.000+08:00",
+              "list_image_url": "http://upload-images.jianshu.io/upload_images/103920-4d118b7a8f23dfba.png",
+              "public_abbr": "文/七毛               -1- “饿。” 发完这条状态三小时后，我就成了杨哥的女友。 他把饥肠辘辘的...",
+              "paid": false,
+              "commentable": true,
+              "user": {
+                "id": 103920,
+                "nickname": "七毛是我",
+                "slug": "7b9d83da9052",
+                "avatar": "http://upload.jianshu.io/users/upload_avatars/103920/3ecd35742333.jpg"
+              },
+              "public_comments_count": 4149,
+              "total_rewards_count": 193,
+              "likes_count": 11343,
+              "views_count": 289504
+            }
+          }
+        },
+        {
+          "object": {
+            "type": 1,
+            "data": {
+              "id": 2584312,
+              "title": "其实也可以，先结婚再恋爱",
+              "slug": "cf6a27b72f1e",
+              "first_shared_at": "2015-12-22T17:09:49.000+08:00",
+              "list_image_url": "http://upload-images.jianshu.io/upload_images/1161272-5f4ebcab5c47fe60.jpg",
+              "public_abbr": "1 人家说，一个男人智商没有200就不要想着出轨了。可顾青智商可能连20都没到，居然也出轨了。 我当时准备跟顾青结...",
+              "paid": false,
+              "commentable": true,
+              "user": {
+                "id": 1161272,
+                "nickname": "听说阿念",
+                "slug": "18cb7688181e",
+                "avatar": "http://upload.jianshu.io/users/upload_avatars/1161272/759f8e2fbc0b"
+              },
+              "public_comments_count": 2227,
+              "total_rewards_count": 80,
+              "likes_count": 9576,
+              "views_count": 182611
+            }
+          }
+        },
+        {
+          "object": {
+            "type": 1,
+            "data": {
+              "id": 2769714,
+              "title": "分开以后我变成了你喜欢的样子",
+              "slug": "a78fd58f2943",
+              "first_shared_at": "2016-01-06T10:57:56.000+08:00",
+              "list_image_url": "http://upload-images.jianshu.io/upload_images/1297994-7d9f0e1fff6e9861.jpeg",
+              "public_abbr": "2016年的跨年夜，我没有看各大卫视的晚会，只是一个人看完了五月天2012年诺亚方舟演唱会的视频。 十一点半的时候...",
+              "paid": false,
+              "commentable": true,
+              "user": {
+                "id": 1297994,
+                "nickname": "Josie乔",
+                "slug": "3fdcc04b7bd7",
+                "avatar": "http://upload.jianshu.io/users/upload_avatars/1297994/fea8ebc19947.jpg"
+              },
+              "public_comments_count": 2222,
+              "total_rewards_count": 31,
+              "likes_count": 8909,
+              "views_count": 186378
+            }
+          }
+        },
+        {
+          "object": {
+            "type": 1,
+            "data": {
+              "id": 3588441,
+              "title": "单身是最好的升值期",
+              "slug": "1e4891ab59d8",
+              "first_shared_at": "2016-04-15T10:15:09.000+08:00",
+              "list_image_url": "http://upload-images.jianshu.io/upload_images/573708-3139c00b0d571cd9.jpg",
+              "public_abbr": "- 1 - 为什么单身？因为想变成更好的自己啊 昨晚在微信后台发起了一个话题“你单身吗？单身多久了？在你单身的这段...",
+              "paid": false,
+              "commentable": true,
+              "user": {
+                "id": 573708,
+                "nickname": "叶上清之宿雨",
+                "slug": "72f7e8a56495",
+                "avatar": "http://upload.jianshu.io/users/upload_avatars/573708/6fe11c7a1c5f.jpg"
+              },
+              "public_comments_count": 1890,
+              "total_rewards_count": 55,
+              "likes_count": 7901,
+              "views_count": 139876
+            }
+          }
+        },
+        {
+          "object": {
+            "type": 1,
+            "data": {
+              "id": 3592039,
+              "title": "你真的在努力吗？别骗自己了",
+              "slug": "9eb3f3368faa",
+              "first_shared_at": "2016-04-15T14:43:28.000+08:00",
+              "list_image_url": "http://upload-images.jianshu.io/upload_images/569985-f89e713d1eb9a026.png",
+              "public_abbr": "这世界上所有的东西都是等价的，你不努力就想着一步登天，别做梦了，好吗？ （一） 每次打开微博，都是几十条未关注人私...",
+              "paid": false,
+              "commentable": true,
+              "user": {
+                "id": 569985,
+                "nickname": "安梳颜",
+                "slug": "d90828191ace",
+                "avatar": "http://upload.jianshu.io/users/upload_avatars/569985/0b0cd539-7b8c-457c-acc7-7ed941bb0a69.jpg"
+              },
+              "public_comments_count": 1341,
+              "total_rewards_count": 44,
+              "likes_count": 7759,
+              "views_count": 126004
+            }
+          }
+        },
+        {
+          "object": {
+            "type": 1,
+            "data": {
+              "id": 3496651,
+              "title": "我所亲历的穷学生思维",
+              "slug": "6dafbf77ddcc",
+              "first_shared_at": "2016-04-07T17:27:33.000+08:00",
+              "list_image_url": "http://upload-images.jianshu.io/upload_images/1798462-33f98739d0a0efda.jpg",
+              "public_abbr": "老是被同事说学生气浓重，也经常有学生问，老师你是不是还没毕业？ 我猜想可能是因为经常背双肩包吧。 后来我斗胆微信上...",
+              "paid": false,
+              "commentable": true,
+              "user": {
+                "id": 1798462,
+                "nickname": "傻狍子豆",
+                "slug": "9f821ca9a902",
+                "avatar": "http://upload.jianshu.io/users/upload_avatars/1798462/2a1d2961b439.jpg"
+              },
+              "public_comments_count": 1367,
+              "total_rewards_count": 76,
+              "likes_count": 7462,
+              "views_count": 149963
+            }
+          }
+        },
+        {
+          "object": {
+            "type": 1,
+            "data": {
+              "id": 5179784,
+              "title": "有的人年纪轻轻就不行了",
+              "slug": "e7775e6c425c",
+              "first_shared_at": "2016-08-10T14:00:32.000+08:00",
+              "list_image_url": "http://upload-images.jianshu.io/upload_images/1053779-2242edbc5fc087a4.jpg",
+              "public_abbr": "01 坚持从来无关意志力，只是你不够重视而已。 2016年8月10日，对我来说是一个值得纪念的日子。今天是我连续吃...",
+              "paid": false,
+              "commentable": true,
+              "user": {
+                "id": 1053779,
+                "nickname": "悠南Alisa",
+                "slug": "24fd97d2fb87",
+                "avatar": "http://upload.jianshu.io/users/upload_avatars/1053779/7586cce4-3b20-4554-8ed3-c8cda1420b3d.jpg"
+              },
+              "public_comments_count": 1415,
+              "total_rewards_count": 37,
+              "likes_count": 6374,
+              "views_count": 134203
+            }
+          }
+        },
+        {
+          "object": {
+            "type": 1,
+            "data": {
+              "id": 1301270,
+              "title": "初恋教会我们爱",
+              "slug": "860b2d77ced1",
+              "first_shared_at": "2015-05-09T15:57:49.000+08:00",
+              "list_image_url": "",
+              "public_abbr": "文/宋小君 青春期，两件事能影响男人的一辈子——梦遗，初恋。 梦遗，让男人知道了世界上原来还有一件比玩具更好玩的事...",
+              "paid": false,
+              "commentable": true,
+              "user": {
+                "id": 396509,
+                "nickname": "宋小君",
+                "slug": "2870cb3c6f77",
+                "avatar": "http://upload.jianshu.io/users/upload_avatars/396509/8af1fe9bb4da"
+              },
+              "public_comments_count": 1130,
+              "total_rewards_count": 14,
+              "likes_count": 5439,
+              "views_count": 301591
+            }
+          }
+        },
+        {
+          "object": {
+            "type": 1,
+            "data": {
+              "id": 5298022,
+              "title": "20岁以后，你要学会富养自己",
+              "slug": "4b3606fae060",
+              "first_shared_at": "2016-08-16T12:58:48.000+08:00",
+              "list_image_url": "http://upload-images.jianshu.io/upload_images/1537594-721361a03e183669.JPG",
+              "public_abbr": "一 我会对自己说，阿夜，如果你不能改变目前的生存现状，那么，你要学会改变自己，只有改变了自己，生存状态也才会随之改...",
+              "paid": false,
+              "commentable": true,
+              "user": {
+                "id": 1537594,
+                "nickname": "十三夜",
+                "slug": "bfe4c3547845",
+                "avatar": "http://upload.jianshu.io/users/upload_avatars/1537594/4c696d93-c011-4f06-87ef-5ae70de3511f.jpg"
+              },
+              "public_comments_count": 1259,
+              "total_rewards_count": 76,
+              "likes_count": 5192,
+              "views_count": 117249
+            }
+          }
+        }
+      ]
+    }
+  ]
+  return arr
+};
+function getNavCon(id,ify){
   let len, res,i=0;
-  if(isTrue){
+  if(ify == '详情'){
     len = navCon()
+  }else if(ify == '主页'){
+    len = hotCon()
   }else{
-    len =hotCon()
+    len = comment()
   }
   len.forEach(function(i){
     if(id == i.id){

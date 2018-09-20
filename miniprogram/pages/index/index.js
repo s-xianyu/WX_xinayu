@@ -26,6 +26,7 @@ Page({
           })
       },300)
     })
+    console.log(this.data.list)
   },
   routersGo:function(e){
     wx.navigateTo({
@@ -43,9 +44,6 @@ Page({
     })
   }
 })
-
-
-
 
 
 
