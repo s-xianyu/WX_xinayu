@@ -1,8 +1,10 @@
 <!--pages/news/news.wxml-->
 <view class="container">
   <view class="header">
+    <view class="lgrad"></view>
     <view class="ul">
-      <view wx:for="{{list}}" wx:key="index" class="li"><text>{{item}}</text></view>
+      <view wx:for="{{list}}" wx:key="index" class="{{activeIndev==index?'li cur':'li'}}"><text>{{item}}</text></view>
     </view>
+    <view class="rgrad"></view>
   </view>
 </view>

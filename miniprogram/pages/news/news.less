@@ -9,8 +9,16 @@
   .ul{
     overflow: hidden;
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    display: flex;
+    overflow-scrolling: touch;
+    display: -webkit-box;
+    display: box;
+    padding-bottom: 30rpx;
+    //padding-top: 15rpx;
+    //transform: translateY(30rpx);
+    margin-bottom:-30rpx;
+    margin-left:40rpx;
+    margin-right:40rpx;
+
     .li{
      display:list-item;
       list-style: none;
@@ -19,12 +27,31 @@
       line-height: 90rpx;
       font-size:30rpx;
       color:#fff;
-      width:140rpx;
+      text-align: -webkit-match-parent;
+      margin:0 30rpx;
       text{
         display: block;
         height: 100%;
         line-height: 90rpx;
       }
     }
+    .li.cur text{
+      border-bottom:2rpx solid #fff;
+      height:86rpx;
+    }
+  }
+  .lgrad,.rgrad{
+    position: absolute;
+    left: 40rpx;
+    top: 0;
+    width: 50rpx;
+    height: 90rpx;
+    z-index: 1;
+    background-image: linear-gradient(to right,#ea6f5a 0,rgba(62,152,240,0) 100%);
+  }
+  .rgrad{
+    left: auto;
+    right: 40rpx;
+    background-image: linear-gradient(to left,#ea6f5a 0,rgba(62,152,240,0) 100%);
   }
 }
