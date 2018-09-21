@@ -1,22 +1,32 @@
 <!--pages/news/news.wxml-->
 <view class="container">
   <view class="header">
-    <view class="lgrad"></view>
-    <view class="ul">
+    <view class="navigator">
+      <view class="lgrad"></view>
+      <view class="ul">
+        <view
+                wx:for="{{list}}"
+                wx:key="index"
+                bindtap="newsList"
+                data-id="{{item.id}}"
+                class="{{activeIndex==index?'li cur':'li'}}">
+          <text>{{item.name}}</text></view>
+      </view>
+      <view class="rgrad"></view>
       <view
-              wx:for="{{list}}"
-              wx:key="index"
-              bindtap="newsList"
-              data-id="{{item.id}}"
-              class="{{activeIndex==index?'li cur':'li'}}">
-        <text>{{item.name}}</text></view>
+              class="more iconfont icon-jiantou9"
+              style="{{menuToggle?'transform: rotate(180deg)':''}}"
+              bindtap="menuShow"></view>
     </view>
-    <view class="rgrad"></view>
-    <view class="more iconfont icon-jiantou9"></view>
-    <view class="allMenu">
+    <view class="allMenu" wx:if="{{menuToggle}}">
       <view class="title">切换栏目</view>
       <ul>
-        <li wx:for="{{list}}" wx:key="{{index}}">{{item.name}}</li>
+        <li
+                bindtap="newListMenu"
+                data-id="{{item.id}}"
+                class="{{item.name.length==3&&activeIndex==index?'max cur':item.name.length==3?'max':activeIndex==index?'cur':''}}"
+                wx:for="{{list}}"
+                wx:key="{{index}}"><text>{{item.name}}</text></li>
       </ul>
     </view>
   </view>
@@ -40,5 +50,5 @@
       </ul>
     </view>
   </view>
-  <view class="bg"></view>
+  <view class="bg" wx:if="{{menuToggle}}" bindtap="hideAll"></view>
 </view>

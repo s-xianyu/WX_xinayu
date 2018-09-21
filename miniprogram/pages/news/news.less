@@ -1,67 +1,72 @@
 .header{
-  background:#ea6f5a;
+  background:#6b5f3d;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   position: fixed;
   top:0;
   left:0;
   right:0;
   z-index:100;
-  .ul{
+  .navigator{
     overflow: hidden;
-    overflow-x: auto;
-    overflow-scrolling: touch;
-    display: -webkit-box;
-    display: box;
-    padding-bottom: 30rpx;
-    //transform: translateY(30rpx);
-    margin:0 100rpx -30rpx 40rpx;
+    .ul{
+      overflow: hidden;
+      overflow-x: auto;
+      overflow-scrolling: touch;
+      display: -webkit-box;
+      display: box;
+      padding-bottom: 30rpx;
+      //transform: translateY(30rpx);
+      margin:0 100rpx -30rpx 40rpx;
 
-    .li{
-     display:list-item;
-      list-style: none;
+      .li{
+        display:list-item;
+        list-style: none;
+        height:90rpx;
+        text-align: center;
+        line-height: 90rpx;
+        font-size:32rpx;
+        color: #ffe7cb;
+        text-align: -webkit-match-parent;
+        margin:0 25rpx;
+        text{
+          display: block;
+          height: 100%;
+          line-height: 90rpx;
+          padding:0 8rpx;
+        }
+      }
+      .li.cur text{
+        border-bottom:4rpx solid #fff;
+        height:86rpx;
+        color:#fff;
+      }
+    }
+    .lgrad,.rgrad{
+      position: absolute;
+      left: 40rpx;
+      top: 0;
+      width: 50rpx;
+      height: 88rpx;
+      z-index: 1;
+      background-image: linear-gradient(to right,#6b5f3d 0,rgba(62,152,240,0) 100%);
+    }
+    .rgrad{
+      left: auto;
+      right: 95rpx;
+      background-image: linear-gradient(to left,#6b5f3d 0,rgba(62,152,240,0) 100%);
+    }
+    .more{
+      position:absolute;
+      right:0;
+      top:0;
+      width:90rpx;
       height:90rpx;
       text-align: center;
       line-height: 90rpx;
-      font-size:32rpx;
       color:#fff;
-      text-align: -webkit-match-parent;
-      margin:0 35rpx;
-      text{
-        display: block;
-        height: 100%;
-        line-height: 90rpx;
-      }
+      font-size:36rpx;
+      z-index: 101;
     }
-    .li.cur text{
-      border-bottom:4rpx solid #fff;
-      height:87rpx;
-    }
-  }
-  .lgrad,.rgrad{
-    position: absolute;
-    left: 40rpx;
-    top: 0;
-    width: 50rpx;
-    height: 90rpx;
-    z-index: 1;
-    background-image: linear-gradient(to right,#ea6f5a 0,rgba(62,152,240,0) 100%);
-  }
-  .rgrad{
-    left: auto;
-    right: 95rpx;
-    background-image: linear-gradient(to left,#ea6f5a 0,rgba(62,152,240,0) 100%);
-  }
-  .more{
-    position:absolute;
-    right:0;
-    top:0;
-    width:90rpx;
-    height:90rpx;
-    text-align: center;
-    line-height: 90rpx;
-    color:#fff;
-    font-size:36rpx;
-    z-index: 101;
   }
   .allMenu{
     position:absolute;
@@ -69,28 +74,42 @@
     left:0;
     right:0;
     z-index: 100;
-    background:#ea6f5a;
+    background:#6b5f3d;
     .title{
       height:90rpx;
       line-height: 90rpx;
       font-size:30rpx;
-      color:#fff;
+      color:#ffe7cb;
       width:80%;
       margin-left:30rpx;
     }
     ul{
       width:100%;
-      border-top:1px solid #ea9e9b;
+      border-top:1px solid #8c7d5a;
       display: block;
       li{
-        padding:0 45rpx;
+        width:16.6667%;
+        text-align: center;
         font-size:30rpx;
-        color:#fff;
+        color:#ffe7cb;
         height:90rpx;
         line-height:90rpx;
         display:inline-block;
       }
-      li:first-child:before{
+      li.max{
+        width:33.3333%;
+      }
+      li.cur{
+        text{
+          display:inline-block;
+          height:84rpx;
+          border-bottom:4rpx solid #fff;
+          padding:0 8rpx;
+          color:#fff;
+        }
+      }
+      li:first-child:before,
+      li:last-child:before{
         content: '';
         display:inline-block;
         width:96%;
@@ -98,7 +117,10 @@
         top:180rpx;
         left:50%;
         margin-left:-48%;
-        border-top:1px solid #ea9e9b;
+        border-top:1px solid #8c7d5a;
+      }
+      li:last-child:before{
+        top:270rpx;
       }
     }
   }
@@ -125,7 +147,7 @@
         border-bottom:1px solid #f0f0f0;
         .title{
           font-size:34rpx;
-          color:#777;
+          color:#6b5f3d;
           margin:0 auto 10rpx;
         }
         .img{
@@ -138,7 +160,7 @@
         }
         .tags{
           font-size:26rpx;
-          color:#999;
+          color:#6b5f3d;
           text{
             margin-right:15rpx;
           }

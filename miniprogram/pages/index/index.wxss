@@ -21,7 +21,7 @@
 #list ul li span.title {
   font-size: 36rpx;
   font-weight: bolder;
-  color: #333;
+  color: #6b5f3d;
   line-height: 50rpx;
   max-height: 100rpx;
   white-space: normal;
@@ -53,7 +53,6 @@
   max-width: 100%;
   max-height: 100%;
 }
-/*# sourceMappingURL=list.wxss.map */
 page {
   font-family: -apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif;
   color: #333;
@@ -94,6 +93,7 @@ page {
 .header span em {
   font-size: 30rpx;
   vertical-align: middle;
+  color: #6b5f3d;
 }
 .header span > view {
   display: flex;
@@ -104,7 +104,7 @@ page {
   justify-content: flex-end;
   padding-right: 30rpx;
   font-size: 28rpx;
-  color: #f60;
+  color: #6b5f3d;
 }
 .header span.downLoad i {
   vertical-align: middle;
@@ -137,6 +137,7 @@ page {
   display: flex;
   justify-content: flex-start;
   font-weight: 600;
+  color: #6b5f3d;
 }
 .homepage .hot .hotTop span:last-child {
   display: flex;
@@ -149,8 +150,8 @@ page {
   margin: 0 20rpx 20rpx 0;
   font-size: 24rpx;
   position: relative;
-  color: #ea6f5a;
-  border: 1px solid #ea6f5a;
+  color: #6b5f3d;
+  border: 1px solid #6b5f3d;
   border-radius: 10rpx;
 }
 #rotate {
@@ -164,4 +165,3 @@ page {
     transform: rotate(360deg);
   }
 }
-/*# sourceMappingURL=index.wxss.map */

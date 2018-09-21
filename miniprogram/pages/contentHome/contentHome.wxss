@@ -20,7 +20,7 @@
 #list ul li span.title {
   font-size: 36rpx;
   font-weight: bolder;
-  color: #333;
+  color: #6b5f3d;
   line-height: 50rpx;
   max-height: 100rpx;
   white-space: normal;
@@ -52,7 +52,6 @@
   max-width: 100%;
   max-height: 100%;
 }
-/*# sourceMappingURL=list.wxss.map */
 .header {
   height: 90rpx;
   box-sizing: border-box;
@@ -88,7 +87,7 @@
   justify-content: flex-end;
   padding-right: 30rpx;
   font-size: 28rpx;
-  color: #f60;
+  color: #6b5f3d;
 }
 .header span.downLoad i {
   vertical-align: middle;
@@ -124,6 +123,7 @@
 #main .main-info .summary .name {
   font-size: 36rpx;
   font-weight: bolder;
+  color: #6b5f3d;
 }
 #main .main-info .summary .desc {
   font-size: 26rpx;
@@ -131,14 +131,14 @@
   color: #999;
 }
 #main .main-info .summary .desc .nikeName {
-  color: blue;
+  color: #f60;
   display: inline-block;
   font-size: 26rpx;
   margin-right: 10rpx;
 }
 #main .main-info .summary .intro {
   font-size: 28rpx;
-  color: #484848;
+  color: #6b5f3d;
   line-height: 50rpx;
   overflow: hidden;
   position: relative;
@@ -152,7 +152,7 @@
 #main .main-info .summary .introHide {
   font-size: 30rpx;
   margin-top: 15rpx;
-  color: #484848;
+  color: #6b5f3d;
 }
 #main .main-info .summary .introHide .iconfont {
   transform: rotate(180deg);
@@ -184,15 +184,15 @@
 #main .list .listLi {
   flex: 1;
   font-size: 30rpx;
+  color: #6b5f3d;
 }
 #main .list .listLi.cur {
-  color: #ea6f5a;
+  color: #6b5f3d;
 }
 #main .list .listLi.cur:after {
   content: '';
   display: block;
   width: 55%;
   margin: 0 auto;
-  border-bottom: 2px solid #ea6f5a;
+  border-bottom: 2px solid #6b5f3d;
 }
-/*# sourceMappingURL=contentHome.wxss.map */

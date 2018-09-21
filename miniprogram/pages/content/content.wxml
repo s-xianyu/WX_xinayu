@@ -8,7 +8,7 @@
       <view class="info">
         <image src="{{content.user.avatar}}"></image>
         <span class="name">{{content.user.nickname}}</span>
-        <span class="label">简书作者</span>
+        <span class="label">咸yu作者</span>
       </view>
       <view class="mate">
         <view class="time">{{content.first_shared_at}}<icon class="iconfont icon-shouji01"></icon>打开APP</view>

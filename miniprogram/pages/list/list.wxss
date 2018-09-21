@@ -20,7 +20,7 @@
 #list ul li span.title {
   font-size: 36rpx;
   font-weight: bolder;
-  color: #333;
+  color: #6b5f3d;
   line-height: 50rpx;
   max-height: 100rpx;
   white-space: normal;
@@ -52,4 +52,3 @@
   max-width: 100%;
   max-height: 100%;
 }
-/*# sourceMappingURL=list.wxss.map */

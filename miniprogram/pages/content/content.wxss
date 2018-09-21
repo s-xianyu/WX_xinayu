@@ -33,7 +33,7 @@
   justify-content: flex-end;
   padding-right: 30rpx;
   font-size: 28rpx;
-  color: #f60;
+  color: #6b5f3d;
 }
 .header span.downLoad i {
   vertical-align: middle;
@@ -58,6 +58,7 @@
   font-weight: bolder;
   padding: 40rpx 0;
   line-height: 70rpx;
+  color: #6b5f3d;
 }
 #note .userInfo {
   margin-bottom: 20rpx;
@@ -81,16 +82,16 @@
 #note .userInfo .info span.name {
   margin: 0 8rpx;
   font-weight: 600;
-  color: #484848;
+  color: #6b5f3d;
 }
 #note .userInfo .info span.label {
   font-size: 24rpx;
-  border: 1rpx solid #e64340;
+  border: 1rpx solid #6b5f3d;
   border-radius: 6rpx;
   height: 30rpx;
   line-height: 28rpx;
   margin-top: 16rpx;
-  color: #e64340;
+  color: #6b5f3d;
 }
 #note .userInfo .mate .time {
   color: #999;
@@ -108,4 +109,3 @@
   color: #333;
   line-height: 58rpx;
 }
-/*# sourceMappingURL=content.wxss.map */

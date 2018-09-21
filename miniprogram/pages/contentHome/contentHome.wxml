@@ -7,7 +7,7 @@
       <view class="summary">
         <view class="name">{{contentHome.title}}</view>
         <view class="desc">
-          <navigator class="nikeName" target="">{{contentHome.owner.nickname}}</navigator>编, {{contentHome.notes_count}}篇文章, {{contentHome.subscribers_count}}人关注
+          <navigator class="nikeName" target="">咸yu</navigator>编, {{contentHome.notes_count}}篇文章, {{contentHome.subscribers_count}}人关注
         </view>
         <view class="intro" bindtap="intro">
           {{contentHome.content_without_html}}<view wx:if="{{introShow}}" class="iconfont icon-jiantou9"></view>

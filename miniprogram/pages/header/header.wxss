@@ -23,6 +23,7 @@
 .header span em {
   font-size: 30rpx;
   vertical-align: middle;
+  color: #6b5f3d;
 }
 .header span > view {
   display: flex;
@@ -48,4 +49,3 @@
   border-right: none;
   transition: all 300ms ease;
 }
-/*# sourceMappingURL=header.wxss.map */
