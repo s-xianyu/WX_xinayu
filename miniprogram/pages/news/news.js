@@ -16,6 +16,8 @@ Page({
         {name:'国内',id:'8'}
       ],
       activeIndex:1
+
+
   },
   newsList:function(e){
     this.data.activeIndex = e.currentTarget.dataset.id
