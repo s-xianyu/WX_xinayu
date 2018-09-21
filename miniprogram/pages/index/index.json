@@ -1,6 +1,3 @@
 {
-  "navigationBarTitleText": "简书",
-  "disableScroll": true,
-  "enablePullDownRefresh":true
-
+  "navigationBarTitleText": "简书"
 }

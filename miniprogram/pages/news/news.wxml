@@ -12,5 +12,33 @@
         <text>{{item.name}}</text></view>
     </view>
     <view class="rgrad"></view>
+    <view class="more iconfont icon-jiantou9"></view>
+    <view class="allMenu">
+      <view class="title">切换栏目</view>
+      <ul>
+        <li wx:for="{{list}}" wx:key="{{index}}">{{item.name}}</li>
+      </ul>
+    </view>
   </view>
+  <view class="homePage">
+    <view id="list">
+      <ul>
+        <li wx:for="{{newsList}}" wx:key="{{index}}" class="{{item.imgs.length==1?'select':''}}">
+          <view class="title">{{item.title}}</view>
+          <view class="img">
+            <image
+                    wx:for="{{item.imgs}}" wx:for-item="images"
+                    wx:key="{{index}}"
+                    wx-if="{{index<3}}"
+                    src="{{images}}"></image>
+          </view>
+          <view class="tags">
+            <text>{{item.author}}</text>
+            <text>{{item.display_time}}</text>
+          </view>
+        </li>
+      </ul>
+    </view>
+  </view>
+  <view class="bg"></view>
 </view>

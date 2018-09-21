@@ -1,5 +1,3 @@
 {
-  "navigationBarTitleText": "新闻",
-  "disableScroll": true,
-  "enablePullDownRefresh":true
+  "navigationBarTitleText": "新闻"
 }
