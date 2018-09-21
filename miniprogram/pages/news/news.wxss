@@ -14,9 +14,9 @@
   display: -webkit-box;
   display: box;
   padding-bottom: 30rpx;
-  margin-bottom: -30rpx;
-  margin-left: 40rpx;
-  margin-right: 40rpx;
+  padding-top: 15rpx;
+  transform: translateY(30rpx);
+  margin: -20rpx 40rpx 0 40rpx;
 }
 .header .ul .li {
   display: list-item;
@@ -35,8 +35,8 @@
   line-height: 90rpx;
 }
 .header .ul .li.cur text {
-  border-bottom: 2rpx solid #fff;
-  height: 86rpx;
+  border-bottom: 4rpx solid #fff;
+  height: 87rpx;
 }
 .header .lgrad,
 .header .rgrad {
@@ -53,3 +53,4 @@
   right: 40rpx;
   background-image: linear-gradient(to left, #ea6f5a 0, rgba(62, 152, 240, 0) 100%);
 }
+/*# sourceMappingURL=news.wxss.map */

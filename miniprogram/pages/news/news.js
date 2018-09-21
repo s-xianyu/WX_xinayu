@@ -1,12 +1,30 @@
 // pages/news/news.js
 Page({
-
   /**
    * 页面的初始数据
    */
   data: {
-    list:['推荐','本地','娱乐','军事','互联网','科技','生活','国际','国内'],
-      activeIndev:1
+    list:[
+        {name:'推荐',id:'0'},
+        {name:'本地',id:'1'},
+        {name:'娱乐',id:'2'},
+        {name:'军事',id:'3'},
+        {name:'互联网',id:'4'},
+        {name:'科技',id:'5'},
+        {name:'生活',id:'6'},
+        {name:'国际',id:'7'},
+        {name:'国内',id:'8'}
+      ],
+      activeIndex:1
+  },
+  newsList:function(e){
+    this.data.activeIndex = e.currentTarget.dataset.id
+    this.setData({
+      activeIndex:this.data.activeIndex
+    })
+    console.log(this.data.activeIndex)
+    console.log(e.currentTarget.dataset.id)
+
   },
 
   /**

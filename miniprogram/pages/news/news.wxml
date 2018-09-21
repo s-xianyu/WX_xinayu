@@ -3,7 +3,13 @@
   <view class="header">
     <view class="lgrad"></view>
     <view class="ul">
-      <view wx:for="{{list}}" wx:key="index" class="{{activeIndev==index?'li cur':'li'}}"><text>{{item}}</text></view>
+      <view
+              wx:for="{{list}}"
+              wx:key="index"
+              bindtap="newsList"
+              data-id="{{item.id}}"
+              class="{{activeIndex==index?'li cur':'li'}}">
+        <text>{{item.name}}</text></view>
     </view>
     <view class="rgrad"></view>
   </view>
