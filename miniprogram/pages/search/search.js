@@ -1,11 +1,17 @@
-// pages/news/news.js
+// pages/search/search.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    page:5
+    search:[
+        {name:'天凉好个秋',id:'0'},
+        {name:'互联网',id:'1'},
+        {name:'故事会',id:'2'},
+        {name:'吃鸡|140字微小说',id:'3'},
+        {name:'最近桑塔搬家了，换了座新的城市，也换了个新的小窝。虽然是租来的房子，但看着空荡荡的新家',id:'4'},
+    ]
   },
 
   /**
@@ -14,6 +20,7 @@ Page({
   onLoad: function (options) {
 
   },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

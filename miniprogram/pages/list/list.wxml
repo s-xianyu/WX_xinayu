@@ -3,6 +3,7 @@
     <ul>
       <li data-id="{{item.object.data.id}}"
           wx:for="{{list}}" wx:key="{{index}}"
+          wx-if="{{index < page}}"
           bindtap="routersGo"
           class="{{item.object.data.list_image_url!='' ? 'hoverimage' : ''}}">
         <view class="content">

@@ -1,13 +1,14 @@
 {
   "cloud": true,
   "pages": [
-    "pages/news/news",
     "pages/index/index",
+    "pages/news/news",
     "pages/header/header",
     "pages/home/home",
     "pages/content/content",
     "pages/contentHome/contentHome",
-    "pages/list/list"
+    "pages/list/list",
+    "pages/search/search"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

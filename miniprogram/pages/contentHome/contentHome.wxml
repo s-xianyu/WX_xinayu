@@ -27,6 +27,6 @@
               data-id="{{item.id}}">{{item.name}}</view>
     </view>
     <import src="../list/list.wxml"/>
-    <template is="list" data="{{list}}"/>
+    <template is="list" data="{{list,page}}"/>
   </view>
 </view>

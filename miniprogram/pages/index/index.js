@@ -7,7 +7,10 @@ Page({
     list:fileData.List(),
     rotate:false,
     hoverimage:false,
-    num:0
+    num:0,
+    page:5,
+    loadMoreData: '加载中...',
+    hideBottom:true
   },
   onLoad:function(){
   },
@@ -38,10 +41,29 @@ Page({
       url:'../contentHome/contentHome?id='+e.currentTarget.dataset.id
     })
   },
-  loginGetUrl:function(){
-    wx.switchTab({
-      url:'../home/home'
+    searchWxml:function(){
+    wx.navigateTo({
+      url:'../search/search'
     })
+  },
+  loadMore:function(){
+
+    var that = this;
+    if(that.data.page > that.data.list.length){
+      that.setData({
+        loadMoreData:'全部加载完成'
+      })
+    }
+    var thatPage = that.data.page
+    thatPage=thatPage+5
+    setTimeout(function(){
+      that.data.page+=5;
+      that.setData({
+        page:thatPage,
+        hideBottom:false
+      })
+    },1000)
+
   }
 })
 

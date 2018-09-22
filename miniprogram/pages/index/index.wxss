@@ -37,14 +37,14 @@
   color: #999;
 }
 #list ul li.hoverimage .content {
-  padding-right: 200rpx;
+  padding-right: 190rpx;
   position: relative;
 }
 #list ul li.hoverimage .content .wrapimage {
   width: 150rpx;
   height: 150rpx;
   position: absolute;
-  right: 20rpx;
+  right: 0;
   top: 50%;
   margin-top: -75rpx;
 }
@@ -52,6 +52,13 @@
   display: block;
   max-width: 100%;
   max-height: 100%;
+}
+.loading {
+  text-align: center;
+  font-size: 30rpx;
+  color: #999;
+  height: 80rpx;
+  line-height: 80rpx;
 }
 page {
   font-family: -apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif;
@@ -108,8 +115,8 @@ page {
 }
 .header span.downLoad i {
   vertical-align: middle;
-  font-size: 28rpx;
-  margin-top: 5rpx;
+  font-size: 36rpx;
+  margin-right: 15rpx;
 }
 .homepage {
   margin-top: 90rpx;

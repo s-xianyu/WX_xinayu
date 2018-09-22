@@ -18,7 +18,8 @@ Page({
         {name:'热门',id:'2'}
       ],
     activeIndex:1,
-    attention:true
+    attention:true,
+    page:null
   },
 
   /**
@@ -36,7 +37,8 @@ Page({
     this.setData({
       id:options.id,
       contentHome:this.data.contentHome,
-      list:this.data.list
+      list:this.data.list,
+      page:this.data.list.length
     });
     console.log(this.data.list)
   },

@@ -67,6 +67,19 @@ Page({
     console.log(returnText)
     return returnText;
   },
+  downFile:function(){
+    console.log(1)
+    wx.downloadFile({
+      url:'http://upload-images.jianshu.io/upload_images/573708-3139c00b0d571cd9.jpg',
+      success(res){
+        if(res.statusCode === 200){
+          wx.playVoice({
+            filePath: res.tempFilePath
+          })
+        }
+      }
+    })
+  },
 
   /**
    * 生命周期函数--监听页面初次渲染完成

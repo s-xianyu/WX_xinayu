@@ -1,0 +1,60 @@
+.input {
+  position: relative;
+  display: block;
+  padding: 30rpx 0;
+  border-bottom: 1px solid #f1f1f1;
+}
+.input input {
+  display: block;
+  margin: 0 30rpx;
+  background: #f1f1f1;
+  border-radius: 50rpx;
+  padding-left: 90rpx;
+  font-size: 28rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  color: #999;
+}
+.input .iconfont {
+  position: absolute;
+  top: 50%;
+  left: 60rpx;
+  width: 30rpx;
+  height: 30rpx;
+  margin-top: -15rpx;
+  color: #6b5f3d;
+}
+.hotSearch {
+  margin: 0 30rpx;
+}
+.hotSearch .title {
+  font-size: 30rpx;
+  color: #666;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.hotSearch .searchUi ul li {
+  display: block;
+  font-size: 26rpx;
+  color: #999;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 1px dashed #f1f1f1;
+  position: relative;
+  padding: 0 10rpx;
+}
+.hotSearch .searchUi ul li text {
+  width: 88%;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.hotSearch .searchUi ul li i {
+  position: absolute;
+  right: 10rpx;
+  top: 0;
+}
+.hotSearch .searchUi ul li:first-child {
+  border-top: 1px dashed #f1f1f1;
+}

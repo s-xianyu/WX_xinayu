@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'iconfont';  /* project id 262987 */
-  src: url('//at.alicdn.com/t/font_262987_vjs5cgt7c2a.eot');
-  src: url('//at.alicdn.com/t/font_262987_vjs5cgt7c2a.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_262987_vjs5cgt7c2a.woff') format('woff'),
-  url('//at.alicdn.com/t/font_262987_vjs5cgt7c2a.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_262987_vjs5cgt7c2a.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_262987_nfrp4ii5rv.eot');
+  src: url('//at.alicdn.com/t/font_262987_nfrp4ii5rv.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_262987_nfrp4ii5rv.woff') format('woff'),
+  url('//at.alicdn.com/t/font_262987_nfrp4ii5rv.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_262987_nfrp4ii5rv.svg#iconfont') format('svg');
 }
 .iconfont {
   font-family: "iconfont" !important;
@@ -18,6 +18,8 @@
 .icon-shuaxin:before { content: "\e650"; }
 
 .icon-prev:before { content: "\e600"; }
+
+.icon-sousuo:before { content: "\e651"; }
 
 .icon-xiayiye:before { content: "\e6cc"; }
 

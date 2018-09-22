@@ -8,6 +8,6 @@
           <em>创作你的创作</em>
         </view>
       </span>
-    <span class="downLoad" bindtap="loginGetUrl">免费下载<i class="iconfont icon-xiayiye">{{xiayiye}}</i></span>
+    <span class="downLoad" bindtap="downFile">免费下载<i class="iconfont icon-xiayiye">{{xiayiye}}</i></span>
   </view>
 </template>

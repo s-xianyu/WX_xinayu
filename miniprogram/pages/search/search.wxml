@@ -1,0 +1,17 @@
+<page>
+    <view class="input">
+        <input placeholder="互联网"/>
+        <i class="iconfont icon-sousuo"></i>
+    </view>
+    <view class="hotSearch">
+        <view class="title">热门搜索</view>
+        <view class="searchUi">
+            <ul>
+                <li wx:for="{{search}}" wx:key="{{index}}">
+                    <text>{{item.name}}</text>
+                    <i class="iconfont icon-xiayiye"></i>
+                </li>
+            </ul>
+        </view>
+    </view>
+</page>

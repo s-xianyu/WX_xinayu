@@ -11,19 +11,24 @@
           <em>创作你的创作</em>
         </view>
       </span>
-    <span class="downLoad" bindtap="loginGetUrl">登录<i class="iconfont icon-xiayiye">{{xiayiye}}</i></span>
+    <span class="downLoad" bindtap="searchWxml"><i class="iconfont icon-sousuo">{{xiayiye}}</i></span>
   </view>
-  <view class="homepage">
-    <view class="hot">
-      <view class="hotTop">
-        <span>热门专题</span>
-        <span bindtap="randomNum"><i id="{{rotate ? 'rotate' : ''}}" class="iconfont icon-shuaxin">{{shuaxin}}</i>换一批</span>
+  <scroll-view scroll-y bindscrolltolower="loadMore" style="height:794px">
+    <view class="homepage">
+      <view class="hot">
+        <view class="hotTop">
+          <span>热门专题</span>
+          <span bindtap="randomNum"><i id="{{rotate ? 'rotate' : ''}}" class="iconfont icon-shuaxin">{{shuaxin}}</i>换一批</span>
+        </view>
+        <view class="hotCon">
+          <span data-id="{{item.id}}" wx:for="{{hot[num]}}" wx:key="{{index}}" bindtap="contentHome">{{item.title}}</span>
+        </view>
       </view>
-      <view class="hotCon">
-        <span data-id="{{item.id}}" wx:for="{{hot[num]}}" wx:key="{{index}}" bindtap="contentHome">{{item.title}}</span>
-      </view>
+      <import src="../list/list.wxml"/>
+      <template is="list" data="{{list,page}}"/>
     </view>
-    <import src="../list/list.wxml"/>
-    <template is="list" data="{{list}}"/>
-  </view>
+    <view class="loading">
+      {{loadMoreData}}
+    </view>
+  </scroll-view>
 </view>
