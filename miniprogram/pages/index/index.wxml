@@ -13,7 +13,7 @@
       </span>
     <span class="downLoad" bindtap="searchWxml"><i class="iconfont icon-sousuo">{{xiayiye}}</i></span>
   </view>
-  <scroll-view scroll-y bindscrolltolower="loadMore" style="height:794px">
+  <scroll-view scroll-y="true" bindscrolltolower="loadMore" style="height:794px">
     <view class="homepage">
       <view class="hot">
         <view class="hotTop">

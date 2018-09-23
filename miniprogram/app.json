@@ -1,20 +1,20 @@
 {
   "cloud": true,
   "pages": [
+    "pages/home/home",
     "pages/index/index",
     "pages/news/news",
     "pages/header/header",
-    "pages/home/home",
     "pages/content/content",
     "pages/contentHome/contentHome",
     "pages/list/list",
     "pages/search/search"
   ],
   "window": {
-    "backgroundColor": "#F6F6F6",
-    "navigationBarBackgroundColor": "#F6F6F6",
+    "backgroundColor": "#6b5f3d",
+    "navigationBarBackgroundColor": "#6b5f3d",
     "navigationBarTitleText": "",
-    "navigationBarTextStyle": "black",
+    "navigationBarTextStyle": "white",
     "backgroundTextStyle":"light",
     "enablePullDownRefresh":true,
     "onReachBottomDistance":50

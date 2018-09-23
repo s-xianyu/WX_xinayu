@@ -1,16 +1,31 @@
-<view class="header" hidden="{{hideHeader}}">
-    <view>下拉刷新中……</view>
-    <view>{{refreshTime}}</view>
-</view>
-<scroll-view class="list" style="height: 1208rpx" scroll-y="true" bindscrolltolower="loadMore">
-<view class="item" wx:for="{{contentlist}}" wx:key="index">
-    <view class="left">
-        <image src="{{item.contentImg}}"></image>
+<page>
+    <view class="container">
+        <view class="login">
+            <text>长得好看的都登录了</text>
+            <button>登录/注册</button>
+        </view>
+        <view class="list">
+            <view class="li">
+                <view>
+                    <i class="iconfont icon-guanzhu"></i>
+                    <text>关注</text>
+                </view>
+                <view>
+                    <i class="iconfont icon-fensi1"></i>
+                    <text>粉丝</text>
+                </view>
+                <view>
+                    <i class="iconfont icon-xingzhuang"></i>
+                    <text>金额</text></view>
+            </view>
+        </view>
+        <view class="fs">
+            <view class="li">
+                <view wx:for="{{fs}}" wx:key="{{index}}" data-id="{{index}}">
+                    <text>{{item}}</text>
+                    <i class="iconfont icon-xiayiye"></i>
+                </view>
+            </view>
+        </view>
     </view>
-    <view class="right">{{item.title}}</view>
-</view>
-</scroll-view>
-<view class="bottom" hidden="{{hideBottom}}">
-<view>{{loadMoreData}}</view>
-<view>{{refreshTime}}</view>
-</view>
+</page>

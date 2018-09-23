@@ -10,7 +10,7 @@ Page({
     num:0,
     page:5,
     loadMoreData: '加载中...',
-    hideBottom:true
+    hideBottom:true,
   },
   onLoad:function(){
   },
@@ -48,14 +48,14 @@ Page({
   },
   loadMore:function(){
 
-    var that = this;
-    if(that.data.page > that.data.list.length){
+    let that = this;
+    if(that.data.page >= that.data.list.length){
       that.setData({
         loadMoreData:'全部加载完成'
       })
     }
-    var thatPage = that.data.page
-    thatPage=thatPage+5
+    let thatPage = that.data.page
+    thatPage+=5
     setTimeout(function(){
       that.data.page+=5;
       that.setData({
@@ -63,9 +63,8 @@ Page({
         hideBottom:false
       })
     },1000)
-
-  }
-})
+  },
+});
 
 
 
