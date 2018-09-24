@@ -1,9 +1,9 @@
 {
   "cloud": true,
   "pages": [
-    "pages/home/home",
     "pages/index/index",
     "pages/news/news",
+    "pages/home/home",
     "pages/header/header",
     "pages/content/content",
     "pages/contentHome/contentHome",
