@@ -36,14 +36,14 @@
   color: #999;
 }
 #list ul li.hoverimage .content {
-  padding-right: 200rpx;
+  padding-right: 190rpx;
   position: relative;
 }
 #list ul li.hoverimage .content .wrapimage {
   width: 150rpx;
   height: 150rpx;
   position: absolute;
-  right: 20rpx;
+  right: 0;
   top: 50%;
   margin-top: -75rpx;
 }
@@ -51,6 +51,13 @@
   display: block;
   max-width: 100%;
   max-height: 100%;
+}
+.loading {
+  text-align: center;
+  font-size: 30rpx;
+  color: #999;
+  height: 80rpx;
+  line-height: 80rpx;
 }
 .header {
   height: 90rpx;
@@ -196,3 +203,4 @@
   margin: 0 auto;
   border-bottom: 2px solid #6b5f3d;
 }
+/*# sourceMappingURL=contentHome.wxss.map */
