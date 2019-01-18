@@ -1,18 +1,36 @@
 // pages/home/home.js
-var order = ['red', 'yellow', 'blue', 'green', 'red']
+const order = ['red', 'yellow', 'blue', 'green', 'red'];
+let that;
+import common from '../../public/common' // 全局JS
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    fs:['我发布的','我的浏览记录','我获得的打赏']
+    fs:['我发布的','我的浏览记录','我获得的打赏'],
+    isLogin: false, //登录状态
+    userInfo:'', //用户信息
+    hidden: true, //自定义弹框显示
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    that = this;
+    wx.getStorage({
+      key: 'info',
+      success: res => {
+       if(res.data){
+         that.setData({
+           userInfo:res.data,
+           isLogin:true,
+         })
+       }
+      }
+    });
+
   },
 
   /**
@@ -62,5 +80,35 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  //获取用户信息并保存
+  getUserInfo:(e)=>{
+    let info;
+    info = e.detail.userInfo;
+    console.log(info)
+    that.setData({
+      userInfo:info,
+      isLogin:true
+    })
+    wx.setStorageSync('info',info)
+  },
+  // 退出登录
+  outLogin:()=>{
+    that.setData({
+      hidden: false
+    });
+  },
+  cancel:()=>{
+    that.setData({
+      hidden: true
+    });
+  },
+  confirm: ()=>{
+    that.setData({
+      userInfo:{},
+      isLogin:false,
+      hidden:true,
+    });
+    wx.clearStorage('info');
   }
 })

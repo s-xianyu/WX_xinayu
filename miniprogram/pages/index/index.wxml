@@ -13,7 +13,7 @@
       </span>
     <span class="downLoad" bindtap="searchWxml"><i class="iconfont icon-sousuo">{{xiayiye}}</i></span>
   </view>
-  <scroll-view scroll-y="true" bindscrolltolower="loadMore" style="height:794px">
+  <scroll-view scroll-y="true" bindscroll="scroll" bindscrolltolower="loadMore" style="height:794px">
     <view class="homepage">
       <view class="hot">
         <view class="hotTop">
@@ -23,6 +23,10 @@
         <view class="hotCon">
           <span data-id="{{item.id}}" wx:for="{{hot[num]}}" wx:key="{{index}}" bindtap="contentHome">{{item.title}}</span>
         </view>
+      </view>
+      <view class="mmm" wx:if="{{!scroll}}">
+        <span>热门专题</span>
+        <span>更多精选</span>
       </view>
       <import src="../list/list.wxml"/>
       <template is="list" data="{{list,page}}"/>

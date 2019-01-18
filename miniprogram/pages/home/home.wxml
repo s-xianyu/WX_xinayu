@@ -1,8 +1,20 @@
 <page>
     <view class="container">
         <view class="login">
-            <text>长得好看的都登录了</text>
-            <button>登录/注册</button>
+            <view class="isFalse" wx:if="{{!isLogin}}">
+                <text>长得好看的都登录了</text>
+                <button open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="getUserInfo">登录/注册</button>
+            </view>
+            <view class="isTrue" wx:else>
+                <view class="img">
+                    <image bindtap="outLogin" src="{{userInfo.avatarUrl}}"></image>
+                </view>
+                <view class="text">
+                    <text>{{userInfo.nickName}}</text>
+                    <view class="member">领取会员福利</view>
+                </view>
+                <view class="memberBtn">续费会员</view>
+            </view>
         </view>
         <view class="list">
             <view class="li">
@@ -28,4 +40,7 @@
             </view>
         </view>
     </view>
+    <modal hidden="{{hidden}}" title="确定退出登录吗？" confirm-text="确认退出" cancel-text="取消" bindcancel="cancel" bindconfirm="confirm">
+        <text>\n\t\n\t\n\t\n\t</text>
+    </modal>
 </page>

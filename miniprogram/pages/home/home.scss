@@ -8,18 +8,63 @@ page{
     background:linear-gradient(0,#f1f1f1,#6b5f3d 10%);
     text-align: center;
     font-size:32rpx;
-    text{
-      display:block;
-      color:#fff;
-      padding-top:20rpx;
+    position:relative;
+    .isFalse{
+      text{
+        display:block;
+        color:#fff;
+        padding-top:20rpx;
+      }
+      button{
+        width:30%;
+        height:70rpx;
+        line-height:70rpx;
+        background: #fff;
+        color:#6b5f3d;
+        margin-top:20rpx;
+      }
     }
-    button{
-      width:30%;
-      height:70rpx;
-      line-height:70rpx;
-      background: #fff;
-      color:#6b5f3d;
-      margin-top:20rpx;
+    .isTrue{
+      padding:30rpx 30rpx 0;
+      display: flex;
+      .img{
+        background:#fff;
+        border-radius: 50%;
+        image{
+          display: block;
+          width:120rpx;
+          height:120rpx;
+          border-radius: 50%;
+          overflow: hidden;
+          margin:5rpx;
+        }
+      }
+      .text{
+        color:#fff;
+        text-align: left;
+        margin-left:20rpx;
+        text{
+          color:#fff;
+          line-height: 70rpx;
+        }
+        .member{
+          font-size:22rpx;
+          border-radius: 20rpx;
+          border:1px solid #fff;
+          padding:4rpx 10rpx;
+        }
+      }
+      .memberBtn{
+        position:absolute;
+        top:50%;
+        right:0;
+        color:#fff;
+        margin-top:-60rpx;
+        font-size:25rpx;
+        padding:8rpx 10rpx 8rpx 20rpx;
+        background: #ffb73a;
+        border-radius: 30rpx 0 0 30rpx;
+      }
     }
   }
   .list{

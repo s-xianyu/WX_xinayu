@@ -1,6 +1,6 @@
 <page>
     <view class="input">
-        <input placeholder="互联网"/>
+        <input bindtap="listenerPhoneInput" value="" focus="{{focus}}" placeholder="互联网"/>
         <i class="iconfont icon-sousuo"></i>
     </view>
     <view class="hotSearch">

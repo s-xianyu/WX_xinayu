@@ -8,7 +8,8 @@ Page({
   data: {
     id:'', // 传参ID
     content:{},// 数据列表
-    more:true
+    more:true,
+    status:true,
   },
 
   /**
@@ -127,6 +128,11 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-
+    let id = this.data.id;
+    return {
+      title:'来咸鱼，给你好看',
+      path:'../content/content?id='+id,
+      imageUrl:''
+    }
   }
 })

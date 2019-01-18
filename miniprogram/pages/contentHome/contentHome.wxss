@@ -1,64 +1,56 @@
 #list {
   margin-top: 15rpx;
   background: #fff;
-  padding: 0 30rpx;
-}
-#list ul {
-  position: relative;
-  display: block;
-}
-#list ul li {
-  display: block;
-  border-bottom: 1rpx solid #f0f0f0;
-  padding: 30rpx 0;
-  position: relative;
-  width: 100%;
-}
-#list ul li span {
-  display: block;
-}
-#list ul li span.title {
-  font-size: 36rpx;
-  font-weight: bolder;
-  color: #6b5f3d;
-  line-height: 50rpx;
-  max-height: 100rpx;
-  white-space: normal;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-}
-#list ul li span.abstract {
-  margin-top: 15rpx;
-  font-size: 26rpx;
-  color: #999;
-}
-#list ul li.hoverimage .content {
-  padding-right: 190rpx;
-  position: relative;
-}
-#list ul li.hoverimage .content .wrapimage {
-  width: 150rpx;
-  height: 150rpx;
-  position: absolute;
-  right: 0;
-  top: 50%;
-  margin-top: -75rpx;
-}
-#list ul li.hoverimage .content .wrapimage image {
-  display: block;
-  max-width: 100%;
-  max-height: 100%;
-}
+  padding: 0 30rpx; }
+  #list ul {
+    position: relative;
+    display: block; }
+    #list ul li {
+      display: block;
+      border-bottom: 1rpx solid #f0f0f0;
+      padding: 30rpx 0;
+      position: relative;
+      width: 100%; }
+      #list ul li span {
+        display: block; }
+      #list ul li span.title {
+        font-size: 36rpx;
+        font-weight: bolder;
+        color: #6b5f3d;
+        line-height: 50rpx;
+        max-height: 100rpx;
+        white-space: normal;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical; }
+      #list ul li span.abstract {
+        margin-top: 15rpx;
+        font-size: 26rpx;
+        color: #999; }
+    #list ul li.hoverimage .content {
+      padding-right: 190rpx;
+      position: relative; }
+      #list ul li.hoverimage .content .wrapimage {
+        width: 150rpx;
+        height: 150rpx;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        margin-top: -75rpx; }
+        #list ul li.hoverimage .content .wrapimage image {
+          display: block;
+          max-width: 100%;
+          max-height: 100%; }
+
 .loading {
   text-align: center;
   font-size: 30rpx;
   color: #999;
   height: 80rpx;
-  line-height: 80rpx;
-}
+  line-height: 80rpx; }
+
 .header {
   height: 90rpx;
   box-sizing: border-box;
@@ -68,139 +60,117 @@
   left: 0;
   right: 0;
   z-index: 100;
-  display: flex;
-}
-.header span {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.header span image {
-  width: 103rpx;
-  height: 77rpx;
-  margin-right: 25rpx;
-}
-.header span em {
-  font-size: 30rpx;
-  vertical-align: middle;
-}
-.header span > view {
-  display: flex;
-  justify-content: flex-start;
-}
-.header span.downLoad {
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 30rpx;
-  font-size: 28rpx;
-  color: #6b5f3d;
-}
-.header span.downLoad i {
-  vertical-align: middle;
-  font-size: 28rpx;
-  margin-top: 5rpx;
-}
+  display: flex; }
+  .header span {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .header span image {
+      width: 103rpx;
+      height: 77rpx;
+      margin-right: 25rpx; }
+    .header span em {
+      font-size: 30rpx;
+      vertical-align: middle; }
+  .header span > view {
+    display: flex;
+    justify-content: flex-start; }
+  .header span.downLoad {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30rpx;
+    font-size: 28rpx;
+    color: #6b5f3d; }
+    .header span.downLoad i {
+      vertical-align: middle;
+      font-size: 28rpx;
+      margin-top: 5rpx; }
+
 .header {
   width: 100%;
   background: #fff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-left: none;
   border-right: none;
-  transition: all 300ms ease;
-}
+  transition: all 300ms ease; }
+
 #main {
   margin-top: 90rpx;
-  background: #fff;
-}
-#main .main-info {
-  overflow: hidden;
-  padding: 40rpx 30rpx;
-}
-#main .main-info image {
-  width: 145rpx;
-  height: 145rpx;
-  border-radius: 10rpx;
-  border: 1px solid #ddd;
-}
-#main .main-info .summary {
-  float: right;
-  width: 75%;
-}
-#main .main-info .summary .name {
-  font-size: 36rpx;
-  font-weight: bolder;
-  color: #6b5f3d;
-}
-#main .main-info .summary .desc {
-  font-size: 26rpx;
-  margin: 10rpx 0;
-  color: #999;
-}
-#main .main-info .summary .desc .nikeName {
-  color: #f60;
-  display: inline-block;
-  font-size: 26rpx;
-  margin-right: 10rpx;
-}
-#main .main-info .summary .intro {
-  font-size: 28rpx;
-  color: #6b5f3d;
-  line-height: 50rpx;
-  overflow: hidden;
-  position: relative;
-}
-#main .main-info .summary .intro .iconfont {
-  font-size: 36rpx;
-  margin-left: 10rpx;
-  line-height: 50rpx;
-  display: inline-block;
-}
-#main .main-info .summary .introHide {
-  font-size: 30rpx;
-  margin-top: 15rpx;
-  color: #6b5f3d;
-}
-#main .main-info .summary .introHide .iconfont {
-  transform: rotate(180deg);
-  transform-origin: center;
-  display: inline-block;
-  margin-left: 10rpx;
-}
-#main .main-info .summary button {
-  height: 90rpx;
-  line-height: 90rpx;
-  background: #42c02e;
-  color: #fff;
-  font-size: 38rpx;
-  border-radius: 10rpx;
-  margin-top: 30rpx;
-}
-#main .hr {
-  height: 20rpx;
-  width: 100%;
-  background: #f5f5f5;
-}
-#main .list {
-  display: flex;
-  text-align: center;
-  height: 85rpx;
-  line-height: 85rpx;
-  border-bottom: 1px solid #f0f0f0;
-}
-#main .list .listLi {
-  flex: 1;
-  font-size: 30rpx;
-  color: #6b5f3d;
-}
-#main .list .listLi.cur {
-  color: #6b5f3d;
-}
-#main .list .listLi.cur:after {
-  content: '';
-  display: block;
-  width: 55%;
-  margin: 0 auto;
-  border-bottom: 2px solid #6b5f3d;
-}
+  background: #fff; }
+  #main .main-info {
+    overflow: hidden;
+    padding: 40rpx 30rpx; }
+    #main .main-info image {
+      width: 145rpx;
+      height: 145rpx;
+      border-radius: 10rpx;
+      border: 1px solid #ddd; }
+    #main .main-info .summary {
+      float: right;
+      width: 75%; }
+      #main .main-info .summary .name {
+        font-size: 36rpx;
+        font-weight: bolder;
+        color: #6b5f3d; }
+      #main .main-info .summary .desc {
+        font-size: 26rpx;
+        margin: 10rpx 0;
+        color: #999; }
+        #main .main-info .summary .desc .nikeName {
+          color: #f60;
+          display: inline-block;
+          font-size: 26rpx;
+          margin-right: 10rpx; }
+      #main .main-info .summary .intro {
+        font-size: 28rpx;
+        color: #6b5f3d;
+        line-height: 50rpx;
+        overflow: hidden;
+        position: relative; }
+        #main .main-info .summary .intro .iconfont {
+          font-size: 36rpx;
+          margin-left: 10rpx;
+          line-height: 50rpx;
+          display: inline-block; }
+      #main .main-info .summary .introHide {
+        font-size: 30rpx;
+        margin-top: 15rpx;
+        color: #6b5f3d; }
+        #main .main-info .summary .introHide .iconfont {
+          transform: rotate(180deg);
+          transform-origin: center;
+          display: inline-block;
+          margin-left: 10rpx; }
+      #main .main-info .summary button {
+        height: 90rpx;
+        line-height: 90rpx;
+        background: #42c02e;
+        color: #fff;
+        font-size: 38rpx;
+        border-radius: 10rpx;
+        margin-top: 30rpx; }
+  #main .hr {
+    height: 20rpx;
+    width: 100%;
+    background: #f5f5f5; }
+  #main .list {
+    display: flex;
+    text-align: center;
+    height: 85rpx;
+    line-height: 85rpx;
+    border-bottom: 1px solid #f0f0f0; }
+    #main .list .listLi {
+      flex: 1;
+      font-size: 30rpx;
+      color: #6b5f3d; }
+    #main .list .listLi.cur {
+      color: #6b5f3d; }
+    #main .list .listLi.cur:after {
+      content: '';
+      display: block;
+      width: 55%;
+      margin: 0 auto;
+      border-bottom: 2px solid #6b5f3d; }
+
 /*# sourceMappingURL=contentHome.wxss.map */

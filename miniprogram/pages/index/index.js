@@ -11,11 +11,12 @@ Page({
     page:5,
     loadMoreData: '加载中...',
     hideBottom:true,
+    scroll:true
   },
   onLoad:function(){
   },
   randomNum:function(){
-    let that =this
+    let that = this;
     let Mathnum = Math.floor(Math.random()*5);
     this.data.rotate = true
     this.setData({
@@ -46,8 +47,9 @@ Page({
       url:'../search/search'
     })
   },
-  loadMore:function(){
+  loadMore:function(e){
 
+    console.log(e)
     let that = this;
     if(that.data.page >= that.data.list.length){
       that.setData({
@@ -64,6 +66,12 @@ Page({
       })
     },1000)
   },
+  scroll:function(e){
+     let  top; top = e.detail.scrollTop > 120 ? false : true;
+      this.setData({
+        scroll:top
+      })
+  }
 });
 
 

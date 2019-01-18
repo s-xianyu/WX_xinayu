@@ -1,4 +1,5 @@
 .header{
+  width:100%;
   height:90rpx;
   box-sizing: border-box;
   box-shadow: 0 8rpx 30rpx rgba(0,0,0,.1);
@@ -8,6 +9,11 @@
   right:0;
   z-index: 100;
   display: flex;
+  background:#fff;
+  border:1px solid rgba(0, 0, 0, 0.1);
+  border-left:none;
+  border-right:none;
+  transition:all 300ms ease;
   span{
     flex:1;
     display: flex;
@@ -40,13 +46,4 @@
       margin-top:5rpx;
     }
   }
-}
-.header{
-  width:100%;
-  background:#fff;
-  border:1px solid rgba(0, 0, 0, 0.1);
-  border-left:none;
-  border-right:none;
-  transition:all 300ms ease;
-
 }

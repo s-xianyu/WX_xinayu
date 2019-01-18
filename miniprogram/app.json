@@ -1,9 +1,9 @@
 {
   "cloud": true,
   "pages": [
+    "pages/home/home",
     "pages/index/index",
     "pages/news/news",
-    "pages/home/home",
     "pages/header/header",
     "pages/content/content",
     "pages/contentHome/contentHome",
@@ -25,21 +25,23 @@
     "borderStyle": "block",
     "backgroundColor": "#fff",
     "box-shadow":"0 0 6px 0",
-    "list": [{
-      "pagePath": "pages/index/index",
-      "iconPath": "images/icon/home-off.png",
-      "selectedIconPath": "images/icon/home-on.png",
-      "text": "首页"
-    }, {
-      "pagePath": "pages/news/news",
-      "iconPath": "images/icon/news-off.png",
-      "selectedIconPath": "images/icon/news-on.png",
-      "text": "新闻"
-    },{
-      "pagePath": "pages/home/home",
-      "iconPath":"images/icon/my-off.png",
-      "selectedIconPath":"images/icon/my-on.png",
-      "text": "我的"
-    }]
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/icon/home-off.png",
+        "selectedIconPath": "images/icon/home-on.png",
+        "text": "首页"
+      }, {
+        "pagePath": "pages/news/news",
+        "iconPath": "images/icon/news-off.png",
+        "selectedIconPath": "images/icon/news-on.png",
+        "text": "新闻"
+      },{
+        "pagePath": "pages/home/home",
+        "iconPath":"images/icon/my-off.png",
+        "selectedIconPath":"images/icon/my-on.png",
+        "text": "我的"
+      }
+    ]
   }
 }

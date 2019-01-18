@@ -11,7 +11,9 @@ Page({
         {name:'故事会',id:'2'},
         {name:'吃鸡|140字微小说',id:'3'},
         {name:'最近桑塔搬家了，换了座新的城市，也换了个新的小窝。虽然是租来的房子，但看着空荡荡的新家',id:'4'},
-    ]
+    ],
+    focus:true,
+    name:'111'
   },
 
   /**
@@ -68,5 +70,10 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  listenerPhoneInput:function(e){
+    this.setData({
+      name_focus:true
+    })
   }
 })
