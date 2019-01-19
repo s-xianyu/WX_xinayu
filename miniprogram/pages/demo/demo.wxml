@@ -1,0 +1,10 @@
+<page>
+  <view class="">
+    <switch></switch>
+    <slider></slider>
+    <radio></radio>
+    <picker-view></picker-view>
+    <camera></camera>
+    <map name=""></map>
+  </view>
+</page>

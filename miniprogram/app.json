@@ -8,7 +8,8 @@
     "pages/content/content",
     "pages/contentHome/contentHome",
     "pages/list/list",
-    "pages/search/search"
+    "pages/search/search",
+    "pages/demo/demo"
   ],
   "window": {
     "backgroundColor": "#6b5f3d",

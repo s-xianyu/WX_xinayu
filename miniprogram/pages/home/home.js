@@ -110,5 +110,10 @@ Page({
       hidden:true,
     });
     wx.clearStorage('info');
+  },
+  goNext:()=>{
+    wx.navigateTo({
+      url:'../demo/demo'
+    })
   }
 })

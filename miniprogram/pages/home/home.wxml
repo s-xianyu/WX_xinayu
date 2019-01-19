@@ -18,7 +18,7 @@
         </view>
         <view class="list">
             <view class="li">
-                <view>
+                <view bindtap="goNext">
                     <i class="iconfont icon-guanzhu"></i>
                     <text>关注</text>
                 </view>
