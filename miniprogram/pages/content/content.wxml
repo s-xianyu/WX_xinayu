@@ -20,7 +20,7 @@
       </view>
     </view>
   </view>
-  <view class="footer">
+  <view class="footer {{isIpx ? 'isipx' : ''}}">
     <button wx:if="{{!status}}">分享给小伙伴</button>
     <button open-type="share" wx:else>分享给小伙伴</button>
   </view>

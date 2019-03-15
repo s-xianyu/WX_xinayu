@@ -98,7 +98,10 @@
   bottom: 0;
   left: 0;
   right: 0;
-  height: 100rpx; }
+  height: 100rpx;
+  background: #6b5f3d; }
+  .footer.isipx {
+    height: 130rpx; }
   .footer button {
     display: flex;
     justify-content: center;

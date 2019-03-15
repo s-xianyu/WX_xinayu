@@ -10,12 +10,15 @@ Page({
     content:{},// 数据列表
     more:true,
     status:true,
+    isIpx: getApp().G.IPX ? true : false,
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    console.log(getApp().G);
+    console.log(this.data.IPX);
     this.data.content = fileData.getNavCon(options.id,'详情');
     this.data.content.first_shared_at = this.changeGetTime(this.data.content.first_shared_at);
     this.data.content.free_content = this.convertHtmlToText(this.data.content.free_content);

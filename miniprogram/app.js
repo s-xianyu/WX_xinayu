@@ -20,7 +20,7 @@ App({
         that.G.WIN = res;
         let model = res.model.substring(0,res.model.indexOf('X'))+'X' //获取手机信息是否为iPhone X
         if(model == 'iPhone X'){
-          that.G.isIpx = true;
+          that.G.IPX = true;
         }
       }
     })

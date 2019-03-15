@@ -72,6 +72,10 @@
   left:0;
   right:0;
   height:100rpx;
+  background:#6b5f3d;
+  &.isipx{
+    height:130rpx;
+  }
   button{
     display: flex;
     justify-content: center;
