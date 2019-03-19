@@ -1,6 +1,7 @@
 {
   "cloud": true,
   "pages": [
+    "pages/demo/demo",
     "pages/index/index",
     "pages/home/home",
     "pages/news/news",
@@ -8,8 +9,7 @@
     "pages/content/content",
     "pages/contentHome/contentHome",
     "pages/list/list",
-    "pages/search/search",
-    "pages/demo/demo"
+    "pages/search/search"
   ],
   "window": {
     "backgroundColor": "#6b5f3d",
