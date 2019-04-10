@@ -1,12 +1,8 @@
 //app.js
 let that;
-const [
-  host,
-] = [
-  'https://www.xianyu.com'
-]
 App({
   G:{
+    host:'https://www.xianyu.com',
     INFO: {}, //保存用户登录信息
     IPX:false, //全局添加iPhoneX判断
     WIN:'', //保存系统信息

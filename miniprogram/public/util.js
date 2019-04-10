@@ -2,7 +2,6 @@ module.exports = {
   stringTime:stringTime,
   beforeTime:beforeTime,
 }
-function stringTime(time,type) {
   //time为传入的时间戳 ，type为传入希望返回的值
   // 这里定义：已传入的值为截至日期
   // Y返回年
@@ -11,13 +10,12 @@ function stringTime(time,type) {
   // h返回年月日时
   // m返回年月日时分
   // s返回年月日时分秒
+function stringTime(time,type) {
   var len;
   if (time == null) return 0;
   if (typeof time != "string") time += "";
   len = time.replace(/[^x00-xff]/g,"01").length;
-  //时间戳为10位需*1000，时间戳为13位的话不需乘1000
   var date = new Date(time*1000);
-  // len <= 10 ? date.setDate(time) : date.setDate(time*1000);
   var Y = date.getFullYear();
   var M = (date.getMonth() + 1 < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1);
   var D = (date.getDate() < 10 ? '0' + date.getDate() : date.getDate());
