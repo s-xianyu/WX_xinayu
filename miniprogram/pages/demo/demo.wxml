@@ -1,6 +1,14 @@
 <page>
   <view class="">hello
-    <cover-image src="../../images/xianyu.png" bindload="ok"></cover-image>
-    <view></view>
+    <progress percent="20" show-info color="#f60" backgroundColor="#666"></progress>
+    <icon type="success" size="20" color="#f60"></icon>
+    <icon type="clear" size="20"></icon>
+    <icon type="search" size="20"></icon>
+    <icon type="download" size="20"></icon>
+    <icon type="cancel" size="20"></icon>
+    <icon type="waiting" size="20"></icon>
+    <text>{{userInfo.nickName}}</text>
+    <image src="{{userInfo.avatarUrl}}"></image>
+    <button open-type="getUserInfo" bindgetuserinfo="onGetUserInfo">hello</button>
   </view>
 </page>
