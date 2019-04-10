@@ -1,7 +1,7 @@
 // pages/home/home.js
 const order = ['red', 'yellow', 'blue', 'green', 'red'];
 let that;
-import common from '../../public/common' // 全局JS
+import util from '../../public/util' // 全局JS
 Page({
 
   /**

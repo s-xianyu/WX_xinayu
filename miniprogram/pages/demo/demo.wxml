@@ -1,4 +1,6 @@
 <page>
-  <view class="">
+  <view class="">hello
+    <cover-image src="../../images/xianyu.png" bindload="ok"></cover-image>
+    <view></view>
   </view>
 </page>

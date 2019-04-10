@@ -1,5 +1,5 @@
 <view class="container">
-  <import src="../header/header.wxml"/>
+  <import src="../../components/header/header.wxml"/>
   <template is="header"/>
   <view id="main">
     <view class="main-info">
@@ -26,7 +26,7 @@
               class="{{activeIndex==index? 'listLi cur' : 'listLi'}}"
               data-id="{{item.id}}">{{item.name}}</view>
     </view>
-    <import src="../list/list.wxml"/>
+    <import src="../../components/list/list.wxml"/>
     <template is="list" data="{{list,page}}"/>
   </view>
 </view>

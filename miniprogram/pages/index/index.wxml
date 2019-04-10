@@ -28,7 +28,7 @@
         <span>热门专题</span>
         <span>更多精选</span>
       </view>
-      <import src="../list/list.wxml"/>
+      <import src="../../components/list/list.wxml"/>
       <template is="list" data="{{list,page}}"/>
     </view>
     <view class="loading">

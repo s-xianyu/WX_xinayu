@@ -1,14 +1,12 @@
 {
   "cloud": true,
   "pages": [
-    "pages/demo/demo",
     "pages/index/index",
+    "pages/demo/demo",
     "pages/home/home",
     "pages/news/news",
-    "pages/header/header",
     "pages/content/content",
     "pages/contentHome/contentHome",
-    "pages/list/list",
     "pages/search/search"
   ],
   "window": {
@@ -39,6 +37,11 @@
         "text": "新闻"
       },{
         "pagePath": "pages/home/home",
+        "iconPath":"images/icon/my-off.png",
+        "selectedIconPath":"images/icon/my-on.png",
+        "text": "我的"
+      },{
+        "pagePath": "pages/demo/demo",
         "iconPath":"images/icon/my-off.png",
         "selectedIconPath":"images/icon/my-on.png",
         "text": "我的"

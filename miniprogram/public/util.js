@@ -15,7 +15,7 @@ function stringTime(time,type) {
   if (time == null) return 0;
   if (typeof time != "string") time += "";
   len = time.replace(/[^x00-xff]/g,"01").length;
-  var date = new Date(time*1000);
+  var date = new Date();
   var Y = date.getFullYear();
   var M = (date.getMonth() + 1 < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1);
   var D = (date.getDate() < 10 ? '0' + date.getDate() : date.getDate());

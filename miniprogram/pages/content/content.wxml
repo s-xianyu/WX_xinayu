@@ -1,6 +1,6 @@
 <!--pages/content/content.wxml-->
 <view class="container">
-  <import src="../header/header.wxml"/>
+  <import src="../../components/header/header.wxml"/>
   <template is="header"/>
   <view id="note" class="{{more? 'more':''}}">
     <view class="title">{{content.public_title}}</view>

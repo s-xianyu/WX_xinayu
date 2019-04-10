@@ -4,9 +4,8 @@
       <li data-id="{{item.object.data.id}}"
           wx:for="{{list}}" wx:key="{{index}}"
           wx-if="{{index < page}}"
-          bindtap="routersGo"
           class="{{item.object.data.list_image_url!='' ? 'hoverimage' : ''}}">
-        <view class="content">
+        <view class="content"  bindtap="routersGo">
           <view wx:if="{{item.object.data.list_image_url!=''}}">
             <view class="wrapimage"><image src="{{item.object.data.list_image_url}}"></image></view>
           </view>
