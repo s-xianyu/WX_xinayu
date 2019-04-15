@@ -36,7 +36,6 @@ App({
       }
     });
     //获取storage ，如果存在，获取登录信息
-    debugger
     let userInfo = wx.getStorageSync('INFO');
     if (userInfo != '') {
       wx.request({

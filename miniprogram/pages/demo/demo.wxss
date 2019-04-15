@@ -1,3 +1,29 @@
-
+.container {
+  position: relative; }
+  .container .right, .container .left {
+    position: absolute;
+    top: 0;
+    height: auto; }
+  .container .left {
+    left: 0;
+    border-right: 1rpx solid #999;
+    width: 20%; }
+    .container .left .li {
+      height: 100rpx;
+      line-height: 100rpx;
+      border-bottom: 1rpx solid #999;
+      text-align: center;
+      background: #999; }
+      .container .left .li.cur {
+        background: #fff; }
+  .container .right {
+    left: 20%;
+    padding-left: 40rpx; }
+    .container .right .title {
+      font-size: 50rpx;
+      font-weight: bold; }
+    .container .right .text {
+      height: 300rpx;
+      text-align: center; }
 
 /*# sourceMappingURL=demo.wxss.map */
