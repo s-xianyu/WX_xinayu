@@ -1,7 +1,9 @@
 <!--pages/content/content.wxml-->
-<view class="container">
+<view>
   <import src="../../components/header/header.wxml"/>
   <template is="header"/>
+</view>
+<view class="container">
   <view id="note" class="{{more? 'more':''}}">
     <view class="title">{{content.public_title}}</view>
     <view class="userInfo">
@@ -15,12 +17,11 @@
       </view>
     </view>
     <view class="content">
-      <view class="content-free">
-        {{content.free_content}}
-      </view>
+      <import src="../wxParse/wxParse.wxml" />
+      <template is="wxParse" data="{{wxParseData:article.nodes}}" />
     </view>
   </view>
-  <view class="footer {{isIpx ? 'isipx' : ''}}">
+  <view class="footer {{IPX ? 'isipx' : ''}}">
     <button wx:if="{{!status}}">分享给小伙伴</button>
     <button open-type="share" wx:else>分享给小伙伴</button>
   </view>

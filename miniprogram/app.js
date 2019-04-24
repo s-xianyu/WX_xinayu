@@ -2,9 +2,10 @@
 let vm;
 App({
   G: {
-    host: 'https://www.xianyu.com',
+    HOST: 'https://www.jianshu.com',
+    // HOST: 'http://www.2schome.net',
     INFO: {}, //保存用户登录信息
-    code: '',
+    CODE: '',
     IPX: false, //全局添加iPhoneX判断
     WIN: '', //保存系统信息
   },
@@ -21,12 +22,13 @@ App({
         }
       }
     });
+    console.log(vm.G)
   },
   onShow: function () {
     //获取code
     wx.login({
       success: res => {
-        vm.G.INFO = res.code;
+        vm.G.CODE = res.code;
       },
       fail: function () {
         // fail
@@ -39,7 +41,7 @@ App({
     let userInfo = wx.getStorageSync('INFO');
     if (userInfo != '') {
       wx.request({
-        url: vm.G.host + 'mobile/userInfo.json',
+        url: vm.G.HOST + 'mobile/userInfo.json',
         data: {
           mobile: userInfo.mobile,
           token: userInfo.token,

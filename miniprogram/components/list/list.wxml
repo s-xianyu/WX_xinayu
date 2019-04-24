@@ -1,11 +1,12 @@
 <template name="list" data="{{list}}">
   <view id="list">
     <ul>
-      <li data-id="{{item.object.data.id}}"
+      <li id="{{item.object.data.id}}"
+          data-slug="{{item.object.data.slug}}"
+          bindtap="routersGo"
           wx:for="{{list}}" wx:key="{{index}}"
-          wx-if="{{index < page}}"
           class="{{item.object.data.list_image_url!='' ? 'hoverimage' : ''}}">
-        <view class="content"  bindtap="routersGo">
+        <view class="content">
           <view wx:if="{{item.object.data.list_image_url!=''}}">
             <view class="wrapimage"><image src="{{item.object.data.list_image_url}}"></image></view>
           </view>

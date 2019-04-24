@@ -13,7 +13,7 @@
       </span>
     <span class="downLoad" bindtap="searchWxml"><i class="iconfont icon-sousuo">{{xiayiye}}</i></span>
   </view>
-  <scroll-view scroll-y="true" bindscroll="scroll" bindscrolltolower="loadMore" style="height:794px">
+  <view class="content" bindscroll="scroll">
     <view class="homepage">
       <view class="hot">
         <view class="hotTop">
@@ -31,8 +31,8 @@
       <import src="../../components/list/list.wxml"/>
       <template is="list" data="{{list,page}}"/>
     </view>
-    <view class="loading">
-      {{loadMoreData}}
+    <view wx:if="{{!loadMore}}" class="loading">
+      {{loadMoreText}}
     </view>
-  </scroll-view>
+  </view>
 </view>

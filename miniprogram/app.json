@@ -1,16 +1,16 @@
 {
   "cloud": true,
   "pages": [
-    "pages/demo/demo",
     "pages/index/index",
     "pages/home/home",
     "pages/news/news",
     "pages/content/content",
     "pages/contentHome/contentHome",
-    "pages/search/search"
+    "pages/search/search",
+    "pages/demo/demo"
   ],
   "window": {
-    "backgroundColor": "#6b5f3d",
+    "backgroundColor": "#f5f5f5",
     "navigationBarBackgroundColor": "#6b5f3d",
     "navigationBarTitleText": "",
     "navigationBarTextStyle": "white",
