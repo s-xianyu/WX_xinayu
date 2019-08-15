@@ -1,6 +1,6 @@
 // pages/home/home.js
 const order = ['red', 'yellow', 'blue', 'green', 'red'];
-let that;
+let vm;
 import util from '../../public/util' // 全局JS
 Page({
 
@@ -18,12 +18,12 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    that = this;
+    vm = this;
     wx.getStorage({
       key: 'info',
       success: res => {
        if(res.data){
-         that.setData({
+         vm.setData({
            userInfo:res.data,
            isLogin:true,
          })
@@ -86,7 +86,7 @@ Page({
     let info;
     info = e.detail.userInfo;
     console.log(info)
-    that.setData({
+    vm.setData({
       userInfo:info,
       isLogin:true
     })
@@ -94,17 +94,17 @@ Page({
   },
   // 退出登录
   outLogin:()=>{
-    that.setData({
+    vm.setData({
       hidden: false
     });
   },
   cancel:()=>{
-    that.setData({
+    vm.setData({
       hidden: true
     });
   },
   confirm: ()=>{
-    that.setData({
+    vm.setData({
       userInfo:{},
       isLogin:false,
       hidden:true,

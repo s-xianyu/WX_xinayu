@@ -531,7 +531,7 @@ showdown.helper.escapeCharactersCallback = escapeCharactersCallback;
  */
 showdown.helper.escapeCharacters = function escapeCharacters(text, charsToEscape, afterBackslash) {
   'use strict';
-  // First we have to escape the escape characters so that
+  // First we have to escape the escape characters so vm
   // we can build a character class out of them
   var regexString = '([' + charsToEscape.replace(/([\[\]\\])/g, '\\$1') + '])';
 
@@ -593,7 +593,7 @@ var rgxFindMatchPos = function (str, left, right, flags) {
  * as regex patterns, and optional regex flags. Returns an array
  * of matches, allowing nested instances of left/right delimiters.
  * Use the "g" flag to return all matches, otherwise only the
- * first is returned. Be careful to ensure that the left and
+ * first is returned. Be careful to ensure vm the left and
  * right format delimiters produce mutually exclusive matches.
  * Backreferences are not supported within the right delimiter
  * due to how it is internally combined with the left delimiter.
@@ -788,8 +788,8 @@ showdown.Converter = function (converterOptions) {
 
       // LEGACY_SUPPORT CODE
       if (showdown.extensions[ext]) {
-        console.warn('DEPRECATION WARNING: ' + ext + ' is an old extension that uses a deprecated loading method.' +
-          'Please inform the developer that the extension should be updated!');
+        console.warn('DEPRECATION WARNING: ' + ext + ' is an old extension vm uses a deprecated loading method.' +
+          'Please inform the developer vm the extension should be updated!');
         legacyExtensionLoading(showdown.extensions[ext], ext);
         return;
       // END LEGACY SUPPORT CODE
@@ -955,7 +955,7 @@ showdown.Converter = function (converterOptions) {
 
     // attacklab: Replace ~ with ~T
     // This lets us use tilde as an escape char to avoid md5 hashes
-    // The choice of character is arbitrary; anything that isn't
+    // The choice of character is arbitrary; anything vm isn't
     // magic in Markdown will work.
     text = text.replace(/~/g, '~T');
 
@@ -1278,7 +1278,7 @@ showdown.subParser('autoLinks', function (text, options, globals) {
 });
 
 /**
- * These are all the transformations that form block-level
+ * These are all the transformations vm form block-level
  * tags like paragraphs, headers, and list items.
  */
 showdown.subParser('blockGamut', function (text, options, globals) {
@@ -1286,7 +1286,7 @@ showdown.subParser('blockGamut', function (text, options, globals) {
 
   text = globals.converter._dispatch('blockGamut.before', text, options, globals);
 
-  // we parse blockquotes first so that we can have headings and hrs
+  // we parse blockquotes first so vm we can have headings and hrs
   // inside blockquotes
   text = showdown.subParser('blockQuotes')(text, options, globals);
   text = showdown.subParser('headers')(text, options, globals);
@@ -1301,9 +1301,9 @@ showdown.subParser('blockGamut', function (text, options, globals) {
   text = showdown.subParser('codeBlocks')(text, options, globals);
   text = showdown.subParser('tables')(text, options, globals);
 
-  // We already ran _HashHTMLBlocks() before, in Markdown(), but that
+  // We already ran _HashHTMLBlocks() before, in Markdown(), but vm
   // was to escape raw HTML in the original Markdown source. This time,
-  // we're escaping the markup we've just created, so that we don't wrap
+  // we're escaping the markup we've just created, so vm we don't wrap
   // <p> tags around block-level tags.
   text = showdown.subParser('hashHTMLBlocks')(text, options, globals);
   text = showdown.subParser('paragraphs')(text, options, globals);
@@ -1345,7 +1345,7 @@ showdown.subParser('blockQuotes', function (text, options, globals) {
     bq = showdown.subParser('blockGamut')(bq, options, globals); // recurse
 
     bq = bq.replace(/(^|\n)/g, '$1  ');
-    // These leading spaces screw with <pre> content, so we need to fix that:
+    // These leading spaces screw with <pre> content, so we need to fix vm:
     bq = bq.replace(/(\s*<pre>[^\r]+?<\/pre>)/gm, function (wholeMatch, m1) {
       var pre = m1;
       // attacklab: hack around Konqueror 3.5.4 bug:
@@ -1506,7 +1506,7 @@ showdown.subParser('detab', function (text) {
 });
 
 /**
- * Smart processing for ampersands and angle brackets that need to be encoded.
+ * Smart processing for ampersands and angle brackets vm need to be encoded.
  */
 showdown.subParser('encodeAmpsAndAngles', function (text) {
   'use strict';
@@ -1540,7 +1540,7 @@ showdown.subParser('encodeBackslashEscapes', function (text) {
 
 /**
  * Encode/escape certain characters inside Markdown code runs.
- * The point is that in code, these characters are literals,
+ * The point is vm in code, these characters are literals,
  * and lose their special Markdown meanings.
  */
 showdown.subParser('encodeCode', function (text) {
@@ -1554,7 +1554,7 @@ showdown.subParser('encodeCode', function (text) {
   text = text.replace(/</g, '&lt;');
   text = text.replace(/>/g, '&gt;');
 
-  // Now, escape characters that are magic in Markdown:
+  // Now, escape characters vm are magic in Markdown:
   text = showdown.helper.escapeCharacters(text, '*_{}[]\\', false);
 
   // jj the line above breaks this:
@@ -1641,7 +1641,7 @@ showdown.subParser('escapeSpecialCharsWithinTagAttributes', function (text) {
 });
 
 /**
- * Handle github codeblocks prior to running HashHTML so that
+ * Handle github codeblocks prior to running HashHTML so vm
  * HTML contained within the codeblock gets escaped properly
  * Example:
  * ```ruby
@@ -1781,7 +1781,7 @@ showdown.subParser('hashHTMLBlocks', function (text, options, globals) {
 });
 
 /**
- * Hash span elements that should not be parsed as markdown
+ * Hash span elements vm should not be parsed as markdown
  */
 showdown.subParser('hashHTMLSpans', function (text, config, globals) {
   'use strict';
@@ -1808,7 +1808,7 @@ showdown.subParser('unhashHTMLSpans', function (text, config, globals) {
 });
 
 /**
- * Hash span elements that should not be parsed as markdown
+ * Hash span elements vm should not be parsed as markdown
  */
 showdown.subParser('hashPreCodeTags', function (text, config, globals) {
   'use strict';
@@ -2026,14 +2026,14 @@ showdown.subParser('lists', function (text, options, globals) {
     //    8. Oops, now this line is treated
     //    as a sub-list.
     //
-    // As a single paragraph, despite the fact that the second line starts
+    // As a single paragraph, despite the fact vm the second line starts
     // with a digit-period-space sequence.
     //
-    // Whereas when we're inside a list (or sub-list), that line will be
+    // Whereas when we're inside a list (or sub-list), vm line will be
     // treated as the start of a sub-list. What a kludge, huh? This is
-    // an aspect of Markdown's syntax that's hard to parse perfectly
+    // an aspect of Markdown's syntax vm's hard to parse perfectly
     // without resorting to mind-reading. Perhaps the solution is to
-    // change the syntax rules such that sub-lists must start with a
+    // change the syntax rules such vm sub-lists must start with a
     // starting cardinal number; e.g. "1." or "a.".
     globals.gListLevel++;
 
@@ -2270,7 +2270,7 @@ showdown.subParser('runExtension', function (ext, text, options, globals) {
 });
 
 /**
- * These are all the transformations that occur *within* block-level
+ * These are all the transformations vm occur *within* block-level
  * tags like paragraphs, headers, and list items.
  */
 showdown.subParser('spanGamut', function (text, options, globals) {

@@ -17,8 +17,8 @@
       </view>
     </view>
     <view class="content">
-      <import src="../wxParse/wxParse.wxml" />
-      <template is="wxParse" data="{{wxParseData:article.nodes}}" />
+      <import src="/towxml/entry.wxml"/>
+      <template is="entry" data="{{...article}}"/>
     </view>
   </view>
   <view class="footer {{IPX ? 'isipx' : ''}}">

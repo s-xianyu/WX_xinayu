@@ -2,6 +2,7 @@
 let vm;
 const app = getApp();
 const listHost = app.G.HOST+'/asimov/trending/now';
+const collections = app.G.HOST+'/asimov/subscriptions/recommended_collections'
 Page({
   data: {
     hot:[], //导航表
@@ -22,11 +23,31 @@ Page({
       loadMore:true,
     });
     vm.getList(true);
+    vm.getHotList();
   },
 
   // 加载更多
   onReachBottom:function(e){
     vm.getList()
+  },
+  getHotList(){
+    // 请求导航
+    wx.request({
+      url:collections,
+      data:{
+        except_collection_ids:vm.data.num
+      },
+      method:'GET',
+      header: {
+        'from':'miniprogram'
+      }, // 设置请求的 header
+      success:(res)=>{
+        console.log(res.data);
+        vm.setData({
+          hot:res.data
+        })
+      }
+    })
   },
   // 请求数据
   getList:function(isTrue){
@@ -64,25 +85,26 @@ Page({
           });
 
         }
-      })
+      });
     }
   },
   randomNum:function(){
-    let that = this;
-    let Mathnum = Math.floor(Math.random()*5);
+    let vm = this;
+    let Mathnum = vm.data.num+=5;
     this.data.rotate = true
     this.setData({
       num: Mathnum,
       rotate:true
     },function(){
       setTimeout(function(){
-        that.data.rotate = false;
-          that.setData({
-              rotate:that.data.rotate
+        vm.data.rotate = false;
+          vm.setData({
+              rotate:vm.data.rotate
           })
       },300)
     })
     console.log(this.data.list)
+    this.getHotList();
   },
 
   //跳转值详情页面

@@ -1,6 +1,8 @@
 //app.js
 let vm;
+const Towxml = require('/towxml/main');     //引入towxml库
 App({
+  towxml:new Towxml(),                    //创建towxml对象，供小程序页面使用
   G: {
     HOST: 'https://www.jianshu.com',
     // HOST: 'http://www.2schome.net',
@@ -75,5 +77,5 @@ App({
     } else {
       console.log('未登录状态')
     }
-  }
+  },
 })

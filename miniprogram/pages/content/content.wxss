@@ -87,11 +87,13 @@
       #note .userInfo .mate .time icon {
         display: inline-block;
         margin-left: 20rpx; }
-  #note .content .content-free {
-    font-size: 32rpx;
-    color: #333;
-    line-height: 58rpx;
-    margin-bottom: 100rpx; }
+  #note .content {
+    padding-bottom: 150rpx; }
+    #note .content .content-free {
+      font-size: 32rpx;
+      color: #333;
+      line-height: 58rpx;
+      margin-bottom: 100rpx; }
 
 .footer {
   position: fixed;

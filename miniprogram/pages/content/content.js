@@ -1,6 +1,6 @@
 import util from '../../public/util'
 let vm;
-const WxParse = require('../wxParse/wxParse.js');
+// const WxParse = require('../wxParse/wxParse.js');
 const app = getApp();
 Page({
 
@@ -9,6 +9,7 @@ Page({
    */
   data: {
     content:{},// 数据列表
+    article:[], //转换后的html
     more:true,
     status:true,
     IPX: getApp().G.IPX ? true : false,
@@ -31,14 +32,19 @@ Page({
         vm.data.content = res.data;
 
         // 利用wxParse转换富文本
-        let article = res.data.free_content;
-        WxParse.wxParse('article', 'html', article, vm);
+        // let article = res.data.free_content;
+        // WxParse.wxParse('article', 'html', article, vm);
+        let article = app.towxml.toJson(
+          res.data.free_content,               // `markdown`或`html`文本内容
+          'html'              // `markdown`或`html`
+        );
 
         // 时间转换
         vm.data.content.first_shared_at = util.stringTime(vm.data.content.first_shared_at);
 
         vm.setData({
           content:res.data,
+          article:article
         });
 
       }
